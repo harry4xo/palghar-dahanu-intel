@@ -1,0 +1,334 @@
+{
+ "note": "Talukas and key places of Palghar district with their micro-market. Coordinates are filled by `manage.py geocode_locations` (OpenStreetMap Nominatim) and are approximate place centroids.",
+ "locations": [
+  {
+   "taluka": "Palghar",
+   "name": "Palghar",
+   "micro_market": "Palghar",
+   "alternate_names": [
+    "पालघर"
+   ],
+   "latitude": 19.69672,
+   "longitude": 72.76951,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Boisar",
+   "micro_market": "Boisar–Tarapur",
+   "alternate_names": [
+    "बोईसर"
+   ],
+   "latitude": 19.79842,
+   "longitude": 72.76066,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Tarapur",
+   "micro_market": "Boisar–Tarapur",
+   "alternate_names": [
+    "तारापूर",
+    "Tarapur MIDC"
+   ],
+   "latitude": 19.87574,
+   "longitude": 72.6855,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Murbe",
+   "micro_market": "Murbe",
+   "alternate_names": [
+    "मुरबे"
+   ],
+   "latitude": 19.74003,
+   "longitude": 72.70728,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Satpati",
+   "micro_market": "Palghar",
+   "alternate_names": [
+    "सातपाटी"
+   ],
+   "latitude": 19.72214,
+   "longitude": 72.70539,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Kelwa",
+   "micro_market": "Palghar",
+   "alternate_names": [
+    "Kelva",
+    "Kelve",
+    "केळवे"
+   ],
+   "latitude": 19.62452,
+   "longitude": 72.78928,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Mahim",
+   "micro_market": "Palghar",
+   "alternate_names": [
+    "माहीम"
+   ],
+   "latitude": 19.64644,
+   "longitude": 72.71968,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Saphale",
+   "micro_market": "Saphale",
+   "alternate_names": [
+    "सफाळे",
+    "Safale"
+   ],
+   "latitude": 19.57859,
+   "longitude": 72.82157,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Palghar",
+   "name": "Manor",
+   "micro_market": "Manor",
+   "alternate_names": [
+    "मनोर"
+   ],
+   "latitude": 19.72277,
+   "longitude": 72.90962,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Dahanu",
+   "micro_market": "Dahanu",
+   "alternate_names": [
+    "डहाणू",
+    "Dahanu Road"
+   ],
+   "latitude": 19.98872,
+   "longitude": 72.73385,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Vadhvan",
+   "micro_market": "Vadhvan",
+   "alternate_names": [
+    "Vadhavan",
+    "Wadhwan",
+    "Wadhvan",
+    "वाढवण"
+   ]
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Chinchani",
+   "micro_market": "Dahanu",
+   "alternate_names": [
+    "चिंचणी"
+   ],
+   "latitude": 19.87394,
+   "longitude": 72.71257,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Gholvad",
+   "micro_market": "Gholvad–Bordi",
+   "alternate_names": [
+    "घोलवड"
+   ],
+   "latitude": 20.08656,
+   "longitude": 72.72895,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Bordi",
+   "micro_market": "Gholvad–Bordi",
+   "alternate_names": [
+    "बोर्डी"
+   ],
+   "latitude": 20.12456,
+   "longitude": 72.76473,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Vangaon",
+   "micro_market": "Vangaon",
+   "alternate_names": [
+    "वाणगाव",
+    "Vangaon Road"
+   ],
+   "latitude": 19.88395,
+   "longitude": 72.76248,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Kasa",
+   "micro_market": "Dahanu",
+   "alternate_names": [
+    "कासा"
+   ],
+   "latitude": 19.91111,
+   "longitude": 72.95418,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Dahanu",
+   "name": "Charoti",
+   "micro_market": "Dahanu",
+   "alternate_names": [
+    "चारोटी"
+   ],
+   "latitude": 19.91162,
+   "longitude": 72.93482,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Talasari",
+   "name": "Talasari",
+   "micro_market": "Talasari",
+   "alternate_names": [
+    "तलासरी"
+   ],
+   "latitude": 20.12215,
+   "longitude": 72.91639,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Talasari",
+   "name": "Udhwa",
+   "micro_market": "Talasari",
+   "alternate_names": [
+    "Udhava",
+    "Udhawa",
+    "उधवा"
+   ],
+   "latitude": 20.09334,
+   "longitude": 73.00294,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Talasari",
+   "name": "Achhad",
+   "micro_market": "Talasari",
+   "alternate_names": [
+    "आच्छाड"
+   ],
+   "latitude": 20.21773,
+   "longitude": 72.88484,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Wada",
+   "name": "Wada",
+   "micro_market": "Wada",
+   "alternate_names": [
+    "वाडा"
+   ],
+   "latitude": 19.65467,
+   "longitude": 73.14805,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Wada",
+   "name": "Kudus",
+   "micro_market": "Wada",
+   "alternate_names": [
+    "कुडूस"
+   ],
+   "latitude": 19.53233,
+   "longitude": 73.09994,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Vasai",
+   "name": "Vasai",
+   "micro_market": "Vasai–Virar",
+   "alternate_names": [
+    "वसई",
+    "Bassein"
+   ],
+   "latitude": 19.38579,
+   "longitude": 72.82995,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Vasai",
+   "name": "Virar",
+   "micro_market": "Vasai–Virar",
+   "alternate_names": [
+    "विरार"
+   ],
+   "latitude": 19.4498,
+   "longitude": 72.81206,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Vasai",
+   "name": "Nalasopara",
+   "micro_market": "Vasai–Virar",
+   "alternate_names": [
+    "Nala Sopara",
+    "नालासोपारा"
+   ],
+   "latitude": 19.41744,
+   "longitude": 72.8176,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Vasai",
+   "name": "Naigaon",
+   "micro_market": "Vasai–Virar",
+   "alternate_names": [
+    "नायगाव"
+   ],
+   "latitude": 19.35109,
+   "longitude": 72.84652,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Jawhar",
+   "name": "Jawhar",
+   "micro_market": "Jawhar–Mokhada–Vikramgad",
+   "alternate_names": [
+    "जव्हार"
+   ],
+   "latitude": 19.91248,
+   "longitude": 73.22516,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Mokhada",
+   "name": "Mokhada",
+   "micro_market": "Jawhar–Mokhada–Vikramgad",
+   "alternate_names": [
+    "मोखाडा"
+   ],
+   "latitude": 19.93537,
+   "longitude": 73.34081,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  },
+  {
+   "taluka": "Vikramgad",
+   "name": "Vikramgad",
+   "micro_market": "Jawhar–Mokhada–Vikramgad",
+   "alternate_names": [
+    "विक्रमगड"
+   ],
+   "latitude": 19.79713,
+   "longitude": 73.09574,
+   "coord_source": "OpenStreetMap Nominatim (place centroid)"
+  }
+ ]
+}

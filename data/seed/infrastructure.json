@@ -1,0 +1,2029 @@
+{
+  "generated_by": "Claude research agent (infrastructure seed, web research via WebSearch/WebFetch)",
+  "generated_on": "2026-10-07",
+  "projects": [
+    {
+      "key": "vadhvan-port",
+      "name": "Vadhvan Port",
+      "alternate_names": [
+        "Vadhavan Port",
+        "Wadhwan Port",
+        "Vadhavan Satellite Port"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Port",
+      "taluka": "Dahanu",
+      "village": "Vadhvan",
+      "micro_market": "Vadhvan",
+      "promoter": "Vadhavan Port Project Limited",
+      "authorities": [
+        "Jawaharlal Nehru Port Authority",
+        "Maharashtra Maritime Board",
+        "Ministry of Ports, Shipping and Waterways"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "All-weather greenfield deep-draft major port at Vadhvan near Dahanu, Palghar district, being developed by VPPL, an SPV of JNPA (74%) and Maharashtra Maritime Board (26%). Union Cabinet approved it in June 2024 at Rs 76,220 crore including land acquisition.",
+      "investment": [
+        {
+          "amount_crore": 76220,
+          "basis": "SANCTIONED",
+          "as_of": "2024-06-19",
+          "source": "S1",
+          "quote": "The total project cost, including the land acquisition component is Rs.76,220 Crore.",
+          "note": "Union Cabinet approval, June 2024"
+        },
+        {
+          "amount_crore": 65544.54,
+          "basis": "ESTIMATED",
+          "as_of": "2020-02-05",
+          "source": "S9",
+          "quote": "The total cost of the project is Rs. 65,544.54 crore.",
+          "note": "Cost at in-principle approval, Feb 2020 (superseded by 2024 figure)"
+        }
+      ],
+      "events": [
+        {
+          "date": "2020-02-05",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "Union Cabinet gives in-principle approval for a major port at Vadhavan",
+          "description": "In-principle approval only; landlord model with an SPV led by JNPT. Final investment approval came in June 2024.",
+          "sources": [
+            "S9",
+            "S10"
+          ],
+          "quote": "The Union Cabinet has given its 'in-principle' approval for setting up a major port at Vadhavan near Dahanu in Maharashtra."
+        },
+        {
+          "date": "2024-02-01",
+          "date_precision": "MONTH",
+          "stage": "NOTE",
+          "title": "Public Investment Board clears Vadhavan port",
+          "description": "PIB appraisal ahead of Union Cabinet final investment approval (reported 17 Feb 2024).",
+          "sources": [
+            "S8"
+          ],
+          "quote": "The Public Investment Board has cleared the construction of a new deep water major port at Vadhavan near Dahanu in Maharashtra's Palghar district"
+        },
+        {
+          "date": "2024-06-19",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "Union Cabinet approves Vadhavan port at Rs 76,220 crore",
+          "description": "Approval includes road connectivity to national highways (MoRTH) and rail linkage to the existing network and the dedicated freight corridor (Ministry of Railways). JNPA chairman said tenders were ready.",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "approved setting up a Major Port at Vadhavan near Dahanu in Maharashtra"
+        },
+        {
+          "date": "2024-08-30",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "PM lays foundation stone of Vadhvan port at Palghar",
+          "description": "Foundation stone ceremony; source does not state that construction works started on this date.",
+          "sources": [
+            "S3"
+          ],
+          "quote": "The cost of this project is around 76,000 crore rupees."
+        },
+        {
+          "date": "2025-01-02",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "VPPL awards near-shore reclamation and shore protection EPC contract to ITD Cementation",
+          "description": "Reported 2 Jan 2025 (exact award date not stated). Quoted price Rs 16.48 billion excl. GST, 6.9% below the estimate of Rs 17.7 billion; package covers about 200 ha of near-shore land.",
+          "sources": [
+            "S14"
+          ],
+          "quote": "has awarded the engineering, procurement, and construction (EPC) contract to ITD Cementation India for the construction of near-shore reclamation and shore protection for the upcoming greenfield Vadhavan Port."
+        },
+        {
+          "date": "2025-02-14",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "JNPA assures Supreme Court of no construction until 28 Feb 2025",
+          "description": "In SLP filed by National Fishworkers' Forum and others against the Bombay High Court order.",
+          "sources": [
+            "S11"
+          ],
+          "quote": "No construction will be carried out at the site of the proposed Vadhavan Port in Palghar district until February 28, 2025"
+        },
+        {
+          "date": "2025-02-28",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Supreme Court declines interim relief; land acquisition subject to further orders",
+          "description": "SC asked the Centre to consider appointing an expert body on environmental concerns; matter listed for May 2025.",
+          "sources": [
+            "S12",
+            "S13"
+          ],
+          "quote": "We make it clear that land acquisition will be subject to further orders which may be passed in this special leave petition."
+        },
+        {
+          "date": "2025-03-05",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Jan De Nul–DEME JV signs letter of award with ITD Cementation for Vadhavan dredging and reclamation",
+          "description": "Sub-contract under the ITD Cementation package; about 200 ha reclamation; works scheduled to begin Q3 2025 after the monsoon.",
+          "sources": [
+            "S15"
+          ],
+          "quote": "signed a letter of award with Indian engineering and construction company ITD Cementation for dredging and reclamation works in Vadhavan Port"
+        },
+        {
+          "date": "2025-03-11",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Maharashtra budget 2025-26: Vadhvan port to be operational by 2030",
+          "description": "State finance minister's statement. JNPA chairman had earlier (June 2024) targeted Phase 1 operation by 2029.",
+          "sources": [
+            "S19",
+            "S2"
+          ],
+          "quote": "Vadhvan port in Palghar will be operational by 2030"
+        },
+        {
+          "date": "2026-05-21",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "Afcons wins Rs 5,301 crore contract for Vadhavan port breakwater",
+          "description": "Reported 21 May 2026; exact LoA date not stated in source.",
+          "sources": [
+            "S16"
+          ],
+          "quote": "Afcons Infrastructure (Afcons) has won a contract worth Rs 5,301 crore for the construction of the breakwater at Vadhavan Port."
+        },
+        {
+          "date": "2026-06-28",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "CM site visit; construction reported to have commenced",
+          "description": "Report also states Bombay High Court recently approved removal of mangrove patches in the approach area of the near-shore reclamation zone. Start date of works not stated.",
+          "sources": [
+            "S17"
+          ],
+          "quote": "All regulatory issues have been resolved, and actual construction has commenced."
+        }
+      ],
+      "funding": [
+        {
+          "date": "2024-06-19",
+          "amount_crore": 76220,
+          "stage": "APPROVED",
+          "funding_type": "GOVERNMENT",
+          "financier": "Vadhavan Port Project Limited (JNPA 74% / Maharashtra Maritime Board 26%)",
+          "source": "S1",
+          "quote": "Vadhavan Port Project Limited (VPPL), an SPV formed by Jawaharlal Nehru Port Authority (JNPA) and Maharashtra Maritime Board (MMB) with a shareholding of 74% and 26%, respectively.",
+          "note": "Project cost includes PPP-mode terminals and commercial infrastructure"
+        }
+      ],
+      "land": [
+        {
+          "village": "Vadhvan",
+          "survey_numbers": "",
+          "area_hectares": 16900,
+          "area_text": "16,900 ha port limits (of 17,471 ha total project area)",
+          "purpose": "Port limits",
+          "acquirer": "",
+          "status": "OTHER",
+          "date": "2024-04-23",
+          "consideration_crore": null,
+          "source": "S4",
+          "quote": "16,900 ha form the port limits and 571 ha will be acquired for rail and road connectivity."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "DTEPA",
+          "authority": "Dahanu Taluka Environment Protection Authority",
+          "status": "GRANTED",
+          "date": "2023-07-31",
+          "title": "DTEPA order approving Vadhavan port",
+          "source": "S4",
+          "quote": "the DTEPA in a lengthy order on July 31, 2023, approved the port"
+        },
+        {
+          "item_type": "CRZ",
+          "authority": "Maharashtra Coastal Zone Management Authority",
+          "status": "OTHER",
+          "date": "2024-02-06",
+          "title": "MCZMA recommends CRZ clearance (meeting 6 Feb 2024 per Swarajya)",
+          "source": "S5",
+          "quote": "The MCZMA has recommended coastal regulation zone (CRZ) clearance to the project during a meeting held on 6 February"
+        },
+        {
+          "item_type": "CRZ",
+          "authority": "Maharashtra Coastal Zone Management Authority",
+          "status": "OTHER",
+          "date": "2024-02-05",
+          "title": "MCZMA clearance (meeting 5 Feb 2024 per Indian Infrastructure; conflicts with 6 Feb)",
+          "source": "S6",
+          "quote": "The Maharashtra Coastal Zone Management Authority (MCZMA) granted clearance for the Vadhavan Satellite Port Project"
+        },
+        {
+          "item_type": "ENVIRONMENTAL_CLEARANCE",
+          "authority": "MoEFCC",
+          "status": "GRANTED",
+          "date": "2024-02-01",
+          "title": "MoEFCC environmental clearance (February 2024; exact day not stated)",
+          "source": "S7",
+          "quote": "The path is now clear for the Vadhavan port as it has secured environmental clearance from the Ministry of Environment, Forest and Climate Change (MoEFCC)."
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Bombay High Court",
+          "status": "DISPOSED",
+          "date": "2024-04-18",
+          "title": "Bombay HC upholds DTEPA approval of the port",
+          "source": "S4",
+          "quote": "On April 18, the court upheld the DTEPA order"
+        },
+        {
+          "item_type": "LITIGATION",
+          "authority": "Supreme Court of India",
+          "status": "PENDING",
+          "date": "2025-02-28",
+          "title": "SLP by National Fishworkers' Forum and others; interim relief refused, petitions pending",
+          "source": "S13",
+          "quote": "acquisition proceedings and other related steps would remain subject to further orders in the pending petitions"
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Bombay High Court",
+          "status": "GRANTED",
+          "date": "2026-06-28",
+          "title": "HC approval for removal of mangrove patches in near-shore reclamation approach area (reported 28 Jun 2026)",
+          "source": "S17",
+          "quote": "the Bombay High Court recently approved the removal of mangrove patches located within the approach area of the near-shore reclamation zone"
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2026695&reg=48&lang=2",
+          "title": "Cabinet approves 'Development of an all-Weather Greenfield deepdraft Major Port at Vadhavan in Maharashtra'",
+          "publisher": "PIB",
+          "level": "SECONDARY",
+          "published_date": "2024-06-19"
+        },
+        "S2": {
+          "url": "https://www.freepressjournal.in/amp/mumbai/vadhvan-port-construction-to-commence-only-after-next-monsoon-phase-1-operational-by-2029-says-jnpa-chairman-unmesh-sharad",
+          "title": "Vadhvan Port Construction To Commence Only After Next Monsoon, Phase 1 Operational by 2029",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2024-06-20"
+        },
+        "S3": {
+          "url": "https://www.newsonair.gov.in/pm-modi-lays-foundation-stone-for-vadhvan-port/",
+          "title": "PM Modi lays foundation stone for Vadhvan Port",
+          "publisher": "All India Radio News (newsonair.gov.in)",
+          "level": "SECONDARY",
+          "published_date": "2024-08-30"
+        },
+        "S4": {
+          "url": "https://india.mongabay.com/2024/04/port-project-in-maharashtra-cleared-by-environment-ministry-despite-opposition-from-fishing-villages/",
+          "title": "Port project in Maharashtra cleared by environment ministry despite opposition from fishing villages",
+          "publisher": "Mongabay India",
+          "level": "SECONDARY",
+          "published_date": "2024-04-23"
+        },
+        "S5": {
+          "url": "https://swarajyamag.com/infrastructure/rs-76000-crore-mega-container-port-in-vadhavan-gathers-steam-with-crz-clearance",
+          "title": "Rs 76,000 crore mega container port in Vadhavan gathers steam with CRZ clearance",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2024-02-08"
+        },
+        "S6": {
+          "url": "https://indianinfrastructure.com/2024/02/07/mczma-grants-clearance-for-vadhavan-satellite-port-project-in-maharashtra/",
+          "title": "MCZMA grants clearance for Vadhavan Satellite Port Project in Maharashtra",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2024-02-07"
+        },
+        "S7": {
+          "url": "https://swarajyamag.com/amp/story/infrastructure/greenlight-for-rs-76000-crore-mega-container-port-in-vadhavan-as-project-receives-environmental-clearance",
+          "title": "Greenlight for Rs 76,000 crore mega container port in Vadhavan as project receives environmental clearance",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2024-02-16"
+        },
+        "S8": {
+          "url": "https://www.maritimegateway.com/public-investment-board-clears-new-major-port-at-vadhavan/",
+          "title": "Public Investment Board clears new major port at Vadhavan",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-02-17"
+        },
+        "S9": {
+          "url": "https://sagarmala.gov.in/sites/default/files/Press%20Release%20%20Vadhavan-converted.pdf",
+          "title": "Press Release - Vadhavan (in-principle approval)",
+          "publisher": "Sagarmala / Ministry of Shipping",
+          "level": "SECONDARY",
+          "published_date": null
+        },
+        "S10": {
+          "url": "https://www.drishtiias.com/daily-updates/daily-news-analysis/major-port-at-vadhavan/print_manually",
+          "title": "Major Port at Vadhavan",
+          "publisher": "Drishti IAS",
+          "level": "UNVERIFIED",
+          "published_date": "2020-02-06"
+        },
+        "S11": {
+          "url": "https://www.freepressjournal.in/amp/mumbai/no-construction-at-vadhavan-port-until-february-28-jnpa-assures-supreme-court",
+          "title": "No Construction At Vadhavan Port Until February 28: JNPA Assures Supreme Court",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2025-02-14"
+        },
+        "S12": {
+          "url": "https://www.etvbharat.com/en/!bharat/vadhavan-port-row-sc-asks-centre-to-consider-appointing-expert-agency-enn25022805753",
+          "title": "Vadhavan Port Row: SC Asks Centre To Consider Appointing Expert Agency",
+          "publisher": "ETV Bharat",
+          "level": "SECONDARY",
+          "published_date": "2025-02-28"
+        },
+        "S13": {
+          "url": "https://www.maritimegateway.com/supreme-court-declines-interim-relief-plea-jnpa-to-proceed-with-development-of-vadhvan-port",
+          "title": "Supreme Court declines interim relief plea; JNPA to proceed with development of Vadhvan Port",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2025-10-16"
+        },
+        "S14": {
+          "url": "https://indianinfrastructure.com/?p=203677",
+          "title": "Vadhavan Port Private Limited awards EPC contract to ITD Cementation for Vadhavan Port project",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2025-01-02"
+        },
+        "S15": {
+          "url": "https://jandenul.com/node/1640",
+          "title": "Jan De Nul and DEME joint venture signs letter of award for dredging works at Vadhavan Port in India",
+          "publisher": "Jan De Nul Group",
+          "level": "PRIMARY",
+          "published_date": "2025-03-05"
+        },
+        "S16": {
+          "url": "https://www.constructionworld.in/amp/policy-updates-and-economic-news/afcons-wins-rs-53.01-bn-vadhavan-port-breakwater-contract/92026",
+          "title": "Afcons Wins Rs 53.01 bn Vadhavan Port Breakwater Contract",
+          "publisher": "Construction World",
+          "level": "SECONDARY",
+          "published_date": "2026-05-21"
+        },
+        "S17": {
+          "url": "https://www.freepressjournal.in/mumbai/maharashtra-cm-devendra-fadnavis-visits-vadhavan-port-site-to-inspect-projects-progress",
+          "title": "Maharashtra CM Devendra Fadnavis Visits Vadhavan Port Site to Inspect Project's Progress",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-06-28"
+        },
+        "S19": {
+          "url": "https://www.maritimegateway.com/vadhvan-port-will-be-operational-by-2030-ajit-pawar/",
+          "title": "Vadhvan Port will be operational by 2030: Ajit Pawar",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2025-03-11"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-tawa-road",
+      "name": "Tawa Junction (NH-48) – Vadhvan Port Road Connectivity",
+      "alternate_names": [
+        "Vadhvan Port Expressway",
+        "Varor–Tawa highway",
+        "Vadhavan Port road link"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Highway / port connectivity",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Vadhvan",
+      "promoter": "National Highways Authority of India",
+      "authorities": [
+        "Ministry of Road Transport and Highways",
+        "National Highways Authority of India"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "About 32 km greenfield highway linking Vadhvan port to NH-48 at Tawa junction, declared a national highway in August 2024 and to be built by NHAI. First phase reported awarded in 2026.",
+      "investment": [
+        {
+          "amount_crore": 2881,
+          "basis": "ESTIMATED",
+          "as_of": "2024-12-20",
+          "source": "R2",
+          "quote": "Rs 2,881 crore",
+          "note": "Estimated cost of the road link (EPC mode); also cited Oct 2023 for a 25 km alignment"
+        },
+        {
+          "amount_crore": 2360,
+          "basis": "REPORTED",
+          "as_of": "2026-04-07",
+          "source": "R5",
+          "quote": "NHAI has awarded the first phase, a four-lane expressway expandable to eight lanes, to J Kumar Infraprojects Limited and Shinde Developers Pvt Ltd for Rs 2,360 crore.",
+          "note": "Reported award value of first phase"
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-10-07",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "NHAI road link of about 25 km to NH-48 planned under Bharatmala (Rs 2,881 crore)",
+          "description": "Route options then cited: via Tarapur-Boisar, Chinchani-Vangaon or Dahanu. Length later given as 32 km.",
+          "sources": [
+            "R3"
+          ],
+          "quote": "25 km-long road linking Vadhavan with NH48"
+        },
+        {
+          "date": "2024-08-12",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Gazette notification declares NH-48 (Tawa Junction)–Vadhavan Port as a National Highway",
+          "description": "NHAI to tender an initial ~20 km two-lane road for quarry material transport; land acquisition to follow 3(A) notification.",
+          "sources": [
+            "R1"
+          ],
+          "quote": "The Gazette Notification of Govt of India has issued a declaration of National Highway from NH 48 (Tawa Junction) to Vadhavan Port on 12th August 2024."
+        },
+        {
+          "date": "2024-12-18",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUISITION",
+          "title": "Land acquisition of 574 ha commences for Vadhvan road and rail connectivity",
+          "description": "Figure covers both the Tawa–Vadhavan road and the New Palghar–Vadhvan rail link; about half is forest land.",
+          "sources": [
+            "R4"
+          ],
+          "quote": "The land acquisition of 574 hectares (ha) has commenced for the Tawa Junction-Vadhavan Port road connectivity project [National Highway (NH)-48] and New Palghar Station-Vadhvan Port rail connectivity project."
+        },
+        {
+          "date": "2024-12-20",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NHAI to build road link on EPC mode; award targeted before March 2025",
+          "description": "To be monetised later via TOT; work expected to start May 2025 (target as reported Dec 2024).",
+          "sources": [
+            "R2"
+          ],
+          "quote": "before March 2025"
+        },
+        {
+          "date": "2026-04-07",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "First phase awarded to J Kumar Infraprojects and Shinde Developers (Rs 2,360 crore)",
+          "description": "Reported 7 Apr 2026 (citing Hindustan Times); exact award date not stated. Report lists 72,790 trees, 21 ponds, 209 wells/borewells and 611 structures affected between Varor and Tawa.",
+          "sources": [
+            "R5"
+          ],
+          "quote": "NHAI has awarded the first phase, a four-lane expressway expandable to eight lanes, to J Kumar Infraprojects Limited and Shinde Developers Pvt Ltd for Rs 2,360 crore."
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "taluka": "Dahanu",
+          "survey_numbers": "",
+          "area_hectares": 574,
+          "area_text": "574 ha (road + rail connectivity combined; ~50% forest)",
+          "purpose": "Vadhvan road (NH-48) and rail connectivity",
+          "acquirer": "",
+          "status": "UNDER_ACQUISITION",
+          "date": "2024-12-18",
+          "consideration_crore": null,
+          "source": "R4",
+          "quote": "The land acquisition of 574 hectares (ha) has commenced for the Tawa Junction-Vadhavan Port road connectivity project [National Highway (NH)-48] and New Palghar Station-Vadhvan Port rail connectivity project."
+        },
+        {
+          "village": "",
+          "taluka": "Dahanu",
+          "survey_numbers": "",
+          "area_hectares": 571,
+          "area_text": "571 ha for rail and road connectivity (Mongabay figure; conflicts with 574 ha)",
+          "purpose": "Vadhvan rail and road connectivity",
+          "acquirer": "",
+          "status": "PROPOSED",
+          "date": "2024-04-23",
+          "consideration_crore": null,
+          "source": "R6",
+          "quote": "16,900 ha form the port limits and 571 ha will be acquired for rail and road connectivity."
+        },
+        {
+          "village": "",
+          "taluka": "Dahanu",
+          "survey_numbers": "",
+          "area_hectares": 244.18,
+          "area_text": "244.18 ha of 5,214 landholders in Dahanu taluka",
+          "purpose": "Varor–Tawa highway to Vadhavan port",
+          "acquirer": "",
+          "status": "UNDER_ACQUISITION",
+          "date": "2026-04-07",
+          "consideration_crore": null,
+          "source": "R5",
+          "quote": "In Dahanu taluka, land belonging to 5,214 individuals spanning 244.18 hectares will be acquired, with another 38 structures facing demolition and over 18,000 trees marked for removal."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "OTHER",
+          "authority": "Ministry of Road Transport and Highways",
+          "status": "OTHER",
+          "date": "2024-08-12",
+          "title": "Gazette notification declaring NH-48 (Tawa Junction)–Vadhavan Port as National Highway",
+          "source": "R1",
+          "quote": "The Gazette Notification of Govt of India has issued a declaration of National Highway from NH 48 (Tawa Junction) to Vadhavan Port on 12th August 2024."
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "CONNECTIVITY_FOR",
+          "note": "Road needed to move quarry material and start port works; links port to NH-48.",
+          "source": "R1",
+          "quote": "The construction of the road is a critical activity necessary to initiate the work at Vadhavan Port."
+        }
+      ],
+      "sources": {
+        "R1": {
+          "url": "https://www.maritimegateway.com/union-cabinet-approves-connectivity-of-nh-48-tawa-junction-to-vadhavan-port",
+          "title": "Union Cabinet approves connectivity of NH 48 Tawa junction to Vadhavan Port",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-08-14"
+        },
+        "R2": {
+          "url": "https://www.maritimegateway.com/nhai-to-construct-road-link-to-vadhvan-port-on-epc-mode/",
+          "title": "NHAI to construct road link to Vadhvan port on EPC mode",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-12-20"
+        },
+        "R3": {
+          "url": "https://www.maritimegateway.com/last-mile-connectivity-to-vadhavan-port/",
+          "title": "Last mile connectivity to Vadhavan Port",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2023-10-07"
+        },
+        "R4": {
+          "url": "https://indianinfrastructure.com/?p=202558",
+          "title": "Land acquisition commences for road and rail connectivity to Vadhvan Port in Maharashtra",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2024-12-18"
+        },
+        "R5": {
+          "url": "https://swarajyamag.com/amp/story/news-brief%2Frs-2360-crore-32-km-highway-to-vadhavan-port-will-cost-palghar-over-72000-trees-and-611-homes-report",
+          "title": "Rs 2,360 crore 32-km highway to Vadhavan port will cost Palghar over 72,000 trees and 611 homes: report",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-04-07"
+        },
+        "R6": {
+          "url": "https://india.mongabay.com/2024/04/port-project-in-maharashtra-cleared-by-environment-ministry-despite-opposition-from-fishing-villages/",
+          "title": "Port project in Maharashtra cleared by environment ministry despite opposition from fishing villages",
+          "publisher": "Mongabay India",
+          "level": "SECONDARY",
+          "published_date": "2024-04-23"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-rail-connectivity",
+      "name": "New Palghar – Vadhvan Port Rail Connectivity",
+      "alternate_names": [
+        "Vadhavan port rail link",
+        "Vadhvan–New Palghar railway line"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Railway / port connectivity",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Vadhvan",
+      "promoter": "Western Railway",
+      "authorities": [
+        "Railway Board",
+        "Jawaharlal Nehru Port Authority"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Planned 12 km railway line linking Vadhvan port to the New Palghar station on the Western Dedicated Freight Corridor, estimated at about Rs 1,765 crore.",
+      "investment": [
+        {
+          "amount_crore": 1765,
+          "basis": "ESTIMATED",
+          "as_of": "2023-10-07",
+          "source": "RC1",
+          "quote": "In May this year, the Railway Board agreed to undertake the rail connectivity to Vadhavan port costing some Rs1,765 crores",
+          "note": "Also given as Rs 17.65 billion (Indian Infrastructure, Dec 2024)"
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-05-01",
+          "date_precision": "MONTH",
+          "stage": "PROPOSAL",
+          "title": "Railway Board agrees to undertake Vadhavan port rail connectivity; Western Railway to initiate sanction",
+          "description": "Not a sanction: Western Railway tasked to initiate the process for sanction and implementation.",
+          "sources": [
+            "RC1"
+          ],
+          "quote": "In May this year, the Railway Board agreed to undertake the rail connectivity to Vadhavan port costing some Rs1,765 crores"
+        },
+        {
+          "date": "2024-12-18",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUISITION",
+          "title": "Land acquisition commences for road and rail connectivity (574 ha combined)",
+          "sources": [
+            "RC2"
+          ],
+          "quote": "The land acquisition of 574 hectares (ha) has commenced for the Tawa Junction-Vadhavan Port road connectivity project [National Highway (NH)-48] and New Palghar Station-Vadhvan Port rail connectivity project."
+        },
+        {
+          "date": "2025-10-29",
+          "date_precision": "DAY",
+          "stage": "MOU",
+          "title": "CONCOR–JNPA MoU for common rail handling operations at Vadhvan Port",
+          "description": "CONCOR to act as Common Rail Handling Operator; Rs 500 crore investment; operations expected 2030.",
+          "sources": [
+            "RC3"
+          ],
+          "quote": "The project involves ₹500 crore investment and CONCOR will serve as the Common Rail Handling Operator, providing consultancy and operational support."
+        }
+      ],
+      "funding": [
+        {
+          "date": "2025-10-29",
+          "amount_crore": 500,
+          "stage": "ANNOUNCED",
+          "funding_type": "CORPORATE",
+          "financier": "Container Corporation of India (CONCOR)",
+          "source": "RC3",
+          "quote": "The project involves ₹500 crore investment and CONCOR will serve as the Common Rail Handling Operator, providing consultancy and operational support.",
+          "note": "Port rail-handling operations under MoU, not the 12 km line itself"
+        }
+      ],
+      "land": [],
+      "regulatory": [],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "CONNECTIVITY_FOR",
+          "note": "12 km rail link from port to New Palghar crossing station.",
+          "source": "RC1",
+          "quote": "The 12 km-long rail line will link Vadhavan to the proposed New Palghar crossing station"
+        },
+        {
+          "to": "western-dedicated-freight-corridor",
+          "type": "RELATED",
+          "note": "Line connects the port to the New Palghar station on the Western DFC.",
+          "source": "RC2",
+          "quote": "construction of a 12 km railway line connecting the port to the New Palghar station on the Western Dedicated Freight Corridor at an estimated cost of Rs 17.65 billion."
+        }
+      ],
+      "sources": {
+        "RC1": {
+          "url": "https://www.maritimegateway.com/last-mile-connectivity-to-vadhavan-port/",
+          "title": "Last mile connectivity to Vadhavan Port",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2023-10-07"
+        },
+        "RC2": {
+          "url": "https://indianinfrastructure.com/?p=202558",
+          "title": "Land acquisition commences for road and rail connectivity to Vadhvan Port in Maharashtra",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2024-12-18"
+        },
+        "RC3": {
+          "url": "https://www.motilaloswal.com/news/stocks/107979",
+          "title": "CONCOR–JNPA MoU for Vadhvan Port rail handling",
+          "publisher": "Motilal Oswal (news)",
+          "level": "SECONDARY",
+          "published_date": "2025-10-30"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-samruddhi-expressway",
+      "name": "Vadhvan Port – Samruddhi Mahamarg (Bharvir) Express Freight Corridor",
+      "alternate_names": [
+        "Vadhavan–Samruddhi connector",
+        "Vadhvan–Igatpuri expressway",
+        "Vadhavan port high-speed freight corridor"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Expressway / port connectivity",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Vadhvan",
+      "promoter": "Maharashtra State Road Development Corporation",
+      "authorities": [
+        "Government of Maharashtra"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Proposed ~105 km access-controlled freight corridor from Vadhvan port to the Samruddhi Mahamarg at Bharvir (Nashik district), approved by the Maharashtra cabinet in August 2025 for execution by MSRDC.",
+      "investment": [
+        {
+          "amount_crore": 2529,
+          "basis": "SANCTIONED",
+          "as_of": "2025-08-05",
+          "source": "VS1",
+          "quote": "at an estimated cost of two thousand and 529 crore rupees",
+          "note": "Cabinet-approved cost per AIR; conflicts with Rs 4,028 crore total reported by Swarajya"
+        },
+        {
+          "amount_crore": 4028,
+          "basis": "REPORTED",
+          "as_of": "2025-08-06",
+          "source": "VS2",
+          "quote": "The project, to be executed by the Maharashtra State Road Development Corporation (MSRDC), carries a total investment of Rs 4,028 crore.",
+          "note": "Swarajya: Rs 1,500 crore HUDCO loan plus Rs 2,528.9 crore state provision"
+        }
+      ],
+      "events": [
+        {
+          "date": "2025-08-05",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "Maharashtra cabinet approves 105-km Vadhavan–Samruddhi express freight corridor",
+          "description": "MSRDC to execute; completion targeted within three years.",
+          "sources": [
+            "VS1",
+            "VS2"
+          ],
+          "quote": "The Maharashtra cabinet has approved the construction of a 105-km express freight corridor connecting the upcoming Vadhavan port in Palghar to the Samruddhi Expressway"
+        },
+        {
+          "date": "2026-07-14",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "MSRDC preparing land acquisition proposal and pursuing CRZ clearance for 104-km expressway",
+          "description": "Alignment from Bharvir Khurd (near Igatpuri) via Tawa (near Charoti, NH-48) to Vadhvan port.",
+          "sources": [
+            "VS3"
+          ],
+          "quote": "preparing a proposal seeking state approval for land acquisition"
+        }
+      ],
+      "funding": [
+        {
+          "date": "2025-08-05",
+          "amount_crore": 1500,
+          "stage": "APPROVED",
+          "funding_type": "NBFC",
+          "financier": "Housing and Urban Development Corporation (HUDCO)",
+          "source": "VS1",
+          "quote": "Around 1500 crore of this cost will be raised through loans from the Housing and Urban Development Corporation Limited"
+        }
+      ],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "CRZ",
+          "authority": "",
+          "status": "PENDING",
+          "date": "2026-07-14",
+          "title": "MSRDC pursuing CRZ clearance for Vadhvan–Samruddhi expressway",
+          "source": "VS3",
+          "quote": "pursuing Coastal Regulation Zone clearance"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "CONNECTIVITY_FOR",
+          "note": "Freight corridor links the port to the Samruddhi Expressway.",
+          "source": "VS1",
+          "quote": "a 105-km express freight corridor connecting the upcoming Vadhavan port in Palghar to the Samruddhi Expressway"
+        }
+      ],
+      "sources": {
+        "VS1": {
+          "url": "https://www.newsonair.gov.in/maharashtra-cabinet-approves-105-km-freight-corridor-linking-vadhavan-port-to-samruddhi-expressway",
+          "title": "Maharashtra Cabinet approves 105 km freight corridor linking Vadhavan Port to Samruddhi Expressway",
+          "publisher": "All India Radio News (newsonair.gov.in)",
+          "level": "SECONDARY",
+          "published_date": "2025-08-05"
+        },
+        "VS2": {
+          "url": "https://swarajyamag.com/amp/story/news-brief/rs-4028-crore-high-speed-road-corridor-to-link-vadhavan-port-with-samruddhi-mahamarg",
+          "title": "Rs 4,028 crore high-speed road corridor to link Vadhavan port with Samruddhi Mahamarg",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2025-08-06"
+        },
+        "VS3": {
+          "url": "https://www.freepressjournal.in/mumbai/msrdc-moves-ahead-with-104-km-expressway-connecting-vadhvan-port-to-samruddhi-mahamarg",
+          "title": "MSRDC Moves Ahead With 104-Km Expressway Connecting Vadhvan Port To Samruddhi Mahamarg",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-07-14"
+        }
+      }
+    },
+    {
+      "key": "mumbai-ahmedabad-high-speed-rail",
+      "name": "Mumbai–Ahmedabad High Speed Rail (Palghar district section)",
+      "alternate_names": [
+        "MAHSR",
+        "Bullet train",
+        "Mumbai–Ahmedabad bullet train"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "High-speed rail",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Boisar–Tarapur",
+      "promoter": "National High Speed Rail Corporation Limited",
+      "authorities": [
+        "Ministry of Railways"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "508 km high-speed rail corridor; the Maharashtra elevated package C-3 (Shilphata–Zaroli, 135.45 km) runs through Palghar district with stations at Virar and Boisar and seven mountain tunnels.",
+      "investment": [
+        {
+          "amount_crore": 108000,
+          "basis": "REPORTED",
+          "as_of": "2026-01-05",
+          "source": "H4",
+          "quote": "The project involves development of the 508.17 km long Mumbai-Ahmedabad HSR corridor in Maharashtra and Gujarat with an investment of Rs 1,080 billion.",
+          "note": "Whole 508 km corridor, not Palghar section alone",
+          "scope": "WIDER"
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-07-20",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "NHSRCL awards package C-3 (Shilphata–Zaroli, 135.45 km) to L&T for Rs 15,697 crore",
+          "description": "Includes elevated stations at Thane, Virar and Boisar; ch. km 21.150–156.600 to the Maharashtra–Gujarat border.",
+          "sources": [
+            "H2"
+          ],
+          "quote": "three elevated stations at Thane, Virar and Boisar"
+        },
+        {
+          "date": "2024-01-09",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUIRED",
+          "title": "Entire land for the MAHSR corridor reported acquired",
+          "description": "Corridor-wide figure (Gujarat, Maharashtra, DNH).",
+          "sources": [
+            "H3"
+          ],
+          "quote": "1389.49 hectares of land required for the project has been acquired"
+        },
+        {
+          "date": "2026-01-02",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "First Palghar mountain tunnel (MT-5, ~1.5 km) breakthrough between Virar and Boisar",
+          "sources": [
+            "H4",
+            "H5"
+          ],
+          "quote": "achieved the final breakthrough of a 1.5 km long mountain tunnel located between the Virar and Boisar station in Palghar district"
+        },
+        {
+          "date": "2026-02-03",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Second Palghar mountain tunnel (454 m) breakthrough",
+          "description": "Railway Minister said the Gujarat section would open the following year, Thane by 2028 and Mumbai by 2029.",
+          "sources": [
+            "H5"
+          ],
+          "quote": "The breakthrough of the second mountain tunnel in Palghar has been achieved within a month, with the first breakthrough happening on 2nd January this year."
+        },
+        {
+          "date": "2026-06-01",
+          "date_precision": "MONTH",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Third Palghar mountain tunnel breakthrough",
+          "sources": [
+            "H6"
+          ],
+          "quote": "the third mountain tunnel in Palghar"
+        },
+        {
+          "date": "2026-08-26",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Maharashtra section: 74 km of piers ready for girders; 3 of 7 mountain tunnels broken through",
+          "description": "Includes a 2.32 km Vaitarna river bridge; Virar and Boisar stations under construction.",
+          "sources": [
+            "H7"
+          ],
+          "quote": "The Maharashtra stretch also includes seven mountain tunnels. Three of these have achieved breakthrough"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "H2": {
+          "url": "https://www.nbmcw.com/news/metro-railways/nhsrcl-awards-l-t-rs-15-697-cr-mahsr-bullet-train-project.html",
+          "title": "NHSRCL awards L&T Rs 15,697 cr MAHSR Bullet Train project",
+          "publisher": "NBM&CW",
+          "level": "SECONDARY",
+          "published_date": "2023-07-20"
+        },
+        "H3": {
+          "url": "https://www.nbmcw.com/news/metro-railways/land-acquisition-completed-for-mumbai-ahmedabad-high-speed-rail.html",
+          "title": "Land Acquisition Completed for Mumbai-Ahmedabad High-Speed Rail",
+          "publisher": "NBM&CW",
+          "level": "SECONDARY",
+          "published_date": "2024-01-09"
+        },
+        "H4": {
+          "url": "https://indianinfrastructure.com/2026/01/05/national-high-speed-rail-corporation-limited-achieves-breakthrough-of-1-5-km-long-mountain-tunnel-in-palghar-district-in-maharashtra/",
+          "title": "NHSRCL achieves breakthrough of 1.5 km long mountain tunnel in Palghar district",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2026-01-05"
+        },
+        "H5": {
+          "url": "https://www.newsonair.gov.in/second-mountain-tunnel-breakthrough-achieved-in-mumbai-ahmedabad-bullet-train-project-in-palghar/",
+          "title": "Second mountain tunnel breakthrough achieved in Mumbai-Ahmedabad bullet train project in Palghar",
+          "publisher": "All India Radio News (newsonair.gov.in)",
+          "level": "SECONDARY",
+          "published_date": "2026-02-03"
+        },
+        "H6": {
+          "url": "https://www.drishtiias.com/state-pcs-current-affairs/third-mountain-tunnel-breakthrough-achieved-in-bullet-train-project/print_manually",
+          "title": "Third Mountain Tunnel Breakthrough Achieved in Bullet Train Project",
+          "publisher": "Drishti IAS",
+          "level": "UNVERIFIED",
+          "published_date": "2026-06-04"
+        },
+        "H7": {
+          "url": "https://swarajyamag.com/infrastructure/mumbai-ahmedabad-bullet-train-pier-work-underway-across-over-100-km-in-maharashtra-section-74-km-ready-for-viaduct-girders",
+          "title": "Mumbai-Ahmedabad bullet train: pier work underway across over 100 km in Maharashtra section, 74 km ready for viaduct girders",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-08-26"
+        }
+      }
+    },
+    {
+      "key": "western-dedicated-freight-corridor",
+      "name": "Western Dedicated Freight Corridor (Palghar district section)",
+      "alternate_names": [
+        "WDFC",
+        "Western DFC",
+        "JNPT–Dadri Dedicated Freight Corridor"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Freight railway",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Saphale",
+      "promoter": "Dedicated Freight Corridor Corporation of India Limited",
+      "authorities": [
+        "Ministry of Railways",
+        "Railway Board"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "1,504 km freight corridor from Dadri to JNPT; in Palghar district it runs through New Saphale (Vaitarna). New Saphale–New Umbergaon Road opened commercially in September 2025 and the final JNPT–New Saphale stretch was trial-run in March 2026.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2025-04-01",
+          "date_precision": "MONTH",
+          "stage": "NOTE",
+          "title": "DFCCIL trial run on New Umbergaon–Saphale section",
+          "description": "Reported 29 Apr 2025; first DFC trial in Maharashtra.",
+          "sources": [
+            "W2"
+          ],
+          "quote": "on the new Umbergaon-IR Saphale section under the Dedicated Freight Corridor Project (Western Corridor)"
+        },
+        {
+          "date": "2025-09-25",
+          "date_precision": "DAY",
+          "stage": "OPERATIONAL",
+          "title": "New Saphale–New Umbergaon Road (76.072 km) opened for public carriage of goods",
+          "description": "Railway Board permission dated 25.09.2025 treated as date of commencement of commercial operation (DFCCIL circular of 03.10.2025).",
+          "sources": [
+            "W1"
+          ],
+          "quote": "the date of permission granted by Railway Board viz.25.09.2025 will be treated as date of commencement of commercial operation."
+        },
+        {
+          "date": "2026-03-31",
+          "date_precision": "DAY",
+          "stage": "COMPLETED",
+          "title": "Trial run on final JNPT–New Saphale (102 km) section; WDFC declared complete",
+          "description": "Commercial operation date for this last section not stated in sources.",
+          "sources": [
+            "W4",
+            "W3"
+          ],
+          "quote": "marking the full completion of the Western Dedicated Freight Corridor (WDFC) on 31st March 2026"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "OTHER",
+          "authority": "Railway Board",
+          "status": "GRANTED",
+          "date": "2025-09-25",
+          "title": "Railway Board approval to open New Saphale–New Umbergaon Road DFC line for goods traffic",
+          "source": "W1",
+          "quote": "from New Saphale to New Umbergaon Road station from KM 103.402 to KM 179.474 having length of 76.072 KM in WDFC"
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "W1": {
+          "url": "https://dfccil.com/images/uploads/img/20251001-DFCR-BD-23-of-2025_2SQG.pdf",
+          "title": "DFCR/BD Circular No. 23 of 2025: Opening of New Saphale–New Umbergaon Road section",
+          "publisher": "DFCCIL",
+          "level": "PRIMARY",
+          "published_date": "2025-10-03"
+        },
+        "W2": {
+          "url": "https://indianinfrastructure.com/2025/04/29/dfccil-conducts-trial-run-for-the-new-umbergaon-ir-saphale-rail-section-in-gujarat-maharashtra/",
+          "title": "DFCCIL conducts trial run for the new Umbergaon-IR Saphale rail section in Gujarat, Maharashtra",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2025-04-29"
+        },
+        "W3": {
+          "url": "https://itln.in/railway/wdfc-completes-full-stretch-with-jnptnew-saphale-trial-run-1358623",
+          "title": "WDFC completes full stretch with JNPT–New Saphale trial run",
+          "publisher": "Indian Transport & Logistics News",
+          "level": "SECONDARY",
+          "published_date": "2026-04-01"
+        },
+        "W4": {
+          "url": "https://indiashippingnews.com/trending-news/wdfc-fully-completed-with-successful-trial-run-on-jnpt-new-saphale-section-a-proud-moment-for-dfccil/",
+          "title": "WDFC fully completed with successful trial run on JNPT–New Saphale section",
+          "publisher": "India Shipping News",
+          "level": "SECONDARY",
+          "published_date": "2026-04-01"
+        }
+      }
+    },
+    {
+      "key": "mumbai-vadodara-expressway",
+      "name": "Vadodara–Mumbai Expressway (NE-4), Maharashtra / Palghar section",
+      "alternate_names": [
+        "Mumbai–Vadodara Expressway",
+        "NE-4",
+        "Delhi–Mumbai Expressway (Vadodara–Mumbai section)"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Expressway",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "",
+      "promoter": "National Highways Authority of India",
+      "authorities": [
+        "Ministry of Road Transport and Highways"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Access-controlled expressway from Vadodara to Mumbai; Phase II Maharashtra packages include Ganjad–Talasari (Pkg XI), Masvan–Ganjad (Pkg XII) and Shirsad–Masvan (Pkg XIII). Maharashtra stretch targeted to open by end-August 2026.",
+      "investment": [
+        {
+          "amount_crore": 24000,
+          "basis": "REPORTED",
+          "as_of": "2026-06-29",
+          "source": "M4",
+          "quote": "Spanning 157 km, the Maharashtra stretch is being developed at an estimated cost of Rs 24,000 crore.",
+          "note": "Whole Maharashtra stretch",
+          "scope": "WIDER"
+        }
+      ],
+      "events": [
+        {
+          "date": "2020-10-15",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "LoA for Pkg XI (Ganjad–Talasari, 26.4 km) to RKC Infrabuilt",
+          "description": "HAM; Km 77.000–103.400. Per NHAI 'Awarded but not started' list as on 05 May 2022.",
+          "sources": [
+            "M1"
+          ],
+          "quote": "Vadodara Mumbai Expressway (Phase II - Pkg XI) [Km. 77.000 to Km. 103.400] (Ganjad - Talsari) 26.4 15/10/2020 RKC Infrabuilt Private Ltd."
+        },
+        {
+          "date": "2022-02-08",
+          "date_precision": "DAY",
+          "stage": "CONSTRUCTION_STARTED",
+          "title": "Start date of Pkg XIII (Shirsad–Masvan, 27.12 km), G R Infraprojects",
+          "sources": [
+            "M2"
+          ],
+          "quote": "Vadodara Mumbai Expressway (Phase II - Pkg XIII) [Km. 26.582 to Km. 50.700] (Shirsad - Masvan) HAM 27.12 08/02/2022 G R Infraprojects Limited"
+        },
+        {
+          "date": "2022-03-23",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Start date of Pkg XII (Masvan–Ganjad, 26.3 km)",
+          "description": "Concessionaire: Montecarlo Vadodara Mumbai Expressway Private Limited.",
+          "sources": [
+            "M2"
+          ],
+          "quote": "Vadodara Mumbai Expressway (Phase II - Pkg XII) [Km. 50.700 to Km. 77.000] (Masvan - Ganjad) 26.3 23/03/2022"
+        },
+        {
+          "date": "2022-05-18",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Start date of Pkg XI (Ganjad–Talasari)",
+          "sources": [
+            "M2"
+          ],
+          "quote": "Vadodara Mumbai Expressway (Phase II - Pkg XI) [Km. 77.000 to Km. 103.400] (Ganjad - Talsari) 26.4 18/05/2022 RKC Infrabuilt Private Ltd."
+        },
+        {
+          "date": "2026-01-20",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Completion certificate issued for Pkg-11 (Ganjad–Talasari)",
+          "description": "Per Lok Sabha reply data reproduced by DeshGujarat (Aug 2026): Pkg-11 cost Rs 1,730.21 crore, 100% progress.",
+          "sources": [
+            "M3"
+          ],
+          "quote": "Completed; Completion Certificate (CC) issued on 20 Jan 2026"
+        },
+        {
+          "date": "2026-06-29",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "CM: 5 of 7 Maharashtra packages complete; stretch to open by 31 Aug 2026",
+          "sources": [
+            "M4"
+          ],
+          "quote": "According to the chief minister, construction has been completed on five of the seven project packages, with these sections already ready for traffic."
+        },
+        {
+          "date": "2026-08-07",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Lok Sabha data: Pkg-12 at 99.85%, Pkg-13 at 98% (full completion targeted 31 Oct 2026)",
+          "description": "Pkg-12 cost Rs 2,110.93 crore; Pkg-13 cost Rs 4,298.89 crore, PCC issued for 24.368 km.",
+          "sources": [
+            "M3"
+          ],
+          "quote": "One side of major bridge to be completed by 31 Aug 2026; full completion by 31 Oct 2026. PCC issued for 24.368 km"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "M1": {
+          "url": "https://nhai.gov.in/nhai/sites/default/files/mix_file/Awarded%20but%20not%20start_Apr_2022.pdf",
+          "title": "Awarded But not Start (status as on 05 May 2022)",
+          "publisher": "NHAI",
+          "level": "PRIMARY",
+          "published_date": "2022-05-05"
+        },
+        "M2": {
+          "url": "https://nhai.gov.in/nhai/sites/default/files/mix_file/Under_Implementation_aug-2022.pdf",
+          "title": "Under Implementation (status as on 01 Sep 2022)",
+          "publisher": "NHAI",
+          "level": "PRIMARY",
+          "published_date": "2022-09-01"
+        },
+        "M3": {
+          "url": "https://deshgujarat.com/2026/08/07/delhi-mumbai-expressway-latest-package-wise-progress-update-on-vadodara-mumbai-section/",
+          "title": "Delhi – Mumbai Expressway: Latest Package-wise Progress Update on Vadodara – Mumbai Section",
+          "publisher": "DeshGujarat",
+          "level": "SECONDARY",
+          "published_date": "2026-08-07"
+        },
+        "M4": {
+          "url": "https://swarajyamag.com/news-brief/cm-fadnavis-confirms-157-km-expressway-section-will-be-operational-by-end-of-august",
+          "title": "CM Fadnavis confirms 157-km expressway section will be operational by end of August",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-06-29"
+        }
+      }
+    },
+    {
+      "key": "virar-dahanu-quadrupling",
+      "name": "Virar–Dahanu Road Quadrupling (MUTP-III)",
+      "alternate_names": [
+        "Virar–Dahanu third and fourth lines",
+        "Virar–Dahanu Road quadruplication"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Suburban railway",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Palghar",
+      "promoter": "Mumbai Railway Vikas Corporation",
+      "authorities": [
+        "Western Railway",
+        "Ministry of Railways"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Addition of third and fourth lines over about 63–64 km between Virar and Dahanu Road under MUTP-III, estimated at Rs 3,578 crore, to extend suburban capacity into Palghar district.",
+      "investment": [
+        {
+          "amount_crore": 3578,
+          "basis": "REPORTED",
+          "as_of": "2026-07-15",
+          "source": "V4",
+          "quote": "Rs 3,578-crore Virar–Dahanu quadrupling project"
+        }
+      ],
+      "events": [
+        {
+          "date": "2016-11-30",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "Union Cabinet approves MUTP-III including Virar–Dahanu quadrupling",
+          "description": "Context event. MUTP-III estimated cost Rs 8,679 crore, completion cost Rs 10,947 crore (whole package); includes 63 km third and fourth lines Virar–Dahanu. Article of 1 Dec 2016 says approval was on Wednesday.",
+          "sources": [
+            "V1"
+          ],
+          "quote": "The Union Cabinet on Wednesday approved the Mumbai Urban Transport Project Phase-III (MUTP III) that is aimed at boosting rail infrastructure in Thane, Palghar, Raigad and Mumbai districts"
+        },
+        {
+          "date": "2023-04-28",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "16% of work complete; completion targeted December 2025",
+          "sources": [
+            "V2"
+          ],
+          "quote": "We are trying to complete the project by December 2025"
+        },
+        {
+          "date": "2025-09-22",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "86% of earthwork complete; completion targeted by end of FY 2026-27",
+          "sources": [
+            "V3"
+          ],
+          "quote": "86 per cent of earth work including cutting and filling, now complete"
+        },
+        {
+          "date": "2026-07-15",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Vaitarna river bridge (No. 92, 628 m) completed; project crosses 60%",
+          "description": "New station buildings completed at Vaitarna and Kelve Road; work at Palghar and Boisar.",
+          "sources": [
+            "V4"
+          ],
+          "quote": "New station buildings have been completed at Vaitarna and Kelve Road"
+        },
+        {
+          "date": "2026-07-15",
+          "date_precision": "DAY",
+          "stage": "DELAYED",
+          "title": "Completion target moves from December 2025 to March 2028",
+          "description": "April 2023 report targeted December 2025; Sept 2025 report said end FY 2026-27; July 2026 report says March 2028.",
+          "sources": [
+            "V4",
+            "V2",
+            "V3"
+          ],
+          "quote": "completion by March 2028"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": 29.14,
+          "area_text": "29.14 ha private land required",
+          "purpose": "Third and fourth railway lines",
+          "acquirer": "",
+          "status": "OTHER",
+          "date": "2023-04-28",
+          "consideration_crore": null,
+          "source": "V2",
+          "quote": "Total 29.14 hectare private land is required for the project."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "FOREST",
+          "authority": "",
+          "status": "PENDING",
+          "date": "2023-04-28",
+          "title": "Forest clearance pending for 26.51 ha (incl. 3.77 ha forest land)",
+          "source": "V2",
+          "quote": "the project still needs forest clearance for 26.51-hectare land — which includes 3.77 hectare forest land and balance railway land."
+        },
+        {
+          "item_type": "FOREST",
+          "authority": "",
+          "status": "GRANTED",
+          "date": "2026-07-15",
+          "title": "Forest and mangrove clearances and NPCIL permission for Boisar goods yard obtained (reported Jul 2026)",
+          "source": "V4",
+          "quote": "forest and mangrove clearances, along with permission from NPCIL for land required for a new goods yard at Boisar"
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "V1": {
+          "url": "https://moneylife.in/article/cabinet-clears-mumbai-urban-transport-project-phaseiii/49011.html",
+          "title": "Cabinet clears Mumbai Urban Transport Project Phase-III",
+          "publisher": "Moneylife",
+          "level": "SECONDARY",
+          "published_date": "2016-12-01"
+        },
+        "V2": {
+          "url": "https://indiainfrahub.com/featured/mumbai-western-railways-virar-dahanu-line-quadrupling-underway-forest-clearances-for-the-expansion-project-expected-soon/",
+          "title": "Mumbai: Western Railway's Virar-Dahanu line quadrupling underway; forest clearances expected soon",
+          "publisher": "India Infra Hub",
+          "level": "SECONDARY",
+          "published_date": "2023-04-28"
+        },
+        "V3": {
+          "url": "https://swarajyamag.com/amp/story/news-brief/virardahanu-road-rail-quadruplication-project-completes-85-per-cent-of-earthwork-on-track-to-be-completed-by-the-end-of-fy26-27",
+          "title": "Virar–Dahanu Road rail quadruplication project completes 85 per cent of earthwork",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2025-09-22"
+        },
+        "V4": {
+          "url": "https://www.freepressjournal.in/mumbai/mumbai-western-railways-vaitarna-rail-bridge-completed-as-3578-crore-virardahanu-quadrupling-project-crosses-60-per-cent-completion",
+          "title": "Western Railway's Vaitarna rail bridge completed as Rs 3,578 crore Virar–Dahanu quadrupling project crosses 60 per cent completion",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-07-15"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-offshore-airport",
+      "name": "Vadhvan Offshore Airport (proposed)",
+      "alternate_names": [
+        "Palghar offshore airport",
+        "Third Mumbai airport",
+        "Kore offshore airport"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Airport",
+      "taluka": "",
+      "village": "Kore",
+      "micro_market": "Vadhvan",
+      "promoter": "Maharashtra Airport Development Company",
+      "authorities": [
+        "Government of Maharashtra"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "Proposed greenfield offshore international airport near Kore in the Vadhavan port region, Palghar district, conceived on PPP basis with planned capacity of about 90 million passengers a year. At feasibility-study stage.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2025-03-01",
+          "date_precision": "MONTH",
+          "stage": "ANNOUNCED",
+          "title": "State budget 2025-26: third Mumbai airport proposed near Vadhvan port",
+          "sources": [
+            "A1"
+          ],
+          "quote": "the third airport for Mumbai is proposed near the Vadhvan port"
+        },
+        {
+          "date": "2026-06-29",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "Offshore airport reported approved for preparation of a DPR",
+          "description": "Low-reliability source; cost figures in this source are inconsistent and are not used.",
+          "sources": [
+            "A4"
+          ],
+          "quote": "India's first offshore airport has been approved for preparation of a Detailed Project Report in Maharashtra."
+        },
+        {
+          "date": "2026-07-31",
+          "date_precision": "DAY",
+          "stage": "LAND_IDENTIFIED",
+          "title": "MADC tenders techno-economic feasibility study; state has approved identified site after OLS survey",
+          "description": "Bid documents from 30 July 2026; submissions due 2 Sept 2026; EMD Rs 50 lakh.",
+          "sources": [
+            "A3",
+            "A2"
+          ],
+          "quote": "an Obstacle Limitation Surface (OLS) Survey has also been conducted, and the Government of Maharashtra has approved the identified site."
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "Airport proposed near the Vadhvan port.",
+          "source": "A1",
+          "quote": "the third airport for Mumbai is proposed near the Vadhvan port"
+        }
+      ],
+      "sources": {
+        "A1": {
+          "url": "https://www.maritimegateway.com/vadhvan-port-will-be-operational-by-2030-ajit-pawar/",
+          "title": "Vadhvan Port will be operational by 2030: Ajit Pawar",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2025-03-11"
+        },
+        "A2": {
+          "url": "https://swarajyamag.com/news-brief/madc-invites-bids-for-feasibility-study-of-indias-first-offshore-airport-at-vadhavan",
+          "title": "MADC invites bids for feasibility study of India's first offshore airport at Vadhavan",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-07-31"
+        },
+        "A3": {
+          "url": "https://www.freepressjournal.in/amp/mumbai/madc-seeks-expert-to-conduct-techno-economic-study-of-proposed-vadhavan-offshore-airport-in-palghar",
+          "title": "MADC Seeks Expert To Conduct Techno-Economic Study Of Proposed Vadhavan Offshore Airport In Palghar",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-07-31"
+        },
+        "A4": {
+          "url": "https://www.gktoday.in/india-approves-first-offshore-airport-in-maharashtra/",
+          "title": "India Approves First Offshore Airport in Maharashtra",
+          "publisher": "GKToday",
+          "level": "UNVERIFIED",
+          "published_date": "2026-06-29"
+        }
+      }
+    },
+    {
+      "key": "uttan-virar-sea-link",
+      "name": "Uttan–Virar Sea Link (Mumbai–Vadhavan Expressway Connectivity)",
+      "alternate_names": [
+        "UVSL",
+        "Mumbai–Vadhavan sea link",
+        "Mumbai–Vadhavan Expressway Corridor"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Sea link / expressway",
+      "taluka": "Vasai",
+      "village": "",
+      "micro_market": "Vasai–Virar",
+      "promoter": "Mumbai Metropolitan Region Development Authority",
+      "authorities": [
+        "Government of Maharashtra"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "55.12 km Phase I sea link (24.35 km sea bridge plus connectors at Uttan, Vasai and Virar) implemented by MMRDA; the state approved its extension up to Vadhavan port in November 2025.",
+      "investment": [
+        {
+          "amount_crore": 58754.71,
+          "basis": "ESTIMATED",
+          "as_of": "2025-11-26",
+          "source": "U2",
+          "quote": "The Maharashtra government has approved the Detailed Project Report (DPR) and implementation plan for Phase I of the Uttan–Virar Sea Link, a mega project estimated at ₹58,754.71 crore.",
+          "note": "Phase I DPR cost approved by state",
+          "scope": "WIDER"
+        },
+        {
+          "amount_crore": 87400,
+          "basis": "REPORTED",
+          "as_of": "2026-06-28",
+          "source": "U4",
+          "quote": "Estimated to cost Rs 87,400 crore, the project will include a 24.35-km sea bridge, three interchanges at Uttan, Vasai and Virar",
+          "note": "Conflicts with Rs 58,754.71 crore DPR figure",
+          "scope": "WIDER"
+        },
+        {
+          "amount_crore": 87427,
+          "basis": "REPORTED",
+          "as_of": "2026-08-21",
+          "source": "U3",
+          "quote": "An earlier state infrastructure roadmap priced the sea bridge and its connecting roads at Rs 87,427 crore, a figure since altered by fresh planning and design changes.",
+          "note": "Earlier roadmap figure",
+          "scope": "WIDER"
+        }
+      ],
+      "events": [
+        {
+          "date": "2025-11-05",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "State approves extension of Uttan–Virar sea link up to Vadhavan port",
+          "description": "Decision at Cabinet Infrastructure Committee chaired by CM.",
+          "sources": [
+            "U1"
+          ],
+          "quote": "The Maharashtra government has approved the extension of the proposed Uttan-Virar Sea Link up to Vadhavan Port in Palghar district"
+        },
+        {
+          "date": "2025-11-26",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "State approves DPR and implementation plan for Phase I (Rs 58,754.71 crore)",
+          "description": "Reported 26 Nov 2025; MMRDA implementing agency; construction planned within 60 months.",
+          "sources": [
+            "U2"
+          ],
+          "quote": "The construction is planned to be completed within 60 months."
+        },
+        {
+          "date": "2026-06-28",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUISITION",
+          "title": "MMRDA begins land acquisition at Uttan (104.285 ha affected, ~20.2 ha to be acquired)",
+          "description": "Uttan lies at the southern (Mira-Bhayandar) end, outside Palghar district.",
+          "sources": [
+            "U4"
+          ],
+          "quote": "The process officially commenced after MMRDA issued a public notice identifying 104.285 hectares of land in Uttan village"
+        },
+        {
+          "date": "2026-08-21",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "CM seeks Union Finance Ministry clearance for JICA funding",
+          "sources": [
+            "U3"
+          ],
+          "quote": "Maharashtra Chief Minister Devendra Fadnavis has approached the Union Finance Ministry for clearance to route Japan International Cooperation Agency (JICA) money into the Mumbai-Vadhavan Expressway Connectivity Project"
+        }
+      ],
+      "funding": [
+        {
+          "date": "2026-08-21",
+          "amount_crore": null,
+          "stage": "ANNOUNCED",
+          "funding_type": "OTHER",
+          "financier": "Japan International Cooperation Agency (JICA) - proposed",
+          "source": "U3",
+          "quote": "Maharashtra Chief Minister Devendra Fadnavis has approached the Union Finance Ministry for clearance to route Japan International Cooperation Agency (JICA) money into the Mumbai-Vadhavan Expressway Connectivity Project",
+          "note": "Request for clearance only; no loan committed"
+        }
+      ],
+      "land": [],
+      "regulatory": [],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "CONNECTIVITY_FOR",
+          "note": "State approved extension of the sea link up to Vadhavan port.",
+          "source": "U1",
+          "quote": "The Maharashtra government has approved the extension of the proposed Uttan-Virar Sea Link up to Vadhavan Port in Palghar district"
+        }
+      ],
+      "sources": {
+        "U1": {
+          "url": "https://www.newsonair.gov.in/maharashtra-government-approves-extension-of-uttan-virar-sea-link-to-vadhavan-port",
+          "title": "Maharashtra government approves extension of Uttan-Virar Sea Link to Vadhavan Port",
+          "publisher": "All India Radio News (newsonair.gov.in)",
+          "level": "SECONDARY",
+          "published_date": "2025-11-05"
+        },
+        "U2": {
+          "url": "https://www.nbmcw.com/news/maharashtra-clears-dpr-for-rs-58-754-cr-uttan-virar-sea-link-mmrda-to-begin-work-on-phase-i.html",
+          "title": "Maharashtra Clears DPR for Rs 58,754 Cr Uttan–Virar Sea Link; MMRDA to Begin Work on Phase I",
+          "publisher": "NBM&CW",
+          "level": "SECONDARY",
+          "published_date": "2025-11-26"
+        },
+        "U3": {
+          "url": "https://swarajyamag.com/news-brief/maharashtra-pitches-uttan-virar-sea-link-for-japanese-loan-assistance",
+          "title": "Maharashtra pitches Uttan-Virar sea link for Japanese loan assistance",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-08-21"
+        },
+        "U4": {
+          "url": "https://swarajyamag.com/amp/story/news-brief/mmrda-begins-land-acquisition-in-uttan-for-mumbaivadhavan-sea-link",
+          "title": "MMRDA begins land acquisition in Uttan for Mumbai–Vadhavan sea link",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2026-06-28"
+        }
+      }
+    },
+    {
+      "key": "murbe-port",
+      "name": "Murbe Port (JSW Infrastructure)",
+      "alternate_names": [
+        "Murbe multipurpose port",
+        "JSW Murbe port"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Port",
+      "taluka": "Palghar",
+      "village": "Murbe",
+      "micro_market": "Murbe",
+      "promoter": "JSW Infrastructure Limited",
+      "authorities": [
+        "Maharashtra Maritime Board",
+        "Maharashtra Pollution Control Board"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Proposed all-weather multi-cargo greenfield port at Murbe, north of Satpati creek, Palghar taluka, to be developed by JSW Infrastructure on DBOOT basis under a Maharashtra Maritime Board LoI; designed for about 134 MMTPA across 16 berths.",
+      "investment": [
+        {
+          "amount_crore": 4259,
+          "basis": "ESTIMATED",
+          "as_of": "2024-10-11",
+          "source": "MP1",
+          "quote": "the estimated cost of the project is about ₹4,259 crore"
+        },
+        {
+          "amount_crore": 4200,
+          "basis": "REPORTED",
+          "as_of": "2024-10-09",
+          "source": "MP2",
+          "quote": "The project is likely to cost around Rs 4,200 crore",
+          "note": "Rounded figure in ITLN report"
+        }
+      ],
+      "events": [
+        {
+          "date": "2024-09-30",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "Maharashtra cabinet approves JSW Infra as developer of Murbe port",
+          "description": "Follows Swiss-challenge process on JSW's suo moto proposal.",
+          "sources": [
+            "MP1"
+          ],
+          "quote": "On September 30, the Maharashtra government in a cabinet meeting approved JSW Infra as the developer for the project."
+        },
+        {
+          "date": "2024-10-01",
+          "date_precision": "MONTH",
+          "stage": "TENDER_AWARDED",
+          "title": "MMB issues Letter of Intent to JSW Infrastructure for Murbe port",
+          "description": "LoI valid 24 months; concession agreement (70 years) to follow on meeting LoI conditions; DBOOT model; royalty Rs 11/tonne quoted.",
+          "sources": [
+            "MP1",
+            "MP2"
+          ],
+          "quote": "JSW Infrastructure Limited (JSW Infra) has received a Letter of Intent (LoI) from Maharashtra Maritime Board (MMB) for the development, operation, management, and maintenance of an all-weather, multipurpose port"
+        },
+        {
+          "date": "2025-10-06",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Environmental public hearing held amid protests",
+          "description": "Hearing by MPCB and district administration at the Palghar collectorate; around 6,000–7,000 villagers reported present; objections to the EIA.",
+          "sources": [
+            "MP4",
+            "MP3"
+          ],
+          "quote": "organised jointly by the Maharashtra Pollution Control Board (MPCB) and the district administration"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "PUBLIC_HEARING",
+          "authority": "Maharashtra Pollution Control Board",
+          "status": "OTHER",
+          "date": "2025-10-06",
+          "title": "Environmental public hearing for Murbe greenfield deepwater port (held 6 Oct 2025)",
+          "source": "MP4",
+          "quote": "organised jointly by the Maharashtra Pollution Control Board (MPCB) and the district administration"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "Murbe lies about 40 km from Vadhvan port.",
+          "source": "MP2",
+          "quote": "located hardly 40 kms away from the Vadhvan Port being developed by the Jawaharlal Nehru Port Authority."
+        }
+      ],
+      "sources": {
+        "MP1": {
+          "url": "https://www.maritimegateway.com/jsw-infra-receives-loi-from-mmb-to-develop-port-project-in-maharashtra/",
+          "title": "JSW Infra receives LoI from MMB to develop port project in Maharashtra",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-10-11"
+        },
+        "MP2": {
+          "url": "https://www.itln.in/shipping/jsw-infrastructure-to-develop-murbe-port-near-vadhvan-1353430",
+          "title": "JSW Infrastructure to develop Murbe port near Vadhvan",
+          "publisher": "Indian Transport & Logistics News",
+          "level": "SECONDARY",
+          "published_date": "2024-10-09"
+        },
+        "MP3": {
+          "url": "https://mpcb.gov.in/en/node/7142",
+          "title": "M/s. JSW Infrastructure Pvt. Ltd. for Development of All-Weather Multi-Cargo Greenfield Deepwater Port at Murbe, Tal. & Dist. Palghar (public hearing)",
+          "publisher": "Maharashtra Pollution Control Board",
+          "level": "PRIMARY",
+          "published_date": null
+        },
+        "MP4": {
+          "url": "https://www.theweek.in/wire-updates/national/2025/10/06/wrg3-mh-project-protest.html",
+          "title": "Chaos during Murbe port project public hearing",
+          "publisher": "The Week (PTI)",
+          "level": "SECONDARY",
+          "published_date": "2025-10-06"
+        }
+      }
+    },
+    {
+      "key": "surya-water-supply",
+      "name": "Surya Regional Bulk Water Supply Scheme",
+      "alternate_names": [
+        "Surya Regional Water Supply Scheme",
+        "Surya water project"
+      ],
+      "category": "UTILITIES",
+      "subcategory": "Bulk water supply",
+      "taluka": "Vasai",
+      "village": "",
+      "micro_market": "Vasai–Virar",
+      "promoter": "Mumbai Metropolitan Region Development Authority",
+      "authorities": [
+        "Mumbai Metropolitan Region Development Authority"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "MMRDA scheme drawing 403 MLD from the Surya river (weir at Kawadas) for Vasai-Virar and Mira-Bhayandar municipal corporations and villages in the western sub-region, built by L&T. Allocation to VVCMC is given as 185 MLD in press reports and 170 MLD on the MBMC website.",
+      "investment": [
+        {
+          "amount_crore": 1326,
+          "basis": "ESTIMATED",
+          "as_of": "2024-01-17",
+          "source": "SW3",
+          "quote": "It is being developed by Larsen and Toubro Limited at an estimated cost of Rs 13.26 billion."
+        }
+      ],
+      "events": [
+        {
+          "date": "2023-09-20",
+          "date_precision": "DAY",
+          "stage": "UNDER_CONSTRUCTION",
+          "title": "Tungareshwar tunnel in Vasai completed",
+          "sources": [
+            "SW1"
+          ],
+          "quote": "The construction work of the Tungareshwar tunnel in Vasai under the Surya Regional Bulk Water Supply Scheme (WSS) for the western subregion of Mumbai Metropolitan Region has been completed."
+        },
+        {
+          "date": "2023-12-27",
+          "date_precision": "DAY",
+          "stage": "OPERATIONAL",
+          "title": "Partial operation: 85 MLD being supplied to Vasai-Virar (VVCMC)",
+          "description": "Reported 27 Dec 2023; to be raised to 185 MLD.",
+          "sources": [
+            "SW2"
+          ],
+          "quote": "Currently, 85 million litres per day (mld) of water is being supplied, which is set to be increased to 185 mld"
+        },
+        {
+          "date": "2024-01-12",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Scheme inaugurated; about 88% of construction complete",
+          "sources": [
+            "SW3"
+          ],
+          "quote": "The central government inaugurated the Surya Regional Bulk Water Supply Scheme on January 12, 2024."
+        },
+        {
+          "date": "2024-05-01",
+          "date_precision": "MONTH",
+          "stage": "DELAYED",
+          "title": "Supply to Mira-Bhayandar missed May 2024 schedule",
+          "description": "Per MBMC website (undated); pending works include Vasai creek micro-tunnelling, forest-land pipeline and Chene reservoir.",
+          "sources": [
+            "SW4"
+          ],
+          "quote": "Water supply to Mira-Bhayandar Municipal Corporation was scheduled to begin by May 2024. However, it has not yet started."
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "SW1": {
+          "url": "https://indianinfrastructure.com/2023/09/20/construction-work-of-tungareshwar-tunnel-under-surya-regional-bulk-wss-gets-completed/",
+          "title": "Construction work of Tungareshwar tunnel under Surya Regional Bulk WSS gets completed",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2023-09-20"
+        },
+        "SW2": {
+          "url": "https://indianinfrastructure.com/2023/12/27/mmrda-begins-water-supply-to-vvcmc-under-surya-regional-bulk-wss/",
+          "title": "MMRDA begins water supply to VVCMC under Surya Regional Bulk WSS",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2023-12-27"
+        },
+        "SW3": {
+          "url": "https://indianinfrastructure.com/2024/01/17/surya-regional-bulk-water-supply-scheme-gets-inaugurated/",
+          "title": "Surya Regional Bulk Water Supply Scheme gets inaugurated",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2024-01-17"
+        },
+        "SW4": {
+          "url": "https://mbmc.gov.in/en/mbmc/water-supply",
+          "title": "Water Supply - Mira Bhayandar Municipal Corporation",
+          "publisher": "Mira Bhayandar Municipal Corporation",
+          "level": "PRIMARY",
+          "published_date": null
+        }
+      }
+    },
+    {
+      "key": "velgaon-400kv-substation",
+      "name": "400/220 kV Velgaon (Boisar) GIS Substation",
+      "alternate_names": [
+        "Velgaon 400 kV substation",
+        "Velgaon Power Transmission"
+      ],
+      "category": "UTILITIES",
+      "subcategory": "Power transmission",
+      "taluka": "Palghar",
+      "village": "Velgaon",
+      "micro_market": "Boisar–Tarapur",
+      "promoter": "Velgaon Power Transmission Limited (Ceigall India)",
+      "authorities": [
+        "Maharashtra State Electricity Transmission Company",
+        "Maharashtra Electricity Regulatory Commission",
+        "REC Power Development and Consultancy"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "New 400/220 kV gas-insulated substation at Velgaon (Boisar), Palghar district, proposed by MSETCL to bring bulk power into the Mumbai region after the Dahanu thermal PPA, and bid out under TBCB; LoI issued to Ceigall India in November 2025.",
+      "investment": [
+        {
+          "amount_crore": 450,
+          "basis": "REPORTED",
+          "as_of": "2025-11-25",
+          "source": "P2",
+          "quote": "against EPC cost of approx. Rs 450 crore",
+          "note": "Bidder's EPC cost; levelised annuity Rs 58.5 crore/yr for 35 years"
+        }
+      ],
+      "events": [
+        {
+          "date": "2022-05-18",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "Maharashtra Transmission Committee recommends 400 kV Velgaon GIS substation for STU 5-year plan",
+          "description": "Justification: Dahanu thermal PPA up to 2023 and projected 500 MW shortfall in MMR.",
+          "sources": [
+            "P1"
+          ],
+          "quote": "the committee recommended the said proposals of Establishment of 400 kV Velgaon (Boisar) GIS s/s, Dist. Palghar for consideration by GCC for inclusion in upcoming 5 year STU transmission plan."
+        },
+        {
+          "date": "2025-11-25",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "Ceigall India receives LoI from RECPDCL under TBCB for Velgaon substation",
+          "description": "Reported 25 Nov 2025; two-year construction and 35-year O&M.",
+          "sources": [
+            "P2"
+          ],
+          "quote": "has received a Letter of Intent (LOI) from REC Power Development and Consultancy Limited (RECPDCL)"
+        },
+        {
+          "date": "2026-03-18",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Velgaon Power Transmission Ltd seeks intra-state transmission licence from MERC",
+          "description": "Scheduled commissioning reported as 9 Jan 2028 (24-month timeline); BOOT model.",
+          "sources": [
+            "P3"
+          ],
+          "quote": "Velgaon Power Transmission Limited has approached the Maharashtra Electricity Regulatory Commission seeking an intra-state transmission license"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "OTHER",
+          "authority": "Maharashtra Electricity Regulatory Commission",
+          "status": "APPLIED",
+          "date": "2026-03-18",
+          "title": "Petition for intra-state transmission licence (Velgaon Power Transmission Ltd)",
+          "source": "P3",
+          "quote": "Velgaon Power Transmission Limited has approached the Maharashtra Electricity Regulatory Commission seeking an intra-state transmission license"
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "P1": {
+          "url": "https://mahatransco.in/uploads/news/Minutes of 3rd MTC meeting held on 18.05.2022.pdf",
+          "title": "Minutes of 3rd MTC meeting held on 18.05.2022",
+          "publisher": "MSETCL / State Transmission Utility",
+          "level": "PRIMARY",
+          "published_date": "2022-05-18"
+        },
+        "P2": {
+          "url": "https://www.pv-magazine-india.com/press-releases/ceigall-secures-loi-from-rec-power-development-for-velgaon-substation",
+          "title": "Ceigall secures LOI from REC Power Development for Velgaon substation",
+          "publisher": "pv magazine India (press release)",
+          "level": "SECONDARY",
+          "published_date": "2025-11-25"
+        },
+        "P3": {
+          "url": "https://solarquarter.com/2026/03/18/new-transmission-project-proposed-to-strengthen-mumbais-power-infrastructure-and-grid-reliability/",
+          "title": "New transmission project proposed to strengthen Mumbai's power infrastructure and grid reliability",
+          "publisher": "SolarQuarter",
+          "level": "SECONDARY",
+          "published_date": "2026-03-18"
+        }
+      }
+    },
+    {
+      "key": "nashik-dahanu-rail-line",
+      "name": "Nashik–Dahanu New Broad Gauge Rail Line (proposed)",
+      "alternate_names": [
+        "Nashik–Dahanu railway",
+        "Dahanu–Nashik rail line"
+      ],
+      "category": "INFRASTRUCTURE",
+      "subcategory": "Railway",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Dahanu",
+      "promoter": "Ministry of Railways",
+      "authorities": [
+        "Ministry of Railways"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "Proposed 100 km broad-gauge line from Nashik to Dahanu via Trimbakeshwar and Vangaon; final location survey sanctioned in August 2024.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2024-08-30",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "Railways sanction final location survey (Rs 2.50 crore) for Nashik–Dahanu line",
+          "description": "Survey sanction only; project not yet sanctioned for construction.",
+          "sources": [
+            "N2",
+            "N3",
+            "N1"
+          ],
+          "quote": "The final Location Survey for the Nashik -Dahanu new Broad Gauge rail line project has been sanctioned by the Ministry of Railways at a total cost of Rs.2.50 crore."
+        }
+      ],
+      "funding": [
+        {
+          "date": "2024-08-30",
+          "amount_crore": 2.5,
+          "stage": "APPROVED",
+          "funding_type": "GOVERNMENT",
+          "financier": "Ministry of Railways",
+          "source": "N3",
+          "quote": "अडीच कोटींच्या निधीला रेल्वे मंत्रालयाची मंजुरी",
+          "note": "Survey funding only"
+        }
+      ],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "N1": {
+          "url": "https://indianinfrastructure.com/?p=190780",
+          "title": "Ministry of Railways approves final location survey works for five rail projects",
+          "publisher": "Indian Infrastructure",
+          "level": "SECONDARY",
+          "published_date": "2024-09-13"
+        },
+        "N2": {
+          "url": "https://www.mypunepulse.com/railways-plan-to-connect-nashik-and-dahanu-via-trimbakeshwar-final-location-survey-for-new-rail-line-sanctioned/",
+          "title": "Railways plan to connect Nashik and Dahanu via Trimbakeshwar – Final Location survey for new rail line sanctioned",
+          "publisher": "Pune Pulse",
+          "level": "UNVERIFIED",
+          "published_date": "2024-08-30"
+        },
+        "N3": {
+          "url": "https://newsonair.gov.in/mr/ministry-of-railways-approves-rs-2-5-crore-fund-for-final-site-survey-of-nashik-dahanu-broad-gauge-railway-line-project/",
+          "title": "Ministry of Railways approves Rs 2.5 crore for final location survey of Nashik-Dahanu BG line (Marathi)",
+          "publisher": "All India Radio News (newsonair.gov.in)",
+          "level": "SECONDARY",
+          "published_date": "2024-08-31"
+        }
+      }
+    }
+  ]
+}

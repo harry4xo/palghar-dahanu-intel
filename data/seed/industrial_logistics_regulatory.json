@@ -1,0 +1,1426 @@
+{
+  "generated_by": "Claude (AI research agent) — industrial/logistics/digital/regulatory seed research",
+  "generated_on": "2026-10-07",
+  "projects": [
+    {
+      "key": "tarapur-midc",
+      "name": "Tarapur MIDC Industrial Area (Boisar–Tarapur)",
+      "alternate_names": [
+        "Tarapur Industrial Area",
+        "TIA MIDC",
+        "Boisar MIDC",
+        "Tarapur Environment Protection Society CETP"
+      ],
+      "category": "INDUSTRIAL",
+      "subcategory": "Industrial estate (chemical/pharma cluster) and CETP",
+      "taluka": "Palghar",
+      "village": "Tarapur",
+      "micro_market": "Boisar–Tarapur",
+      "promoter": "Maharashtra Industrial Development Corporation (MIDC)",
+      "authorities": [
+        "Maharashtra Industrial Development Corporation",
+        "Maharashtra Pollution Control Board",
+        "National Green Tribunal",
+        "Tarapur Environment Protection Society"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "MIDC industrial estate at Tarapur near Boisar whose effluent is treated at the Tarapur Environment Protection Society (TEPS) CETP. Since 2016 the cluster has been the subject of National Green Tribunal proceedings over discharge of untreated effluent into creeks and the sea.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2019-06-29",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NGT orders interim compensation from defaulting Tarapur units and the TEPS CETP",
+          "description": "In OA 64/2016 (WZ), the NGT directed defaulting non-green/white units connected to the CETP to deposit interim compensation (Rs 1 crore large, Rs 50 lakh medium, Rs 25 lakh small) and the CETP Rs 10 crore with CPCB (order dated 29.06.2019, corrected 22.10.2019), as recited in the NGT's final judgment.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "The CETP on its part shall deposit a sum of Rs. 10 Crores with the CPCB towards interim compensation within one month."
+        },
+        {
+          "date": "2019-11-18",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Supreme Court stays NGT interim order of 26.09.2019 (appeals by TEPS and Tarapur Industrial Manufacturers Association)",
+          "description": "Supreme Court orders dated 18.11.2019 (Civil Appeal 8539/2019, TEPS) and 18.12.2019 (Civil Appeal 9409/2019, TIMA) stayed the NGT interim order dated 26.09.2019; NGT later held the stay covered only interim compensation, not the proceedings.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "order dated 18.12.2019 in Civil Appeal No. 9409/2019, Tarapur Industrial Manufacturers Association v. Akhil Bhartiya Mangela Samaj Parishad & Ors., staying the interim order of this Tribunal dated 26.09.2019"
+        },
+        {
+          "date": "2022-01-24",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NGT final judgment: about 100 Tarapur units to pay ~Rs 186 crore; TEPS CETP Rs 91.79 crore; MIDC Rs 2 crore",
+          "description": "NGT Principal Bench disposed of OA 64/2016 (WZ) filed by Akhil Bhartiya Mangela Samaj Parishad, partly allowing it; compensation to be used for environmental restoration and healthcare in the area.",
+          "sources": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "quote": "the tribunal directed the Tarapur Environment Protection Society's central effluent treatment plant to pay a compensation of Rs. 91.79 crore, and asked the MIDC to pay Rs. 2 crore."
+        },
+        {
+          "date": "2024-02-20",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NGT (OA 58/2024 WZ, Pasthal village pollution) constitutes Joint Committee",
+          "description": "Suo motu proceedings on a letter petition by Anand Soman and Archana Patil about chemical effluent reaching Pasthal village drains; the Joint Committee reported in September 2024.",
+          "sources": [
+            "S4"
+          ],
+          "quote": "this Hon'ble Tribunal vide Order dated 20.02.2024 constituted a Joint Committee"
+        },
+        {
+          "date": "2024-09-18",
+          "date_precision": "DAY",
+          "stage": "OPERATIONAL",
+          "title": "MIDC completes onshore HDPE effluent line; deep-sea disposal scheme commissioned",
+          "description": "Per MIDC affidavit dated 12.12.2024 in OA 58/2024: 1200 mm onshore line (3.4 km) and 1000 mm offshore line (7.1 km) to an NIO-designated disposal point off Navapur.",
+          "sources": [
+            "S4"
+          ],
+          "quote": "The entire disposal scheme i.e 1200 mm diameter 3.4 Km HDPE line onshore and 1000 mm diameter 7.1 Km HDPE line offshore is commissioned and functioning smoothly."
+        },
+        {
+          "date": "2024-12-12",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "MIDC reports storm-water gutter works in progress in Tarapur MIDC (2023-24 agreements)",
+          "description": "MIDC affidavit lists built-up gutter works in E zone (Agreement B1/2 of 2023-24, Rs 5.50 crore) and 28 km gutter plus 17 box culverts (Agreement B2/95 of 2023-24, Rs 83.32 crore).",
+          "sources": [
+            "S4"
+          ],
+          "quote": "Construction of another 28.00 Km gutter and 17.00 box culverts is in progress under Agreement No. B 2//95 for 2023-24 amounting to Rs 83,31,59,219/-."
+        },
+        {
+          "date": "2025-05-22",
+          "date_precision": "DAY",
+          "stage": "TENDER_AWARDED",
+          "title": "TEPS says civil contractor appointed for balance 25 MLD CETP module; work to start post-monsoon 2025",
+          "description": "TEPS letter dated 22.05.2025, quoted in its NGT reply of 28.07.2025, responding to MPCB directions of 16.05.2025 and the Joint Committee recommendation to complete the remaining 25 MLD (2 x 12.5 MLD) capacity.",
+          "sources": [
+            "S5"
+          ],
+          "quote": "Balance 25 MLD CETP expansion proposal is ready with all respect. Civil contractor appointed, but since early monsoon, TEPS decided to start the Balance 25 MLD CETP project work"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "National Green Tribunal (Principal Bench)",
+          "status": "DISPOSED",
+          "date": "2022-01-24",
+          "title": "OA 64/2016 (WZ) Akhil Bhartiya Mangela Samaj Parishad v. MPCB & Ors. — judgment pronounced",
+          "reference_no": "OA No. 64/2016 (WZ)",
+          "source": "S1",
+          "quote": "Pronounced and uploaded on: 24th January, 2022"
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "National Green Tribunal (Principal Bench)",
+          "status": "OTHER",
+          "date": "2022-01-24",
+          "title": "NGT fixes MIDC's environmental compensation at Rs 2 crore for failures in pipeline maintenance and sludge clearance",
+          "reference_no": "OA No. 64/2016 (WZ)",
+          "source": "S1",
+          "quote": "It is also responsible to pay compensation which we compute at Rs. 2 crores."
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Supreme Court of India",
+          "status": "STAYED",
+          "date": "2019-11-18",
+          "title": "Supreme Court stays NGT interim order dated 26.09.2019 (Civil Appeal 8539/2019 by TEPS)",
+          "reference_no": "Civil Appeal No. 8539/2019",
+          "source": "S1",
+          "quote": "orders of the Hon'ble Supreme Court dated 18.11.2019 in Civil Appeal No. 8539/2019, Tarapur Environment Protection Society v. Akhil Bhartiya Mangel Samaj & Ors."
+        },
+        {
+          "item_type": "OTHER",
+          "authority": "Maharashtra Pollution Control Board",
+          "status": "OTHER",
+          "date": "2023-11-28",
+          "title": "MPCB orders (28.11.2023 and 11.12.2023) directing MIDC and CETP to carry all effluent only through the drainage system",
+          "source": "S4",
+          "quote": "As directed by MPCB vide Orders dated 28.11.2023 and 11.12.2023 MIDC & CETP shall ensure transportation of entire effluent through the drainage system only."
+        },
+        {
+          "item_type": "LITIGATION",
+          "authority": "National Green Tribunal (Western Zone Bench, Pune)",
+          "status": "PENDING",
+          "date": "2024-02-20",
+          "title": "OA 58/2024 (WZ) Anand Soman & Anr. v. State of Maharashtra — Pasthal village effluent pollution (pending as of July 2025 filings)",
+          "reference_no": "OA No. 58/2024 (WZ)",
+          "source": "S5",
+          "quote": "cognizance has been taken suo moto on the basis of a letter petition received through e-mail from Mr. Anand Soman and Ms. Archana Patil"
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://verdictum.in/app-lite/pdf_upload/ngt-compensation-maharashtra-1318247.pdf",
+          "title": "NGT judgment in OA 64/2016 (WZ), Akhil Bhartiya Mengela Samaj Parishad v. MPCB & Ors. (copy hosted by Verdictum)",
+          "publisher": "National Green Tribunal (via Verdictum)",
+          "level": "PRIMARY",
+          "published_date": "2022-01-24"
+        },
+        "S2": {
+          "url": "https://theleaflet.in/environment/ngt-asks-100-industrial-units-to-pay-rs-186-cr-compensation-for-water-pollution",
+          "title": "NGT asks 100 industrial units to pay Rs. 186 cr compensation for water pollution",
+          "publisher": "The Leaflet",
+          "level": "SECONDARY",
+          "published_date": "2022-01-29"
+        },
+        "S3": {
+          "url": "https://www.outlookbusiness.com/news/ngt-asks-100-industrial-units-to-pay-rs-186-crore-compensation-for-water-pollution-news-50169",
+          "title": "NGT Asks 100 Industrial Units In Maharashtra To Pay Rs 186 Crore Compensation For Water Pollution",
+          "publisher": "Outlook Business (PTI)",
+          "level": "SECONDARY",
+          "published_date": "2022-01-29"
+        },
+        "S4": {
+          "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Affidavit in Reply by R-1 in OA No.58-2024 (page nos.307-316).pdf",
+          "title": "Affidavit in Reply by Respondent No. 1 (MIDC Tarapur) in OA No. 58/2024 (WZ)",
+          "publisher": "National Green Tribunal (filing by MIDC)",
+          "level": "PRIMARY",
+          "published_date": "2024-12-12"
+        },
+        "S5": {
+          "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply by R-9 in OA No.58-2024 (page nos.362-435).pdf",
+          "title": "Reply on behalf of Respondent No. 9 (TEPS) in OA No. 58/2024 (WZ)",
+          "publisher": "National Green Tribunal (filing by TEPS)",
+          "level": "PRIMARY",
+          "published_date": "2025-07-28"
+        }
+      }
+    },
+    {
+      "key": "palghar-mmrda-extension",
+      "name": "Extension of MMRDA jurisdiction to Palghar and Vasai talukas",
+      "alternate_names": [
+        "MMR boundary extension (Palghar)",
+        "Extended MMR – Palghar"
+      ],
+      "category": "REGULATORY",
+      "subcategory": "Metropolitan region boundary / Special Planning Authority",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Palghar",
+      "promoter": "Government of Maharashtra (Urban Development Department)",
+      "authorities": [
+        "Mumbai Metropolitan Region Development Authority",
+        "Urban Development Department, Government of Maharashtra"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Extension of the Mumbai Metropolitan Region / MMRDA jurisdiction to include Palghar taluka and the remaining parts of Vasai taluka (with areas in Thane and Raigad). Announced in 2018, approved by the legislature in June 2019 and reported as notified by the Urban Development Department in 2020.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2018-11-21",
+          "date_precision": "DAY",
+          "stage": "ANNOUNCED",
+          "title": "CM announces Palghar taluka and parts of Vasai to be included in MMRDA jurisdiction (146th MMRDA meeting)",
+          "sources": [
+            "S1",
+            "S5"
+          ],
+          "quote": "Palghar taluka and some parts of Vasai, Alibaug, Pen, Panvel and Khalapur talukas of Raigad district will be included in the jurisdiction of the Mumbai Metropolitan Regional Development Authority."
+        },
+        {
+          "date": "2019-06-20",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "State legislature approves resolution extending MMRDA jurisdiction to Palghar, Vasai and other growth centres",
+          "description": "Reported as raising MMRDA jurisdiction from 4,355 sq km to 6,355 sq km. Day taken from a report published 21 June 2019 saying the assembly approved it 'on Thursday' (20 June 2019); NBM&CW separately says the proposal was passed in June 2019.",
+          "sources": [
+            "S2",
+            "S3"
+          ],
+          "quote": "the state legislative assembly on Thursday approved a resolution to extend the jurisdiction"
+        },
+        {
+          "date": "2020-07-01",
+          "date_precision": "MONTH",
+          "stage": "APPROVAL",
+          "title": "Urban Development Department extends MMR to add parts of Palghar and Vasai (reported July 2020)",
+          "description": "Exact notification date not confirmed; the report is dated 1 July 2020. It says the extension adds nearly 2,000 sq km and about 12 lakh people, covering the area up to the eastern limits of Palghar tehsil and Vasai tehsil up to the Tansa river.",
+          "sources": [
+            "S3"
+          ],
+          "quote": "The Urban Development Department in Maharashtra has extended the area of the Mumbai Metropolitan Region (MMR) to add parts of Palghar, Vasai, Bhiwandi, Kalyan, Ambernath"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "GOVERNMENT_RESOLUTION",
+          "authority": "Maharashtra Legislature",
+          "status": "GRANTED",
+          "date": "2019-06-20",
+          "title": "Legislative resolution to extend MMRDA jurisdiction to Palghar, Vasai and other peripheral growth centres",
+          "source": "S2",
+          "quote": "the state legislative assembly on Thursday approved a resolution to extend the jurisdiction"
+        },
+        {
+          "item_type": "ZONING",
+          "authority": "Urban Development Department, Government of Maharashtra",
+          "status": "GRANTED",
+          "date": "2020-07-01",
+          "title": "MMR boundary extended up to eastern limits of Palghar tehsil and Vasai tehsil up to Tansa river",
+          "source": "S3",
+          "quote": "The area up to the eastern limits of Palghar tehsil, Vasai tehsil up to Tansa river, Bhiwandi, Kalyan and Ambernath tehsils will now be a part of MMR."
+        },
+        {
+          "item_type": "DEVELOPMENT_PLAN",
+          "authority": "MMRDA (Special Planning Authority)",
+          "status": "PENDING",
+          "date": null,
+          "title": "MMRDA notice under Section 23 of MR&TP Act to prepare a Development Plan for areas in Palghar and Vasai talukas (notice date not found)",
+          "source": "S4",
+          "quote": "has issued a notice to prepare a Development Plan for areas within the Palghar and Vasai Talukas of Palghar District."
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.devdiscourse.com/Article/politics/262307-vasai-alibaug-to-come-under-mmrda-fadnavis",
+          "title": "Vasai, Alibaug to come under MMRDA: Fadnavis",
+          "publisher": "Devdiscourse (PTI)",
+          "level": "SECONDARY",
+          "published_date": "2018-11-21"
+        },
+        "S2": {
+          "url": "https://togethervcan.in/?p=5174",
+          "title": "Mumbai Metropolitan Region Development Authority spreads wings to Palghar, Pen",
+          "publisher": "togethervcan.in",
+          "level": "UNVERIFIED",
+          "published_date": "2019-06-21"
+        },
+        "S3": {
+          "url": "https://www.nbmcw.com/news/mmr-region-expanded.html",
+          "title": "MMR region expanded",
+          "publisher": "NBM&CW (New Building Materials & Construction World)",
+          "level": "SECONDARY",
+          "published_date": "2020-07-01"
+        },
+        "S4": {
+          "url": "https://udri.org/library/extended-notified-area-in-palghar-district/",
+          "title": "Extended Notified Area in Palghar District (government notification summary)",
+          "publisher": "Urban Design Research Institute (UDRI)",
+          "level": "SECONDARY",
+          "published_date": null
+        },
+        "S5": {
+          "url": "https://www.epcworld.in/?p=4822",
+          "title": "CM Fadnavis unveils MMRDA's new logo",
+          "publisher": "EPC World",
+          "level": "SECONDARY",
+          "published_date": "2018-11-22"
+        }
+      }
+    },
+    {
+      "key": "dtepa",
+      "name": "Dahanu Taluka Environment Protection Authority (DTEPA)",
+      "alternate_names": [
+        "DTEPA",
+        "Dahanu Taluka Environment Protection Authority",
+        "Dahanu ecologically fragile area regime"
+      ],
+      "category": "REGULATORY",
+      "subcategory": "Statutory environmental authority (EP Act s.3(3)) for ecologically fragile Dahanu taluka",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Dahanu",
+      "promoter": "Ministry of Environment, Forest and Climate Change",
+      "authorities": [
+        "Dahanu Taluka Environment Protection Authority",
+        "Ministry of Environment, Forest and Climate Change",
+        "Supreme Court of India",
+        "Bombay High Court"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Authority set up by MoEF in December 1996 on Supreme Court directions to protect ecologically fragile Dahanu taluka (declared under a 1991 notification). It rejected a Vadhavan port in 1998, and on 31 July 2023 approved JNPA's greenfield port at Vadhavan with conditions; the Bombay High Court upheld that order on 18 April 2024.",
+      "investment": [],
+      "events": [
+        {
+          "date": "1991-06-20",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "MoEF notification declares Dahanu taluka an ecologically fragile area, restricting industries",
+          "sources": [
+            "S1"
+          ],
+          "quote": "On 20th June 1991, the Ministry of Environment and Forests - MoE&F issued a notification under Section 3(2)(v) of the Environment (Protection) Act, 1986"
+        },
+        {
+          "date": "1996-10-31",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Supreme Court (Bittu Sehgal v. Union of India) directs Centre to constitute an authority for Dahanu",
+          "sources": [
+            "S1"
+          ],
+          "quote": "The Supreme Court by its order dated 31st October 1996 in Bittu Sehgal and Anr. Vs. Union of India and Ors., (2001) 9 SCC 181"
+        },
+        {
+          "date": "1996-12-19",
+          "date_precision": "DAY",
+          "stage": "OPERATIONAL",
+          "title": "MoEF notification constitutes DTEPA",
+          "sources": [
+            "S1"
+          ],
+          "quote": "the MoE&F issued a notification on 19th December 1996 constituting an authority known as the Dahanu Taluka Environment Protection Authority - DTEPA."
+        },
+        {
+          "date": "1998-09-19",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "DTEPA holds a mega port at Vadhavan impermissible",
+          "description": "On a 1997 Government of Maharashtra proposal; DTEPA treated a mega port as 'industry' under the 1991 notification. MMB's challenge (WP 7593/2003) was dismissed for want of prosecution on 23 December 2014.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "Hence, it held that construction of the Mega Port at Vadhavan was wholly impermissible."
+        },
+        {
+          "date": "2017-05-30",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "DTEPA directs status quo; JNPT not to proceed with satellite port at Vadhavan without its permission",
+          "sources": [
+            "S1"
+          ],
+          "quote": "While directing status-quo to be maintained, it was directed that JNPT would not proceed with the development of the Port without obtaining necessary permission from DTEPA."
+        },
+        {
+          "date": "2018-07-16",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Bombay High Court (WP 981/1997) holds DTEPA is permanent; projects in Dahanu need its prior clearance",
+          "description": "The court also directed the State to notify the Regional Plan for 1995-2015 after DTEPA approval.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "It held that DTEPA having been created under orders passed by the Supreme Court, it was an Authority having permanent feature."
+        },
+        {
+          "date": "2022-05-12",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "JNPA applies to DTEPA for approval of greenfield port at Vadhavan",
+          "sources": [
+            "S1"
+          ],
+          "quote": "On 12th May 2022, JNPA moved the DTEPA seeking its approval to the setting up of Greenfield Port at Vadhavan."
+        },
+        {
+          "date": "2023-03-09",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "MoEFCC amends DTEPA constitution: named members replaced by ex-officio members; NEERI Director added",
+          "description": "A further amendment on 9 May 2023 allowed up to five invited experts/stakeholders (non-voting), approved by MoEFCC on 4 July 2023.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "On 9th March 2023, the MoEF&CC amended the notification dated 19th December 1996 constituting the DTEPA."
+        },
+        {
+          "date": "2023-03-29",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "State Government notifies Regional Development Plan for Dahanu Taluka",
+          "sources": [
+            "S1"
+          ],
+          "quote": "On 29th March 2023, the Regional Development Plan for Dahanu Taluka was notified by the State Government."
+        },
+        {
+          "date": "2023-07-31",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "DTEPA approves establishment of greenfield port at Vadhavan, with conditions",
+          "description": "Reported as unanimous; conditions include EIA, expert-group recommendations, a monitoring committee and a grievance committee.",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "On 31st July 2023, the DTEPA approved the establishment of Greenfield Port at Vadhavan subject to conditions mentioned in its order."
+        },
+        {
+          "date": "2024-04-18",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Bombay High Court upholds DTEPA's 31 July 2023 approval; PIL 14/2024 and WP 15320/2023 dismissed",
+          "sources": [
+            "S1",
+            "S3"
+          ],
+          "quote": "We therefore do not find any justifiable ground to interfere with the approval granted by the DTEPA to the establishment of the Greenfield Port"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "DTEPA",
+          "authority": "Dahanu Taluka Environment Protection Authority",
+          "status": "REJECTED",
+          "date": "1998-09-19",
+          "title": "DTEPA rejects proposed mega port at Vadhavan (1997 GoM proposal)",
+          "source": "S1",
+          "quote": "Hence, it held that construction of the Mega Port at Vadhavan was wholly impermissible."
+        },
+        {
+          "item_type": "DTEPA",
+          "authority": "Dahanu Taluka Environment Protection Authority",
+          "status": "GRANTED",
+          "date": "2023-07-31",
+          "title": "DTEPA order approving JNPA greenfield port at Vadhavan, subject to conditions",
+          "source": "S1",
+          "quote": "On 31st July 2023, the DTEPA approved the establishment of Greenfield Port at Vadhavan subject to conditions mentioned in its order."
+        },
+        {
+          "item_type": "DEVELOPMENT_PLAN",
+          "authority": "Government of Maharashtra",
+          "status": "OTHER",
+          "date": "2023-03-29",
+          "title": "Regional Development Plan for Dahanu Taluka notified",
+          "source": "S1",
+          "quote": "On 29th March 2023, the Regional Development Plan for Dahanu Taluka was notified by the State Government."
+        },
+        {
+          "item_type": "OTHER",
+          "authority": "MoEFCC",
+          "status": "OTHER",
+          "date": "2023-03-09",
+          "title": "Amendment to the 1996 notification constituting DTEPA (ex-officio members; NEERI Director as member)",
+          "source": "S1",
+          "quote": "On 9th March 2023, the MoEF&CC amended the notification dated 19th December 1996 constituting the DTEPA."
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Bombay High Court",
+          "status": "DISPOSED",
+          "date": "2024-04-18",
+          "title": "PIL 14/2024 (Conservation Action Trust) and WP 15320/2023 (National Fishworkers Forum) v. DTEPA dismissed",
+          "reference_no": "PIL No. 14 of 2024; WP No. 15320 of 2023",
+          "source": "S1",
+          "quote": "Accordingly, Public Interest Litigation No.14 of 2024 and Writ Petition No.981 of 1997 are dismissed. Rule discharged with no order as to costs."
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "DTEPA is the authority whose 31 July 2023 approval was a precondition for the Vadhavan greenfield port; the HC judgment recites MoEFCC's position that the port needs DTEPA clearance.",
+          "source": "S1",
+          "quote": "On 31st July 2023, the DTEPA approved the establishment of Greenfield Port at Vadhavan subject to conditions mentioned in its order."
+        },
+        {
+          "to": "vadhvan-port-litigation",
+          "type": "RELATED",
+          "note": "DTEPA's 31 July 2023 order is the order challenged in the Bombay HC petitions (and later the SLPs) tracked in the litigation record.",
+          "source": "S1",
+          "quote": "We therefore do not find any justifiable ground to interfere with the approval granted by the DTEPA to the establishment of the Greenfield Port"
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://jnport.gov.in/uploads/content_manager/PIL_14_of_2024_-Conservation_action_trust_ors__vs_DTEPA_ors__AND_Writ_Petiton_no_15320_of_2023_National_Fishworkers_Forum_ors__vs__DTEPA_ors__(1).pdf",
+          "title": "Bombay High Court judgment, PIL 14 of 2024 (Conservation Action Trust v. DTEPA) with WP 15320 of 2023 (National Fishworkers Forum v. DTEPA), with speaking-to-minutes order of 30.04.2024",
+          "publisher": "Bombay High Court (copy hosted by JNPA)",
+          "level": "PRIMARY",
+          "published_date": "2024-04-18"
+        },
+        "S2": {
+          "url": "https://swarajyamag.com/amp/story/reports/maharashtra-decks-cleared-for-environment-ministrys-nod-to-mega-container-port-in-vadhavan-green-panel-grants-noc",
+          "title": "Maharashtra: Decks cleared for Environment Ministry's nod to mega container port in Vadhavan as green panel grants NOC",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2023-08-11"
+        },
+        "S3": {
+          "url": "https://www.maritimegateway.com/mumbai-high-court-dismisses-pil-challenging-dtepa-nod-to-vadhavan-port/",
+          "title": "Mumbai High Court dismisses PIL challenging DTEPA nod to Vadhavan Port",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-04-19"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-port-litigation",
+      "name": "Litigation against Vadhvan Port (NGT, Bombay High Court, Supreme Court)",
+      "alternate_names": [
+        "Vadhavan port court challenges",
+        "National Fishworkers Forum v. Union of India (Vadhavan)",
+        "Conservation Action Trust v. DTEPA"
+      ],
+      "category": "REGULATORY",
+      "subcategory": "Litigation / court orders",
+      "taluka": "Dahanu",
+      "village": "Vadhvan",
+      "micro_market": "Vadhvan",
+      "promoter": "",
+      "authorities": [
+        "Bombay High Court",
+        "Supreme Court of India",
+        "National Green Tribunal"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Court and tribunal proceedings by fishworker groups and environmental petitioners against approvals for the Vadhavan port: NGT proceedings on port classification (2021), Bombay HC petitions against the DTEPA approval (dismissed 18 April 2024), and Supreme Court SLPs. In the SLPs the court declined interim relief on 28 February 2025 and asked the Centre to consider an independent expert agency.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2021-06-15",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NGT holds CPCB 2020 directions and MoEFCC 8 June 2020 OM (ports as non-industrial) must be re-visited for Dahanu",
+          "description": "Appeal by the fishworker petitioners; NGT directed that, until an expert study and fresh decision, the CPCB direction and OM not be applied to the Dahanu ecologically fragile area. The review application by MoEFCC was rejected on 2 August 2021.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "NGT holding that the directions issued by CPCB on 30th April 2020 and the Office Memorandum issued by MoEF&CC on 8th June 2020 ought to be re-visited"
+        },
+        {
+          "date": "2022-06-06",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Fishworker petitioners seek Supreme Court stay of MoEFCC OM of 26 May 2022 (Civil Appeal 7008/2021)",
+          "sources": [
+            "S1"
+          ],
+          "quote": "On 6th June 2022, the petitioners in Writ Petition No.15320 of 2023 moved an interim application in Civil Appeal No.7008 of 2021 before the Supreme Court"
+        },
+        {
+          "date": "2024-04-18",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Bombay High Court dismisses PIL 14/2024 and WP 15320/2023 challenging DTEPA approval of Vadhavan port",
+          "description": "Bench of A.S. Chandurkar and Jitendra Jain, JJ. A speaking-to-minutes order of 30 April 2024 corrected the reference 'Writ Petition No.981 of 1997' in the operative part to '15320 of 2023'.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "The approval of the DTEPA is only a step towards the actual establishment of the Greenfield Port."
+        },
+        {
+          "date": "2025-02-07",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "JNPA assures Supreme Court no construction at Vadhavan site until 28 February 2025",
+          "description": "SLP by National Fishworkers' Forum and others against the Bombay HC order; bench of Abhay S. Oka and Ujjal Bhuyan, JJ.",
+          "sources": [
+            "S2"
+          ],
+          "quote": "no construction will be carried out at the site of the proposed Vadhavan Port in Palghar district until February 28, 2025."
+        },
+        {
+          "date": "2025-02-28",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Supreme Court declines interim relief; asks Centre to consider an independent expert agency; land acquisition subject to further orders",
+          "sources": [
+            "S3",
+            "S4",
+            "S5"
+          ],
+          "quote": "We make it clear that land acquisition will be subject to further orders which may be passed in this special leave petition."
+        },
+        {
+          "date": "2025-04-30",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Union government sets up Group of Ministers (Cabinet Secretariat OM) to evaluate NEERI report on Vadhvan port",
+          "description": "Reported members: Piyush Goyal (chair), Sarbananda Sonowal, Bhupender Yadav.",
+          "sources": [
+            "S6"
+          ],
+          "quote": "the GoM has been assigned the responsibility of analyzing and evaluating the report that was presented by the National Environmental Engineering Research Institute (NEERI)."
+        },
+        {
+          "date": "2025-05-01",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "MoPSW mandates NEERI to assess environmental impact of Vadhvan port within 30 days, following Supreme Court hearing",
+          "sources": [
+            "S7"
+          ],
+          "quote": "The institute has been mandated to submit the final report within 30 days through the Ministry of Ports, Shipping and Waterways."
+        },
+        {
+          "date": "2026-06-01",
+          "date_precision": "MONTH",
+          "stage": "NOTE",
+          "title": "Bombay High Court allows NHAI to divert 9.2498 ha of mangrove land and fell 208 mangroves for 8-lane Vadhavan port–NH-48 highway",
+          "description": "Bench of Bharati Dangre and Manjusha Deshpande, JJ., in the mangrove-protection PIL framework. Report dated 25 June 2026 (order passed on a Tuesday, exact date not confirmed).",
+          "sources": [
+            "S8"
+          ],
+          "quote": "the Bombay High Court has allowed the National Highways Authority of India (NHAI) to divert 9.2498 hectares of mangrove forest land and fell 208 mangrove trees"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "National Green Tribunal",
+          "status": "OTHER",
+          "date": "2021-06-15",
+          "title": "NGT order directing re-visit of CPCB/MoEFCC classification of ports as non-industrial for Dahanu",
+          "source": "S1",
+          "quote": "NGT holding that the directions issued by CPCB on 30th April 2020 and the Office Memorandum issued by MoEF&CC on 8th June 2020 ought to be re-visited"
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Bombay High Court",
+          "status": "DISPOSED",
+          "date": "2024-04-18",
+          "title": "PIL 14/2024 and WP 15320/2023 against DTEPA approval dismissed",
+          "reference_no": "PIL No. 14 of 2024; WP No. 15320 of 2023",
+          "source": "S1",
+          "quote": "Accordingly, Public Interest Litigation No.14 of 2024 and Writ Petition No.981 of 1997 are dismissed. Rule discharged with no order as to costs."
+        },
+        {
+          "item_type": "LITIGATION",
+          "authority": "Supreme Court of India",
+          "status": "PENDING",
+          "date": "2025-02-28",
+          "title": "SLPs by National Fishworkers Forum and Conservation Action Trust against Bombay HC judgment — interim relief declined; pending (no later outcome found)",
+          "source": "S3",
+          "quote": "In view of this, we are not considering the prayer for grant of interim relief."
+        },
+        {
+          "item_type": "COURT_ORDER",
+          "authority": "Bombay High Court",
+          "status": "GRANTED",
+          "date": "2026-06-01",
+          "title": "Permission to NHAI to fell 208 mangroves for Vadhavan port–NH-48 connectivity highway",
+          "source": "S8",
+          "quote": "the Bombay High Court has allowed the National Highways Authority of India (NHAI) to divert 9.2498 hectares of mangrove forest land and fell 208 mangrove trees"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "These proceedings challenge the approvals (DTEPA NOC, port classification) for Vadhavan port; the SC made land acquisition for the port subject to further orders.",
+          "source": "S3",
+          "quote": "We make it clear that land acquisition will be subject to further orders which may be passed in this special leave petition."
+        },
+        {
+          "to": "dtepa",
+          "type": "RELATED",
+          "note": "The Bombay HC petitions challenged DTEPA's 31 July 2023 order approving the port.",
+          "source": "S1",
+          "quote": "We therefore do not find any justifiable ground to interfere with the approval granted by the DTEPA to the establishment of the Greenfield Port"
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://jnport.gov.in/uploads/content_manager/PIL_14_of_2024_-Conservation_action_trust_ors__vs_DTEPA_ors__AND_Writ_Petiton_no_15320_of_2023_National_Fishworkers_Forum_ors__vs__DTEPA_ors__(1).pdf",
+          "title": "Bombay High Court judgment, PIL 14 of 2024 with WP 15320 of 2023 (v. DTEPA), with speaking-to-minutes order of 30.04.2024",
+          "publisher": "Bombay High Court (copy hosted by JNPA)",
+          "level": "PRIMARY",
+          "published_date": "2024-04-18"
+        },
+        "S2": {
+          "url": "https://www.freepressjournal.in/amp/mumbai/no-construction-at-vadhavan-port-until-february-28-jnpa-assures-supreme-court",
+          "title": "No Construction At Vadhavan Port Until February 28: JNPA Assures Supreme Court",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2025-02-14"
+        },
+        "S3": {
+          "url": "https://www.etvbharat.com/en/!bharat/vadhavan-port-row-sc-asks-centre-to-consider-appointing-expert-agency-enn25022805753",
+          "title": "Vadhavan Port Row: SC Asks Centre To Consider Appointing Expert Agency",
+          "publisher": "ETV Bharat",
+          "level": "SECONDARY",
+          "published_date": "2025-02-28"
+        },
+        "S4": {
+          "url": "https://www.barandbench.com/news/vadhavan-port-supreme-court-calls-expert-agency-allay-environmental-concerns",
+          "title": "Vadhavan Port: Supreme Court calls for expert agency to allay environmental concerns",
+          "publisher": "Bar & Bench",
+          "level": "SECONDARY",
+          "published_date": "2025-02-28"
+        },
+        "S5": {
+          "url": "https://www.maritimegateway.com/vadhavan-port-proposal-needs-an-independent-environmental-evaluation-sc",
+          "title": "Vadhavan port proposal needs an independent environmental evaluation: SC",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2025-03-01"
+        },
+        "S6": {
+          "url": "https://www.maritimegateway.com/gom-established-to-investigate-environmental-effects-of-vadhvan-port-project",
+          "title": "GoM established to investigate environmental effects of Vadhvan port project",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2025-05-06"
+        },
+        "S7": {
+          "url": "https://www.theweek.in/wire-updates/national/2025/05/01/bes16-mh-vadhvan-port-neeri.html",
+          "title": "NEERI appointed to assess environmental impact of Vadhvan port project in Maharashtra",
+          "publisher": "The Week (PTI)",
+          "level": "SECONDARY",
+          "published_date": "2025-05-01"
+        },
+        "S8": {
+          "url": "https://www.freepressjournal.in/mumbai/vadhavan-port-connectivity-project-bombay-hc-allows-felling-of-208-mangroves-for-8-lane-highway-link-to-nh-48",
+          "title": "Vadhavan Port Connectivity Project: Bombay HC Allows Felling Of 208 Mangroves For 8-Lane Highway Link To NH-48",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-06-25"
+        }
+      }
+    },
+    {
+      "key": "palghar-czmp",
+      "name": "Coastal Zone Management Plan 2019 for Palghar district (CRZ Notification 2019)",
+      "alternate_names": [
+        "Palghar CZMP 2019",
+        "CZMP for Thane, Palghar, Raigad, Ratnagiri and Sindhudurg"
+      ],
+      "category": "REGULATORY",
+      "subcategory": "CRZ / Coastal Zone Management Plan",
+      "taluka": "",
+      "village": "",
+      "micro_market": "",
+      "promoter": "Maharashtra Coastal Zone Management Authority",
+      "authorities": [
+        "Ministry of Environment, Forest and Climate Change",
+        "National Coastal Zone Management Authority",
+        "Maharashtra Coastal Zone Management Authority",
+        "National Centre for Sustainable Coastal Management"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "District CZMP prepared under CRZ Notification 2019 (NCSCM draft, 2019) for Palghar and four other coastal districts. It was approved by MoEFCC in 2023, after an NCZMA recommendation on 1 August 2023, and governs CRZ setbacks along the Palghar coast.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2019-01-01",
+          "date_precision": "YEAR",
+          "stage": "PROPOSAL",
+          "title": "NCSCM prepares draft CZMP 2019 for Maharashtra coastal districts",
+          "sources": [
+            "S3"
+          ],
+          "quote": "The NCSCM prepared draft CZMP, 2019 of 7 districts of Maharashtra"
+        },
+        {
+          "date": "2023-08-01",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "NCZMA (46th meeting) recommends CZMPs of Thane, Palghar, Raigad, Ratnagiri and Sindhudurg for MoEFCC approval",
+          "sources": [
+            "S2"
+          ],
+          "quote": "a proper shoreline management plan shall need to be prepared before any hard infrastructures are constructed in high eroding areas."
+        },
+        {
+          "date": "2023-08-01",
+          "date_precision": "MONTH",
+          "stage": "APPROVAL",
+          "title": "Centre approves CZMP for five Maharashtra coastal districts including Palghar (as reported August 2023)",
+          "description": "Press reports of 25 August 2023. CONFLICT: the MCZMA affidavit before the NGT dates MoEFCC approval of these five districts to October 2023.",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "The CZMP for Mumbai was cleared in 2022, and the CZMP for the rest of the districts was pending. The Centre has cleared it now."
+        },
+        {
+          "date": "2023-10-01",
+          "date_precision": "MONTH",
+          "stage": "APPROVAL",
+          "title": "MoEFCC approval of CZMP (1:25000) for Thane, Palghar, Raigad, Ratnagiri, Sindhudurg — October 2023 per MCZMA affidavit",
+          "description": "CONFLICT with August 2023 press reports; both kept.",
+          "sources": [
+            "S3"
+          ],
+          "quote": "the MoEF&CC approved the CZMPs in 1:25000 scale for Greater Mumbai (on September, 2021) and other 5 districts like Thane, Palghar, Raigad, Ratnagiri, Sindhdurg (on October, 2023)"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [
+        {
+          "item_type": "CRZ",
+          "authority": "MoEFCC",
+          "status": "GRANTED",
+          "date": "2023-08-01",
+          "title": "Approval of CZMP 2019 for Palghar and four other districts (reported August 2023)",
+          "source": "S1",
+          "quote": "The CZMP for Mumbai was cleared in 2022, and the CZMP for the rest of the districts was pending. The Centre has cleared it now."
+        },
+        {
+          "item_type": "CRZ",
+          "authority": "MoEFCC",
+          "status": "GRANTED",
+          "date": "2023-10-01",
+          "title": "Approval of CZMP 2019 in 1:25000 scale for Palghar (October 2023 per MCZMA)",
+          "source": "S3",
+          "quote": "the MoEF&CC approved the CZMPs in 1:25000 scale for Greater Mumbai (on September, 2021) and other 5 districts like Thane, Palghar, Raigad, Ratnagiri, Sindhdurg (on October, 2023)"
+        },
+        {
+          "item_type": "CRZ",
+          "authority": "Maharashtra Coastal Zone Management Authority",
+          "status": "OTHER",
+          "date": null,
+          "title": "CRZ limits under approved CZMP 2019: 500 m from seafront; maximum 50 m along tidally influenced water bodies",
+          "source": "S3",
+          "quote": "CRZ limit from the seafront is 500 meter and from tidally influenced water bodies like creek) river/ bays etc. it is maximum 50 meter."
+        }
+      ],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://swarajyamag.com/amp/story/infrastructure/mumbai-metropolitan-region-and-surrounding-districts-set-for-vertical-growth-with-new-coastal-zone-management-plan",
+          "title": "Mumbai Metropolitan Region and surrounding districts set for vertical growth with new Coastal Zone Management Plan",
+          "publisher": "Swarajya",
+          "level": "SECONDARY",
+          "published_date": "2023-08-25"
+        },
+        "S2": {
+          "url": "https://blitzindiamedia.com/news/centre-approves-czmps-for-five-coastal-districts-in-maharashtra/",
+          "title": "Centre approves CZMPs for five coastal districts in Maharashtra",
+          "publisher": "Blitz India Media",
+          "level": "UNVERIFIED",
+          "published_date": "2023-08-25"
+        },
+        "S3": {
+          "url": "https://www.greentribunal.gov.in/sites/default/files/news_updates/Reply Affidavit by R-1 in OA No.175-2024 (page nos.512-555).pdf",
+          "title": "Reply affidavit by Respondent No. 1 (MCZMA) in OA No. 175/2024, Paramparik Machhimar Bachav Samajik Kruti Samiti v. MCZMA & Ors.",
+          "publisher": "National Green Tribunal (filing by MCZMA, Environment & Climate Change Dept., GoM)",
+          "level": "PRIMARY",
+          "published_date": null
+        }
+      }
+    },
+    {
+      "key": "vadhvan-growth-hub",
+      "name": "Vadhvan Port-led Growth Hub ('Fourth Mumbai')",
+      "alternate_names": [
+        "Fourth Mumbai",
+        "Mumbai 4.0",
+        "Vadhvan port influence area",
+        "MMR Economic Master Plan – Growth Hub (Vadhvan)",
+        "Vadhvan influence area growth hub",
+        "'Fourth Mumbai' – Vadhvan port-led growth hub (Palghar)"
+      ],
+      "category": "REGULATORY",
+      "subcategory": "Regional growth-hub framework / Government Resolution",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Vadhvan",
+      "promoter": "Government of Maharashtra",
+      "authorities": [
+        "Planning Department, Government of Maharashtra",
+        "Urban Development Department, Government of Maharashtra"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "State framework to develop Palghar district around Vadhvan port as a 'Fourth Mumbai' economic zone: logistics, manufacturing, townships, a proposed airport and the Boisar bullet-train station area. An Additional Chief Secretary (UDD) was named mission director under a Planning Department GR (reported 1 October 2026).",
+      "investment": [],
+      "events": [
+        {
+          "date": "2026-01-01",
+          "date_precision": "YEAR",
+          "stage": "ANNOUNCED",
+          "title": "Fourth Mumbai near Vadhvan announced in budget speech",
+          "description": "ThePrint (June 2026) says CM Fadnavis's budget speech 'earlier this year' announced a fourth Mumbai near Vadhavan with a logistics and warehousing centre.",
+          "sources": [
+            "S3"
+          ],
+          "quote": "The ‘fourth Mumbai’ is planned to be developed near Vadhavan, District Palghar under which a development center for logistics and warehousing will be created"
+        },
+        {
+          "date": "2026-06-29",
+          "date_precision": "DAY",
+          "stage": "ANNOUNCED",
+          "title": "State describes Palghar district projects (Vadhavan port, bullet train, offshore airport) as forming the 'Fourth Mumbai'",
+          "sources": [
+            "S3"
+          ],
+          "quote": "Palghar district on the outskirts of Mumbai is being developed to be the 'fourth Mumbai'"
+        },
+        {
+          "date": "2026-09-30",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Planning Department GR names ACS (Urban Development) Aseem Kumar Gupta mission director for Vadhvan port and influence area",
+          "description": "Reported on 1 October 2026 as issued 'on Wednesday' (taken as 30 September 2026). A secondary report gives the influence area as 514 sq km and names two townships (Dahanu taluka; near Boisar bullet train station).",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "Aseem Kumar Gupta, Additional Chief Secretary in the Urban Development Department (UDD), has been appointed Mission Director to oversee development work at Vadhvan Port and its surrounding influence area"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "514 sq km influence area (as reported)",
+          "purpose": "Port-led growth hub influence area",
+          "acquirer": "",
+          "status": "PROPOSED",
+          "date": "2026-10-01",
+          "consideration_crore": null,
+          "source": "S2",
+          "quote": "Maharashtra government appointed the Additional Chief Secretary of its Urban Development Department as mission director for the port and its 514-square-kilometre influence area."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "GOVERNMENT_RESOLUTION",
+          "authority": "Planning Department, Government of Maharashtra",
+          "status": "OTHER",
+          "date": "2026-09-30",
+          "title": "GR on MMR Economic Master Plan – Growth Hub; mission director appointed for Vadhvan port influence area",
+          "source": "S1",
+          "quote": "A government resolution issued by the state's Planning Department on Wednesday stated that the Mumbai Metropolitan Region Economic Master Plan-Growth Hub has been prepared"
+        },
+        {
+          "item_type": "GOVERNMENT_RESOLUTION",
+          "authority": "Planning Department, Government of Maharashtra",
+          "status": "OTHER",
+          "date": "2026-09-30",
+          "title": "GR on MMR Economic Master Plan-Growth Hub implementation (Mission Director for Vadhvan influence area); date derived from 'on Wednesday'",
+          "source": "S1",
+          "quote": "A government resolution issued by the state’s Planning Department on Wednesday stated that the Mumbai Metropolitan Region Economic Master Plan-Growth Hub has been prepared"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "DRIVEN_BY",
+          "note": "The growth hub is defined around Vadhvan port and its influence area (port-led development).",
+          "source": "S1",
+          "quote": "Palghar district, a tribal region earmarked for integrated port-led economic growth, is being developed by the Mahayuti government as the state's 'Fourth Mumbai.'"
+        },
+        {
+          "to": "mumbai-ahmedabad-high-speed-rail",
+          "type": "RELATED",
+          "note": "One of the two townships identified is near the Boisar bullet train station (secondary/unverified report citing Loksatta).",
+          "source": "S2",
+          "quote": "The government has identified two townships for development: one in Dahanu taluka and another near the Boisar bullet train station."
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://www.maritimegateway.com/aseem-kumar-gupta-named-mission-director-to-drive-vadhvan-port-led-fourth-mumbai-growth-hub/",
+          "title": "Aseem Kumar Gupta named Mission Director to drive Vadhvan Port-led 'Fourth Mumbai' growth hub",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2026-10-01"
+        },
+        "S2": {
+          "url": "https://urbanacres.in/vadhavan-port-project-enters-a-risky-new-phase-of-regional-growth/",
+          "title": "Vadhavan Port Project Enters Palghar's Regional Growth Plan",
+          "publisher": "Urban Acres (citing Loksatta)",
+          "level": "UNVERIFIED",
+          "published_date": "2026-10-01"
+        },
+        "S3": {
+          "url": "https://theprint.in/india/from-vadhvan-port-to-bullet-train-maharashtra-bets-on-mumbai-4-0-to-power-next-growth-phase/2972934/",
+          "title": "From Vadhvan Port to bullet train, Maharashtra bets on 'Mumbai 4.0' to power next growth phase",
+          "publisher": "ThePrint",
+          "level": "SECONDARY",
+          "published_date": "2026-06-29"
+        }
+      }
+    },
+    {
+      "key": "palghar-vadhavan-state-logistics-hub",
+      "name": "Palghar–Vadhavan State Logistics Hub (Maharashtra Logistics Policy 2024)",
+      "alternate_names": [
+        "Palghar-Wadhawan State Logistic Hub"
+      ],
+      "category": "LOGISTICS",
+      "subcategory": "State logistics hub (policy-designated)",
+      "taluka": "",
+      "village": "",
+      "micro_market": "",
+      "promoter": "Government of Maharashtra",
+      "authorities": [
+        "Government of Maharashtra (State Cabinet)"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "Maharashtra Logistics Policy 2024 (approved by the state cabinet in August 2024) names Palghar–Vadhavan as one of five 500-acre state logistics hubs. No site, developer or land acquisition has been identified in the sources.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2024-08-07",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "State cabinet approves Logistics Policy 2024 designating Palghar–Vadhavan as a 500-acre state logistics hub",
+          "description": "Policy proposes 25 district logistic nodes, 5 regional hubs, 5 state hubs, a national hub and an international hub (10,000+ acres overall). Inclusion in policy is not site approval or construction.",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "The five state logistics hubs with 500 acres each include Thane-Bhiwandi, Pune-Purandar, Palghar-Vadhavan, Ratnagiri-Sindhudurg, and Chhatrapati Sambhaji Nagar-Jalna."
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "500 acres (policy allocation per state logistics hub)",
+          "purpose": "State logistics hub",
+          "acquirer": "",
+          "status": "PROPOSED",
+          "date": "2024-08-07",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "The five state logistics hubs with 500 acres each include Thane-Bhiwandi, Pune-Purandar, Palghar-Vadhavan, Ratnagiri-Sindhudurg, and Chhatrapati Sambhaji Nagar-Jalna."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "OTHER",
+          "authority": "Government of Maharashtra (State Cabinet)",
+          "status": "GRANTED",
+          "date": "2024-08-07",
+          "title": "Cabinet approval of Maharashtra Logistics Policy 2024",
+          "source": "S2",
+          "quote": "The policy aims to develop more than 10,000 acres of dedicated logistics infrastructure, to develop 25 District Logistic Nodes, 5 Regional Logistic Hubs, 5 State Logistic Hubs"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "The hub is designated by name as 'Palghar-Vadhavan'; the source does not explicitly state the port as the driver.",
+          "source": "S1",
+          "quote": "The five state logistics hubs with 500 acres each include Thane-Bhiwandi, Pune-Purandar, Palghar-Vadhavan, Ratnagiri-Sindhudurg, and Chhatrapati Sambhaji Nagar-Jalna."
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://www.theweek.in/wire-updates/national/2024/08/07/bes9-mh-logistics-policy.html",
+          "title": "Maharashtra govt's logistics policy focuses on infra development and job creation",
+          "publisher": "The Week (PTI)",
+          "level": "SECONDARY",
+          "published_date": "2024-08-07"
+        },
+        "S2": {
+          "url": "https://www.maritimegateway.com/maharashtra-cabinet-clears-logistics-policy-2024/",
+          "title": "Maharashtra cabinet clears logistics policy 2024",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2024-08-08"
+        }
+      }
+    },
+    {
+      "key": "dapchari-international-agri-market",
+      "name": "Dapchari International Agricultural Market / Agro Export Hub",
+      "alternate_names": [
+        "Dapchari agro export hub",
+        "Rungis-style agri market, Dapchari"
+      ],
+      "category": "LOGISTICS",
+      "subcategory": "Agri-market, cold chain and export logistics hub",
+      "taluka": "Dahanu",
+      "village": "Dapchari",
+      "micro_market": "Dahanu",
+      "promoter": "Maharashtra State Agricultural Marketing Board (MSAMB)",
+      "authorities": [
+        "Government of Maharashtra (State Cabinet)",
+        "Maharashtra State Agricultural Marketing Board",
+        "Palghar District Planning and Development Committee"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "Proposed international-standard agricultural market and export hub on 558.43 ha of Dapchari Dairy Project land in Dahanu taluka, to be developed by MSAMB. Planned facilities include cold chains, warehouses and multimodal logistics.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2026-07-14",
+          "date_precision": "DAY",
+          "stage": "APPROVAL",
+          "title": "State cabinet approves free transfer of 558.43 ha of Dapchari Dairy Project land to MSAMB for international agri-market",
+          "sources": [
+            "S1"
+          ],
+          "quote": "The Cabinet has approved the free transfer of 558.43 hectares of land belonging to the Dapchari Dairy Project in Palghar district to the Maharashtra State Agricultural Marketing Board (MSAMB)."
+        },
+        {
+          "date": "2026-07-14",
+          "date_precision": "DAY",
+          "stage": "ANNOUNCED",
+          "title": "Marketing Minister announces MSAMB-developed international agricultural market at Dapchari",
+          "sources": [
+            "S2"
+          ],
+          "quote": "The Maharashtra government will develop an international-standard agricultural market across 558.43 hectares (1,395 acres) at Dapchari in Palghar district's Dahanu taluka"
+        },
+        {
+          "date": "2026-07-01",
+          "date_precision": "MONTH",
+          "stage": "NOTE",
+          "title": "Palghar DPDC approves agro export hub proposal with resolution on local employment policy",
+          "description": "Reported 18 July 2026 alongside the district's Rs 859.38 crore 2026-27 plan (that figure is the district plan, not the hub's cost).",
+          "sources": [
+            "S3"
+          ],
+          "quote": "a policy ensuring employment opportunities for local residents and landowners"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "Dapchari",
+          "survey_numbers": "",
+          "area_hectares": 558.43,
+          "area_text": "558.43 ha (1,395 acres) of Dapchari Dairy Project land",
+          "purpose": "International agricultural market / agro export hub",
+          "acquirer": "Maharashtra State Agricultural Marketing Board",
+          "status": "OTHER",
+          "date": "2026-07-14",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "The Cabinet has approved the free transfer of 558.43 hectares of land belonging to the Dapchari Dairy Project in Palghar district to the Maharashtra State Agricultural Marketing Board (MSAMB)."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "GOVERNMENT_RESOLUTION",
+          "authority": "Government of Maharashtra (State Cabinet)",
+          "status": "GRANTED",
+          "date": "2026-07-14",
+          "title": "Cabinet decision: free transfer of Dapchari Dairy Project land to MSAMB",
+          "source": "S1",
+          "quote": "The Cabinet has approved the free transfer of 558.43 hectares of land belonging to the Dapchari Dairy Project in Palghar district to the Maharashtra State Agricultural Marketing Board (MSAMB)."
+        }
+      ],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "RELATED",
+          "note": "Sources emphasise the site's proximity (about 40 km) to Vadhavan port and NH-48 access; they do not state the port as the sole driver.",
+          "source": "S1",
+          "quote": "Located close to the upcoming mega Vadhavan Port (aiming to be among the world's top 10 ports), the facility is just 40 km from the port"
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://www.newkerala.com/news/a/maha-cabinet-clears-frances-rungis-style-international-agri-market-dapchari-229.htm",
+          "title": "Maha Cabinet clears France's Rungis-style international agri market at Dapchari",
+          "publisher": "NewKerala (IANS)",
+          "level": "SECONDARY",
+          "published_date": "2026-07-14"
+        },
+        "S2": {
+          "url": "https://www.freepressjournal.in/mumbai/maharashtra-to-develop-international-standard-agricultural-market-at-dapchari-in-palghar-to-boost-farmer-exports-globally",
+          "title": "Maharashtra to develop international standard agricultural market at Dapchari in Palghar to boost farmer exports globally",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-07-14"
+        },
+        "S3": {
+          "url": "https://www.freepressjournal.in/mumbai/palghar-dpdc-approves-85938-crore-development-plan-international-agro-export-hub-at-dapchari-gets-green-signal",
+          "title": "Palghar DPDC Approves ₹859.38-Crore Development Plan; International Agro Export Hub At Dapchari Gets Green Signal",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-07-18"
+        }
+      }
+    },
+    {
+      "key": "wada-kadivali-midc-industrial-land",
+      "name": "MIDC industrial land at Wada and Kadivali (185.60 ha) — Expression of Interest",
+      "alternate_names": [
+        "Wada–Kadivali MIDC EOI"
+      ],
+      "category": "INDUSTRIAL",
+      "subcategory": "Industrial land offering (MIDC)",
+      "taluka": "Wada",
+      "village": "Kadivali",
+      "micro_market": "Wada",
+      "promoter": "Maharashtra Industrial Development Corporation (MIDC)",
+      "authorities": [
+        "Maharashtra Industrial Development Corporation"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "MIDC notice (June 2025) inviting Expressions of Interest from entrepreneurs for industrial use of 185.60 ha at Wada and Kadivali, Wada taluka. The notice PDF is in Marathi and could not be machine-read, so terms are not recorded.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2025-06-01",
+          "date_precision": "MONTH",
+          "stage": "TENDER",
+          "title": "MIDC invites Expressions of Interest for industrial use of 185.60 ha at Wada and Kadivali",
+          "description": "EOI only (invitation of proposals), not an allotment. Month inferred from the notice's upload path (2025/06) on MIDC's Important Notices page.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "Regarding invitation of Proposals under Expression of Interest (EOI) from Entrepreneurs for Industrial Use of 185.60 Hectares of Land Wada and Kadivali, Taluka- Wada, Dist. Palghar"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "Wada; Kadivali",
+          "survey_numbers": "",
+          "area_hectares": 185.6,
+          "area_text": "185.60 hectares",
+          "purpose": "Industrial use (EOI)",
+          "acquirer": "",
+          "status": "OTHER",
+          "date": "2025-06-01",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "Regarding invitation of Proposals under Expression of Interest (EOI) from Entrepreneurs for Industrial Use of 185.60 Hectares of Land Wada and Kadivali, Taluka- Wada, Dist. Palghar"
+        }
+      ],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://midc.maharashtra.gov.in/en/important-notice/",
+          "title": "MIDC Important Notices — EOI for industrial use of 185.60 ha at Wada and Kadivali (notice PDF: /wp-content/uploads/2025/06/Expression-of-Intrest-2-3.pdf)",
+          "publisher": "Maharashtra Industrial Development Corporation",
+          "level": "PRIMARY",
+          "published_date": "2025-06-01"
+        }
+      }
+    },
+    {
+      "key": "viraj-profiles-palghar-steel-plant",
+      "name": "Viraj Profiles integrated stainless steel plant, Palghar (Davos 2025 MoU)",
+      "alternate_names": [
+        "Viraj Profiles Rs 12,000 crore MoU"
+      ],
+      "category": "INDUSTRIAL",
+      "subcategory": "Integrated stainless steel plant (MoU)",
+      "taluka": "",
+      "village": "",
+      "micro_market": "",
+      "promoter": "Viraj Profiles Private Limited",
+      "authorities": [
+        "Government of Maharashtra (Industries Department)"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "MoU signed by Viraj Profiles with the Government of Maharashtra at WEF Davos in January 2025 to set up an integrated stainless steel plant in Palghar (district). Site/taluka not specified in sources; MoU only, no approval or construction reported.",
+      "investment": [
+        {
+          "amount_crore": 12000,
+          "basis": "MOU",
+          "as_of": "2025-01-01",
+          "source": "S1",
+          "quote": "has signed a memorandum of understanding (MoU) with the Government of Maharashtra to invest INR 12,000 crore for establishing an integrated stainless steel plant in Palghar."
+        }
+      ],
+      "events": [
+        {
+          "date": "2025-01-01",
+          "date_precision": "MONTH",
+          "stage": "MOU",
+          "title": "Viraj Profiles signs Rs 12,000 crore MoU with Maharashtra at Davos for integrated stainless steel plant in Palghar (~3,500 jobs)",
+          "description": "Reports dated 23–24 January 2025. A press-release site gives 27 January 2025 as the signing date, which does not fit the WEF dates; month precision is used.",
+          "sources": [
+            "S1",
+            "S2",
+            "S3"
+          ],
+          "quote": "The initiative will generate employment for 3500 people in the tribal areas of Maharashtra, it added."
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.bigmint.co/intel/detail/india-viraj-profiles-signs-inr-12-000-crore-mou-for-integrated-steel-plant-32064",
+          "title": "India: Viraj Profiles signs INR 12,000 crore MoU for integrated steel plant",
+          "publisher": "BigMint",
+          "level": "SECONDARY",
+          "published_date": "2025-01-24"
+        },
+        "S2": {
+          "url": "https://www.wirecable.in/?p=33208",
+          "title": "Viraj Profiles to Establish Integrated Stainless Steel Plant in Maharashtra worth INR 12,000 Crore",
+          "publisher": "Wire & Cable India",
+          "level": "SECONDARY",
+          "published_date": "2025-01-23"
+        },
+        "S3": {
+          "url": "https://businessnewsthisweek.com/business/davos-viraj-profiles-and-maharashtra-government-sign-mou-for-inr-12000-crore-steel-project/",
+          "title": "Davos: Viraj Profiles and Maharashtra Government Sign MoU for INR 12,000 Crore Steel Project",
+          "publisher": "Business News This Week (press release)",
+          "level": "UNVERIFIED",
+          "published_date": "2025-01-27"
+        }
+      }
+    },
+    {
+      "key": "palghar-district-investors-summit-2026",
+      "name": "Palghar District Investors Summit 2026 (95 MoUs)",
+      "alternate_names": [
+        "Palghar District Investment Summit 2026"
+      ],
+      "category": "INDUSTRIAL",
+      "subcategory": "District-level investment MoUs",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Palghar",
+      "promoter": "Palghar District Administration",
+      "authorities": [
+        "Collector, Palghar",
+        "Government of Maharashtra (Industries Department)"
+      ],
+      "strategic_importance": "LOW",
+      "description": "District investors' summit at the Palghar Collectorate in August 2026 where 95 MoUs worth Rs 5,096.77 crore were signed (about 7,830 potential jobs). The MoUs are intentions only. Named signatories include Sky Green Recycling Industries, Aero Plast Packaging, MPCL Industries, Vstar Metal Industries and Gujarat Copper Alloys.",
+      "investment": [
+        {
+          "amount_crore": 5096.77,
+          "basis": "MOU",
+          "as_of": "2026-08-01",
+          "source": "S1",
+          "quote": "Palghar district received investment proposals worth ₹5,096.77 crore"
+        }
+      ],
+      "events": [
+        {
+          "date": "2026-08-01",
+          "date_precision": "MONTH",
+          "stage": "MOU",
+          "title": "95 MoUs worth Rs 5,096.77 crore signed at Palghar District Investors Summit",
+          "description": "Held at the District Planning Committee Hall, Collector's Office; report dated 21 August 2026.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "A total of 95 Memoranda of Understanding (MoUs) were signed during the summit"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.freepressjournal.in/mumbai/palghar-attracts-5096-crore-investment-proposals-expected-to-generate-7830-jobs-at-district-summit",
+          "title": "Palghar Attracts ₹5,096 Crore Investment Proposals, Expected To Generate 7,830 Jobs At District Summit",
+          "publisher": "Free Press Journal",
+          "level": "SECONDARY",
+          "published_date": "2026-08-21"
+        }
+      }
+    }
+  ]
+}

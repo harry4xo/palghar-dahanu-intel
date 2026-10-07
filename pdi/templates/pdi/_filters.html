@@ -1,0 +1,30 @@
+<details class="filter-box card" {% if querystring %}open{% endif %}>
+  <summary>Filters{% if querystring %} · active{% endif %}</summary>
+  <form method="get" class="filters" style="margin-top:.75rem">
+    <div class="wide">{{ form.q.label_tag }}{{ form.q }}</div>
+    <div>{{ form.micro_market.label_tag }}{{ form.micro_market }}</div>
+    <div>{{ form.taluka.label_tag }}{{ form.taluka }}</div>
+    <div>{{ form.category.label_tag }}{{ form.category }}</div>
+    <div>{{ form.stage.label_tag }}{{ form.stage }}</div>
+    <div>{{ form.phase.label_tag }}{{ form.phase }}</div>
+    <div>{{ form.flag.label_tag }}{{ form.flag }}</div>
+    <div>{{ form.verification.label_tag }}{{ form.verification }}</div>
+    <div>{{ form.importance.label_tag }}{{ form.importance }}</div>
+    <div>{{ form.rera.label_tag }}{{ form.rera }}</div>
+    <div>{{ form.village.label_tag }}{{ form.village }}</div>
+    <div>{{ form.subcategory.label_tag }}{{ form.subcategory }}</div>
+    <div>{{ form.organization.label_tag }}{{ form.organization }}</div>
+    <div>{{ form.investment_min.label_tag }}{{ form.investment_min }}</div>
+    <div>{{ form.investment_max.label_tag }}{{ form.investment_max }}</div>
+    <div>{{ form.land_min_ha.label_tag }}{{ form.land_min_ha }}</div>
+    <div>{{ form.announced_from.label_tag }}{{ form.announced_from }}</div>
+    <div>{{ form.announced_to.label_tag }}{{ form.announced_to }}</div>
+    <div>{{ form.approval_year.label_tag }}{{ form.approval_year }}</div>
+    <div>{{ form.construction_year.label_tag }}{{ form.construction_year }}</div>
+    <div>{{ form.completion_year.label_tag }}{{ form.completion_year }}</div>
+    <div>{{ form.sort.label_tag }}{{ form.sort }}</div>
+    <div><label>{{ form.verified_only }} {{ form.verified_only.label }}</label></div>
+    <div class="actions"><button class="btn btn-primary" type="submit">Apply</button><a class="btn" href="?">Clear</a></div>
+  </form>
+  <p class="small muted" style="margin-bottom:0">Ctrl/⌘-click to pick several values in a list. All filters combine.</p>
+</details>

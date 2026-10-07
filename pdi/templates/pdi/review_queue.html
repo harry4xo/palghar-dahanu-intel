@@ -1,0 +1,39 @@
+{% extends "pdi/base.html" %}
+{% load pdi_tags %}
+{% block title %}Review queue · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><h1>Review queue</h1><div class="muted">Open the source, check the quote says what the fact claims, then approve or reject.</div></div>
+</div>
+<div class="actions" style="margin-bottom:1rem">
+  {% for k, n in counts.items %}<a class="btn {% if k == kind %}btn-primary{% endif %}" href="?type={{ k }}">{{ k|capfirst }} ({{ n }})</a>{% endfor %}
+</div>
+{% for f in items %}
+<div class="card" style="margin-bottom:.75rem">
+  <div class="small muted">
+    {% if kind == 'relationship' %}<a href="{{ f.from_project.get_absolute_url }}">{{ f.from_project.name }}</a> → {{ f.get_rel_type_display }} → <a href="{{ f.to_project.get_absolute_url }}">{{ f.to_project.name }}</a>
+    {% elif f.project %}<a href="{{ f.project.get_absolute_url }}">{{ f.project.code }} · {{ f.project.name }}</a>{% endif %}
+    · entered by {{ f.entered_by|default:"—" }} ({{ f.get_origin_display }})
+  </div>
+  <div style="margin:.3rem 0">
+    {% if kind == 'event' %}<strong>{{ f.display_date }}</strong> {% stage_badge f.stage %} {{ f.title }}{% if f.description %}<div class="small">{{ f.description }}</div>{% endif %}
+    {% elif kind == 'investment' %}<strong>{{ f.amount_crore|crore }}</strong> — {{ f.get_basis_display }}{% if f.as_of %} (as of {{ f.as_of|date:"M Y" }}){% endif %}
+    {% elif kind == 'funding' %}<strong>{{ f.get_stage_display }}</strong> {{ f.get_funding_type_display }} funding {{ f.amount_crore|crore }} — {{ f.financier }}
+    {% elif kind == 'land' %}<strong>{{ f.get_status_display }}</strong> — {{ f.village }} {{ f.survey_numbers }} {% if f.area_hectares %}{{ f.area_hectares }} ha{% else %}{{ f.area_text }}{% endif %} · {{ f.purpose }}
+    {% elif kind == 'regulatory' %}<strong>{{ f.get_item_type_display }}</strong> ({{ f.get_status_display }}) — {{ f.title }} {% if f.date %}· {{ f.date|date:"d M Y" }}{% endif %}
+    {% else %}{{ f.note }}{% endif %}
+  </div>
+  {% if f.quote %}<blockquote>“{{ f.quote }}”</blockquote>{% else %}<div class="small" style="color:var(--bad)">No quote recorded — check the source carefully.</div>{% endif %}
+  <div class="small">{% for s in f.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title|default:s.url|truncatechars:90 }}</a> · {{ s.publisher|default:s.url|domain }} {% level_badge s.level %}<br>{% empty %}<span style="color:var(--bad)">No source</span>{% endfor %}</div>
+  <form method="post" action="{% url 'pdi:review_action' kind f.pk %}" class="actions" style="margin-top:.6rem">{% csrf_token %}
+    <input type="hidden" name="next" value="{{ request.get_full_path }}">
+    <input name="note" placeholder="Optional note (e.g. why rejected)" style="max-width:24rem">
+    <button class="btn btn-good" name="decision" value="approve">Approve</button>
+    <button class="btn btn-bad" name="decision" value="reject">Reject</button>
+    <a class="small" href="{% if kind == 'event' %}{% url 'admin:pdi_event_change' f.pk %}{% elif kind == 'investment' %}{% url 'admin:pdi_investmentfigure_change' f.pk %}{% elif kind == 'funding' %}{% url 'admin:pdi_fundingevent_change' f.pk %}{% elif kind == 'land' %}{% url 'admin:pdi_landrecord_change' f.pk %}{% elif kind == 'regulatory' %}{% url 'admin:pdi_regulatoryitem_change' f.pk %}{% else %}{% url 'admin:pdi_projectrelationship_change' f.pk %}{% endif %}">Edit first</a>
+  </form>
+</div>
+{% empty %}
+<p class="muted">Nothing waiting for review here.</p>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "pdi/base.html" %}
+{% block title %}Log a search · Palghar–Dahanu{% endblock %}
+{% block content %}
+<h1>Log a search</h1>
+<p class="muted">Record what you searched — including searches that found nothing. A “no material development” entry is what lets the database say so explicitly instead of “not researched”.</p>
+<form method="post" class="card">{% csrf_token %}
+  <div class="form-grid">
+    {% for f in form %}<div class="{% if f.name == 'sources_searched' or f.name == 'notes' %}full{% endif %}">{{ f.label_tag }}{{ f }}{{ f.errors }}</div>{% endfor %}
+  </div>
+  <div class="actions" style="margin-top:1rem"><button class="btn btn-primary" type="submit">Save</button></div>
+</form>
+{% endblock %}

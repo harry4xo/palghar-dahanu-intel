@@ -1,0 +1,58 @@
+{% extends "pdi/base.html" %}
+{% block title %}Methodology · Palghar–Dahanu{% endblock %}
+{% block content %}
+<h1>Methodology</h1>
+<p class="muted">How facts get into the database and how summaries are calculated. No AI is used anywhere in this application: data comes from structured portals, keyword monitoring and researchers, and all summaries follow the fixed rules below.</p>
+
+<div class="grid grid-2">
+<section class="card">
+  <h2>One project, many sourced facts</h2>
+  <p>Each project has one record and a unique ID (PDI-00001…). Everything we know about it — each stage change, investment figure, land record, approval or court order — is a separate <em>fact</em> with its own source, a short quote from that source, and a review status.</p>
+  <p>Conflicting information is kept side by side, never overwritten. A project's status, verification level and headline investment are <strong>calculated</strong> from its facts, so history is preserved.</p>
+</section>
+<section class="card">
+  <h2>Review</h2>
+  <p>Facts enter as <strong>Pending review</strong> (from research or the monitoring inbox) and become <strong>Reviewed</strong> once a researcher has checked them against the source. The date and reviewer are recorded.</p>
+  <p>Facts copied field-for-field from MahaRERA by the crawler are marked reviewed automatically, because MahaRERA is the primary source.</p>
+  <p>Where a project has no reviewed stage facts yet, its stage is shown as <em>provisional</em>.</p>
+</section>
+<section class="card">
+  <h2>Source levels</h2>
+  <ul>
+    <li><strong>Primary</strong> — government departments, regulators (MahaRERA, MoEFCC/PARIVESH, MIDC, NHAI, Railways), ministry notifications, court orders, company filings and official project documents.</li>
+    <li><strong>Secondary</strong> — credible newspapers, business and industry publications, research reports.</li>
+    <li><strong>Unverified / reported</strong> — local reports, property portals, unconfirmed announcements.</li>
+  </ul>
+  <p>A project is <em>corroborated</em> when its facts come from at least two different publishers. Otherwise the page states that independent confirmation was not found.</p>
+</section>
+<section class="card">
+  <h2>Project lifecycle</h2>
+  <p>The current stage is the furthest stage supported by evidence:</p>
+  <ol class="small">{% for k, label in stages %}<li>{{ label }}</li>{% endfor %}</ol>
+  <p>Delayed, Stalled and Cancelled are flags shown alongside the stage; a later “Revived” entry clears Stalled or Cancelled. An announcement is never treated as approval, and an MoU never as an investment.</p>
+</section>
+<section class="card">
+  <h2>Investment figures</h2>
+  <p>All figures are kept. When one number per project is needed (tables, totals), the headline is chosen by basis — <strong>sanctioned &gt; official estimate &gt; reported &gt; MoU</strong> — then the most recent. Dashboard totals exclude MoU values (shown separately) exclude projects recorded as <em>part of</em> another project, so money isn't counted twice, and report separately any figure that covers a wider corridor than Palghar (e.g. the full 508 km bullet-train cost).</p>
+  <p>Funding has its own stages: Announced → Committed → Approved → Disbursed → Completed.</p>
+</section>
+<section class="card">
+  <h2>Micro-market activity</h2>
+  <p>A dimension (RERA, developer, industrial, infrastructure, land, logistics, regulatory, funding) is <em>evidenced</em> when at least one fact dated within the period is backed by a primary or secondary source.</p>
+  <ul>
+    <li><strong>HIGH</strong> — three or more evidenced dimensions, and at least one project there has reached approval or beyond on a primary source.</li>
+    <li><strong>MEDIUM</strong> — at least one evidenced dimension.</li>
+    <li><strong>LOW</strong> — nothing evidenced. If a researcher logged a search that found nothing, the page says: “{{ no_material }}”</li>
+  </ul>
+</section>
+<section class="card">
+  <h2>Duplicate matching</h2>
+  <p>New documents are matched to existing projects by fixed rules, strongest first: same MahaRERA number; same name or recorded alternate name; same name after spelling normalisation (Vadhvan = Vadhavan = Wadhwan); similar name; shared survey numbers in the same village. Only the first is treated as certain — everything else is a suggestion for the researcher.</p>
+</section>
+<section class="card">
+  <h2>Locations</h2>
+  <p>Village and town coordinates are place centroids from OpenStreetMap. Projects placed by village or taluka show as hollow markers on the map; only projects with a stated site location show as solid markers.</p>
+  <p>Linked projects (e.g. a logistics park <em>driven by</em> the port) are recorded only when a source states the relationship, never because two projects are close together.</p>
+</section>
+</div>
+{% endblock %}

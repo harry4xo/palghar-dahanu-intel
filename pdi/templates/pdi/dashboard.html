@@ -1,0 +1,108 @@
+{% extends "pdi/base.html" %}
+{% load static pdi_tags humanize %}
+{% block content %}
+<div class="page-head">
+  <div>
+    <h1>What has changed in Palghar and Dahanu</h1>
+    <div class="muted">Projects, approvals, land, investment and regulation since January 2021, with every fact traced to a source.</div>
+  </div>
+  <div class="actions">
+    <a class="btn" href="{% url 'pdi:map' %}">Open map</a>
+    <a class="btn" href="{% url 'pdi:project_list' %}?format=csv">Export CSV</a>
+  </div>
+</div>
+
+{% if provisional %}
+<div class="notice notice-warn">
+  <strong>{{ provisional }} of {{ total }} projects</strong> have a stage supported only by research that hasn't been reviewed yet ({{ pending_facts }} timeline entries pending).
+  They're labelled <em>provisional</em> until a researcher checks them against the source.
+  {% if user.is_staff %}<a href="{% url 'pdi:review_queue' %}">Open review queue →</a>{% endif %}
+</div>
+{% endif %}
+
+<section class="tiles" aria-label="Overview">
+  <div class="tile"><div class="label">Projects tracked</div><div class="value">{{ total }}</div><div class="sub">{{ new_projects }} first reported in the last 12 months</div></div>
+  <div class="tile"><div class="label">Announced / proposed</div><div class="value">{{ pre_approval }}</div><div class="sub">not yet approved</div></div>
+  <div class="tile"><div class="label">Active</div><div class="value">{{ active }}</div><div class="sub">approved or under construction</div></div>
+  <div class="tile"><div class="label">Under construction</div><div class="value">{{ construction }}</div></div>
+  <div class="tile"><div class="label">Operational / completed</div><div class="value">{{ done }}</div></div>
+  <div class="tile"><div class="label">Reported investment</div><div class="value">{{ total_investment|crore }}</div>
+    <div class="sub">one figure per project located in the district; excludes MoUs{% if mou_investment %} ({{ mou_investment|crore }}){% endif %}{% if wider_investment %} and wider corridors ({{ wider_investment|crore }}){% endif %}</div></div>
+</section>
+
+<div class="grid grid-2" style="margin-top:1rem">
+  <section class="card">
+    <h2>Development activity by year</h2>
+    <div class="chart-box"><canvas id="timelineChart" aria-label="Timeline entries per year by sector"></canvas></div>
+    <p class="small muted">Count of dated timeline entries (announcements, approvals, tenders, construction milestones) per year.</p>
+  </section>
+  <section class="card">
+    <h2>Projects by sector</h2>
+    <div class="chart-box"><canvas id="sectorChart" aria-label="Projects by sector"></canvas></div>
+  </section>
+</div>
+
+<div class="grid grid-2" style="margin-top:1rem">
+  <section class="card">
+    <h2>Micro-market activity</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Micro-market</th><th>Activity</th><th class="num">Dimensions with evidence</th><th class="num">Facts</th></tr></thead>
+      <tbody>
+      {% for m in markets %}
+        <tr><td><a href="{% url 'pdi:market_detail' m.market %}">{{ m.market }}</a></td>
+          <td><span class="badge act-{{ m.level|lower }}">{{ m.level }}</span></td>
+          <td class="num">{{ m.evidenced_count }} / 8</td><td class="num">{{ m.total_items }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    <p class="small"><a href="{% url 'pdi:markets' %}">Compare micro-markets by dimension →</a></p>
+  </section>
+  <section class="card">
+    <h2>Major infrastructure</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Project</th><th>Stage</th><th class="num">Investment</th></tr></thead>
+      <tbody>
+      {% for p in major_infra %}
+        <tr><td><a href="{{ p.get_absolute_url }}">{{ p.name }}</a><div class="small muted">{{ p.micro_market|default:p.taluka }}</div></td>
+          <td>{% stage_badge p.current_stage p.stage_is_provisional %}</td>
+          <td class="num">{{ p.headline_investment_crore|crore }}{% if p.headline_investment_scope == 'WIDER' %}<div class="small muted">whole corridor</div>{% endif %}</td></tr>
+      {% empty %}<tr><td colspan="3" class="muted">No high-importance infrastructure projects yet.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    {% if by_basis %}
+    <h3>Investment by type of figure</h3>
+    <dl class="kv">{% for label, v in by_basis %}<dt>{{ label }}</dt><dd class="mono">{{ v|crore }}</dd>{% endfor %}</dl>
+    {% endif %}
+  </section>
+</div>
+
+<div class="grid grid-2" style="margin-top:1rem">
+  <section class="card">
+    <h2>Most active developers &amp; promoters</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Organisation</th><th class="num">Projects</th></tr></thead>
+      <tbody>{% for o in developers %}<tr><td><a href="{{ o.get_absolute_url }}">{{ o.name }}</a></td><td class="num">{{ o.n }}</td></tr>
+      {% empty %}<tr><td colspan="2" class="muted">None yet.</td></tr>{% endfor %}</tbody>
+    </table></div>
+  </section>
+  <section class="card">
+    <h2>Latest timeline entries</h2>
+    <ul class="timeline">
+      {% for e in recent %}
+      <li class="tl-item {% if e.review_status == 'PENDING' %}pending{% endif %}">
+        <div class="tl-date">{{ e.display_date }} · <a href="{{ e.project.get_absolute_url }}">{{ e.project.name }}</a></div>
+        <div>{{ e.title }} {% stage_badge e.stage %}</div>
+      </li>
+      {% empty %}<li class="muted">No events yet.</li>{% endfor %}
+    </ul>
+  </section>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'pdi/vendor/chart.umd.min.js' %}"></script>
+{{ timeline_json|json_script:"timeline-data" }}
+{{ sector_json|json_script:"sector-data" }}
+<script src="{% static 'pdi/charts.js' %}"></script>
+{% endblock %}

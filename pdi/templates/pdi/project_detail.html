@@ -1,0 +1,159 @@
+{% extends "pdi/base.html" %}
+{% load pdi_tags %}
+{% block title %}{{ p.name }} · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div>
+    <div class="small muted mono">{{ p.code }} · {{ p.get_category_display }}{% if p.subcategory %} · {{ p.subcategory }}{% endif %}</div>
+    <h1>{{ p.name }}</h1>
+    {% with aliases=p.aliases.all %}{% if aliases %}<div class="small muted">Also reported as: {% for a in aliases %}{{ a.name }}{% if not forloop.last %}, {% endif %}{% endfor %}</div>{% endif %}{% endwith %}
+  </div>
+  <div class="actions">
+    {% if user.is_staff %}
+      <a class="btn btn-primary" href="{% url 'pdi:fact_entry' %}?project={{ p.code }}">+ Add fact</a>
+      <a class="btn" href="{% url 'admin:pdi_project_change' p.pk %}">Edit in admin</a>
+    {% endif %}
+  </div>
+</div>
+
+{% if p.stage_is_provisional %}
+<div class="notice notice-warn">The stage shown is <strong>provisional</strong>: it's based on {{ p.pending_review_count }} research entr{{ p.pending_review_count|pluralize:"y,ies" }} that haven't been checked against the source yet.</div>
+{% endif %}
+{% if not p.corroborated and p.source_count %}
+<div class="notice notice-info">Independent confirmation was not found: the facts below come from a single credible publisher{% if p.verification_level == 'UNVERIFIED' %} or unverified reports only{% endif %}.</div>
+{% endif %}
+
+<div class="grid grid-2">
+  <section class="card">
+    <h2>Status</h2>
+    <div>{% stage_badge p.current_stage p.stage_is_provisional %}{% for f in p.flag_list %} <span class="badge stage-flag">{{ f|flag_label }}</span>{% endfor %}
+      {% if p.current_stage_date %}<span class="small muted"> since {{ p.current_stage_date|date:"d M Y" }}</span>{% endif %}</div>
+    <ol class="stage-path" aria-label="Lifecycle">
+      {% for key, label, rank in stage_path %}
+        <li class="{% if key == p.current_stage %}current{% elif rank < current_rank %}reached{% endif %}">{{ label }}</li>
+      {% endfor %}
+    </ol>
+    <dl class="kv" style="margin-top:1rem">
+      <dt>First reported</dt><dd>{{ p.announcement_date|date:"d M Y"|default:"—" }}</dd>
+      <dt>Approved</dt><dd>{{ p.approval_date|date:"d M Y"|default:"—" }}</dd>
+      <dt>Construction started</dt><dd>{{ p.construction_start_date|date:"d M Y"|default:"—" }}</dd>
+      <dt>Expected completion</dt><dd>{{ p.expected_completion|date:"d M Y"|default:"Not stated by an official source" }}</dd>
+      <dt>Completed / operational</dt><dd>{{ p.actual_completion|date:"d M Y"|default:"—" }}</dd>
+      <dt>Verification</dt><dd>{% level_badge p.verification_level %} · {{ p.source_count }} source{{ p.source_count|pluralize }}{% if p.corroborated %} · corroborated by 2+ publishers{% endif %}</dd>
+      <dt>Last verified</dt><dd>{{ p.last_verified_at|date:"d M Y"|default:"Not yet reviewed" }}</dd>
+    </dl>
+  </section>
+  <section class="card">
+    <h2>Overview</h2>
+    {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+    <dl class="kv">
+      <dt>Location</dt><dd>{{ p.village|default:"" }}{% if p.village %}, {% endif %}{{ p.taluka|default:"—" }} taluka, {{ p.district }}</dd>
+      <dt>Micro-market</dt><dd>{% if p.micro_market %}<a href="{% url 'pdi:market_detail' p.micro_market %}">{{ p.micro_market }}</a>{% else %}—{% endif %}</dd>
+      <dt>Coordinates</dt><dd>{% if p.latitude %}{{ p.latitude|floatformat:4 }}, {{ p.longitude|floatformat:4 }} <span class="small muted">({{ p.get_coord_precision_display }})</span>{% else %}—{% endif %}</dd>
+      <dt>Strategic importance</dt><dd>{{ p.get_strategic_importance_display }}</dd>
+      {% for o in orgs %}<dt>{{ o.get_role_display }}</dt><dd><a href="{{ o.organization.get_absolute_url }}">{{ o.organization.name }}</a></dd>{% endfor %}
+      <dt>Headline investment</dt><dd>{{ p.headline_investment_crore|crore }}{% if p.headline_investment_basis %} <span class="small muted">({{ p.get_headline_investment_basis_display }}{% if p.headline_investment_scope == 'WIDER' %}; covers the wider project beyond Palghar{% endif %})</span>{% endif %}</dd>
+    </dl>
+  </section>
+</div>
+
+<h2>Timeline</h2>
+<div class="card">
+  {% for year, items in timeline %}
+    <div class="tl-year">{{ year }}</div>
+    <ul class="timeline">
+      {% for e in items %}
+      <li class="tl-item {% if e.review_status == 'PENDING' %}pending{% endif %}">
+        <div class="tl-date">{{ e.display_date }} · {% stage_badge e.stage %} {% review_badge e.review_status %}</div>
+        <div class="tl-title">{{ e.title }}</div>
+        {% if e.description %}<div class="small">{{ e.description }}</div>{% endif %}
+        {% if e.quote %}<blockquote>“{{ e.quote }}”</blockquote>{% endif %}
+        <div class="small">{% for s in e.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a> {% level_badge s.level %}{% if not forloop.last %} · {% endif %}{% endfor %}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  {% empty %}<p class="muted">No timeline entries yet.</p>{% endfor %}
+</div>
+
+{% if investments %}
+<h2>Investment figures</h2>
+{% if investment_conflict %}<div class="notice notice-info">Sources give different figures. All are kept below; the headline uses the strongest basis (sanctioned &gt; estimate &gt; reported &gt; MoU), most recent first.</div>{% endif %}
+<div class="table-wrap"><table>
+  <thead><tr><th class="num">Amount</th><th>Basis</th><th>Covers</th><th>As of</th><th>Source</th><th>Quote</th><th>Review</th></tr></thead>
+  <tbody>{% for i in investments %}<tr>
+    <td class="num">{{ i.amount_crore|crore }}</td><td>{{ i.get_basis_display }}{% if i.note %}<div class="small muted">{{ i.note }}</div>{% endif %}</td><td class="small">{{ i.get_scope_display }}</td><td>{{ i.as_of|date:"M Y"|default:"—" }}</td>
+    <td class="small">{% for s in i.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a> {% level_badge s.level %} {% endfor %}</td>
+    <td class="small muted">{{ i.quote }}</td><td>{% review_badge i.review_status %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+
+{% if funding %}
+<h2>Funding</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Date</th><th>Stage</th><th>Type</th><th>Financier</th><th class="num">Amount</th><th>Source</th><th>Review</th></tr></thead>
+  <tbody>{% for f in funding %}<tr>
+    <td>{{ f.date|date:"M Y"|default:"—" }}</td><td>{{ f.get_stage_display }}</td><td>{{ f.get_funding_type_display }}</td><td>{{ f.financier|default:"—" }}</td>
+    <td class="num">{{ f.amount_crore|crore }}</td>
+    <td class="small">{% for s in f.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a> {% endfor %}</td>
+    <td>{% review_badge f.review_status %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+
+{% if land %}
+<h2>Land</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Date</th><th>Village</th><th>Survey / Gat no.</th><th class="num">Area</th><th>Purpose</th><th>Acquirer</th><th>Status</th><th class="num">Consideration</th><th>Source</th></tr></thead>
+  <tbody>{% for l in land %}<tr>
+    <td>{{ l.date|date:"M Y"|default:"—" }}</td><td>{{ l.village|default:"—" }}</td><td class="small">{{ l.survey_numbers|default:"—" }}</td>
+    <td class="num">{% if l.area_hectares %}{{ l.area_hectares|floatformat:2 }} ha{% else %}{{ l.area_text|default:"—" }}{% endif %}</td>
+    <td>{{ l.purpose|default:"—" }}</td><td>{{ l.acquirer|default:"—" }}</td><td>{{ l.get_status_display }}</td>
+    <td class="num">{% if l.consideration_crore %}{{ l.consideration_crore|crore }}{% else %}<span class="muted">not disclosed</span>{% endif %}</td>
+    <td class="small">{% for s in l.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a> {% level_badge s.level %} {% endfor %}{% review_badge l.review_status %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+
+{% if regulatory %}
+<h2>Regulatory &amp; legal</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Date</th><th>Type</th><th>Item</th><th>Authority</th><th>Status</th><th>Source</th></tr></thead>
+  <tbody>{% for r in regulatory %}<tr>
+    <td>{{ r.date|date:"d M Y"|default:"—" }}</td><td>{{ r.get_item_type_display }}</td><td>{{ r.title }}{% if r.reference_no %}<div class="small mono">{{ r.reference_no }}</div>{% endif %}</td>
+    <td>{{ r.authority|default:"—" }}</td><td>{{ r.get_status_display }}</td>
+    <td class="small">{% for s in r.sources.all %}<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a> {% level_badge s.level %} {% endfor %}{% review_badge r.review_status %}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+
+{% if rera %}
+<h2>MahaRERA registration</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>RERA no.</th><th>Registered</th><th>Proposed completion</th><th>Revised completion</th><th class="num">Units (booked / total)</th><th>Survey no.</th><th>Status</th></tr></thead>
+  <tbody>{% for r in rera %}<tr>
+    <td class="mono">{% if r.detail_url %}<a href="{{ r.detail_url }}" target="_blank" rel="noopener">{{ r.rera_no }}</a>{% else %}{{ r.rera_no }}{% endif %}</td>
+    <td>{{ r.registration_date|date:"d M Y"|default:"—" }}</td><td>{{ r.proposed_completion_date|date:"d M Y"|default:"—" }}</td>
+    <td>{{ r.revised_completion_date|date:"d M Y"|default:"—" }}</td>
+    <td class="num">{{ r.booked_units|default:"—" }} / {{ r.total_units|default:"—" }}</td><td class="small">{{ r.survey_numbers|default:"—" }}</td><td>{{ r.status|default:"—" }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+
+{% if rel_out or rel_in %}
+<h2>Linked projects</h2>
+<div class="card">
+  <ul>
+  {% for r in rel_out %}<li>This project <strong>{{ r.get_rel_type_display|lower }}</strong> <a href="{{ r.to_project.get_absolute_url }}">{{ r.to_project.name }}</a>{% if r.note %} — <span class="small">{{ r.note }}</span>{% endif %}
+    <span class="small">{% for s in r.sources.all %}(<a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.publisher|default:s.url|domain }}</a>){% endfor %}</span> {% review_badge r.review_status %}</li>{% endfor %}
+  {% for r in rel_in %}<li><a href="{{ r.from_project.get_absolute_url }}">{{ r.from_project.name }}</a> <strong>{{ r.get_rel_type_display|lower }}</strong> this project{% if r.note %} — <span class="small">{{ r.note }}</span>{% endif %} {% review_badge r.review_status %}</li>{% endfor %}
+  </ul>
+  <p class="small muted">Links are recorded only when a source states the relationship — never from proximity alone.</p>
+</div>
+{% endif %}
+
+<h2>Sources ({{ sources|length }})</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Level</th><th>Title</th><th>Publisher</th><th>Published</th><th>Archived copy</th></tr></thead>
+  <tbody>{% for s in sources %}<tr>
+    <td>{% level_badge s.level %}</td><td><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title|default:s.url }}</a></td>
+    <td>{{ s.publisher|default:s.url|domain }}</td><td>{{ s.published_date|date:"d M Y"|default:"—" }}</td>
+    <td class="small">{% if s.archived_at %}saved {{ s.archived_at|date:"d M Y" }}{% else %}<span class="muted">not yet</span>{% endif %}</td></tr>
+  {% empty %}<tr><td colspan="5" class="muted">No sources.</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

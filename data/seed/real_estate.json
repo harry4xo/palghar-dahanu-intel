@@ -1,0 +1,622 @@
+{
+  "generated_by": "Claude research agent (real estate / land / hospitality seed, Palghar district) via WebSearch/WebFetch/curl of cited sources",
+  "generated_on": "2026-10-07",
+  "projects": [
+    {
+      "key": "birla-mrida-boisar",
+      "name": "Birla Mrida (Birla Estates plotted development, Boisar)",
+      "alternate_names": [
+        "Birla Estates Boisar",
+        "Birla Boisar",
+        "Plotted Development Boisar"
+      ],
+      "category": "REAL_ESTATE",
+      "subcategory": "Plotted residential development",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Boisar–Tarapur",
+      "promoter": "Birla Estates Pvt Ltd (wholly owned subsidiary of Aditya Birla Real Estate Ltd)",
+      "authorities": [
+        "MahaRERA"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "Plotted residential development by Birla Estates in Boisar on land the company bought in December 2024. It was the developer's first plotted project, and the company reports it as an ongoing project with RERA completion in March 2029.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2024-12-17",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUIRED",
+          "title": "Birla Estates acquires 70.92-acre land parcel in Boisar for Rs 104.3 crore",
+          "description": "ET reports the acquisition by the wholly owned subsidiary of Aditya Birla Real Estate.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "Birla Estates , a wholly owned subsidiary of Aditya Birla Real Estate has acquired a land parcel covering 70.92 acres in Boisar in Maharashtra for Rs 104.3 crore."
+        },
+        {
+          "date": "2026-01-28",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Boisar plotted development listed in FY26 launch pipeline",
+          "description": "The Q3 FY26 earnings presentation lists 'Plotted Development Boisar' under 'To be Launched in FY26': outright ownership, 100% economic interest, total estimated GDV Rs 4,744 Mn, FY26 launch GDV Rs 2,790 Mn, 0.9 Mn sq ft saleable.",
+          "sources": [
+            "S2"
+          ],
+          "quote": "Plotted Development Boisar Outright 100% 4,744 2,790 0.9"
+        },
+        {
+          "date": "2026-02-04",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Management says RERA for Boisar project awaited (Q3 FY26 call transcript)",
+          "description": "Date is when the transcript was filed with the exchanges. Management said it expected these RERAs in the first week of February 2026.",
+          "sources": [
+            "S3"
+          ],
+          "quote": "We are awaiting the RERA for Thane and Arika new phase, as well as for Boisar"
+        },
+        {
+          "date": "2026-01-01",
+          "date_precision": "YEAR",
+          "stage": "APPROVAL",
+          "title": "Birla Mrida registered with MahaRERA (PP1240002502953)",
+          "description": "The registration date is not stated. The Feb 2026 transcript (S3) says the RERA was still awaited, and the developer's project page (S4) shows the registration, so it was granted in 2026.",
+          "sources": [
+            "S4",
+            "S3"
+          ],
+          "quote": "The Project “Birla Mrida” is registered with MahaRERA under Registration No PP1240002502953"
+        },
+        {
+          "date": "2026-01-01",
+          "date_precision": "YEAR",
+          "stage": "ANNOUNCED",
+          "title": "Birla Mrida launched (FY26): Birla Estates' entry into plotted development",
+          "description": "An aggregator's FY26 summary lists Birla Mrida as a new-segment launch. The exact launch month is not stated. Construction start is not reported.",
+          "sources": [
+            "S6"
+          ],
+          "quote": "Birla Mrida: Plotted development in Boisar - New segment entry"
+        },
+        {
+          "date": "2026-08-13",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Q1 FY27 presentation: Birla Mrida GDV Rs 530 cr, booking value Rs 102 cr",
+          "description": "Ongoing MMR projects table (sold up to Jun 2026): GDV Rs 530 cr, 1.33 Mn sq ft saleable, 0.26 Mn sq ft sold, booking value Rs 102 cr, collections 9% of booking, average rate Rs 3,960/sq ft, completion per RERA Mar-2029. This differs from the Jan 2026 pipeline figures (GDV Rs 4,744 Mn, 0.9 Mn sq ft).",
+          "sources": [
+            "S5"
+          ],
+          "quote": "Birla Mrida Boisar Outright 530 1.33 0.26 102 9% 429 3,960 Mar-2029"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "70.92 acres",
+          "purpose": "Residential development",
+          "acquirer": "Birla Estates Pvt Ltd",
+          "status": "ACQUIRED",
+          "date": "2024-12-17",
+          "consideration_crore": 104.3,
+          "source": "S1",
+          "quote": "has acquired a land parcel covering 70.92 acres in Boisar in Maharashtra for Rs 104.3 crore"
+        },
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "56 acres (2,26,842.81 sq m) project land, part of larger land of 68 acres (277355.12 sq m)",
+          "purpose": "Residential plotted development (539 saleable plots per project FAQ)",
+          "acquirer": "Birla Estates Pvt Ltd",
+          "status": "OTHER",
+          "date": null,
+          "consideration_crore": null,
+          "source": "S4",
+          "quote": "Birla Mrida is a residential plotted development on land admeasuring 56 acres (2,26,842.81 square meters) forming part of larger land admeasuring 68 acres (277355.12 square meters)."
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "RERA",
+          "authority": "MahaRERA",
+          "status": "GRANTED",
+          "date": null,
+          "title": "MahaRERA registration PP1240002502953 (registration date not stated in source)",
+          "source": "S4",
+          "quote": "The Project “Birla Mrida” is registered with MahaRERA under Registration No PP1240002502953"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "mumbai-ahmedabad-high-speed-rail",
+          "type": "RELATED",
+          "note": "The developer's project page names the Mumbai–Ahmedabad bullet train as a driver of Boisar's growth and lists 'Boisar Bullet Station - 4.0 km'. This is the developer's own marketing claim.",
+          "source": "S4",
+          "quote": "With Boisar's growth powered by the Mumbai - Ahmedabad bullet train, Tarapur MIDC and the DMIC corridor"
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/birla-estates-acquires-70-92-acre-land-parcel-in-boisar-for-rs-104-3-crore/articleshow/116404477.cms",
+          "title": "Birla Estates acquires 70.92-acre land parcel in Boisar for Rs 104.3 crore",
+          "publisher": "The Economic Times",
+          "level": "SECONDARY",
+          "published_date": "2024-12-17"
+        },
+        "S2": {
+          "url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_28012026153039_Intimation.pdf",
+          "title": "Earnings Presentation of Aditya Birla Real Estate Limited for Q3-FY26 (FY26 Project Launch Pipeline)",
+          "publisher": "Aditya Birla Real Estate Ltd (NSE filing)",
+          "level": "PRIMARY",
+          "published_date": "2026-01-28"
+        },
+        "S3": {
+          "url": "https://bsmedia.business-standard.com/_media/bs/data/announcements/bse/04022026/966d1dbc-73b1-4e44-b6c2-ebbe4aedbb04.pdf",
+          "title": "Transcript of Q3FY26 Earnings Conference Call of Aditya Birla Real Estate Limited",
+          "publisher": "Aditya Birla Real Estate Ltd (BSE filing, hosted by Business Standard)",
+          "level": "PRIMARY",
+          "published_date": "2026-02-04"
+        },
+        "S4": {
+          "url": "https://www.birlaestates.com/birla-mrida-boisar/",
+          "title": "Birla Mrida Boisar | Premium Residential Plots | Birla Estates",
+          "publisher": "Birla Estates",
+          "level": "PRIMARY",
+          "published_date": null
+        },
+        "S5": {
+          "url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_13082026135207_Intimation.pdf",
+          "title": "Earnings Presentation of Aditya Birla Real Estate Limited (Q1 FY27) - Ongoing Residential Projects - MMR",
+          "publisher": "Aditya Birla Real Estate Ltd (NSE filing)",
+          "level": "PRIMARY",
+          "published_date": "2026-08-13"
+        },
+        "S6": {
+          "url": "https://scanx.trade/stock-market-news/real-estate/birla-estates-achieves-8-136-crores-booking-value-in-fy26-with-strong-ncr-performance/38489293",
+          "title": "Birla Estates Reports Strong FY26 Performance With ₹8,136 Cr Booking Value",
+          "publisher": "ScanX",
+          "level": "UNVERIFIED",
+          "published_date": "2026-04-23"
+        }
+      }
+    },
+    {
+      "key": "godrej-country-estate-manor",
+      "name": "Godrej Country Estate (Manor, Palghar)",
+      "alternate_names": [
+        "Godrej Properties Manor-Palghar plotted project",
+        "Godrej Plots Manor"
+      ],
+      "category": "REAL_ESTATE",
+      "subcategory": "Plotted residential development",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Manor",
+      "promoter": "Godrej Properties Ltd",
+      "authorities": [
+        "MahaRERA"
+      ],
+      "strategic_importance": "MEDIUM",
+      "description": "A plotted residential project of about 50 acres in Manor, Palghar, on land Godrej Properties agreed to buy outright in November 2022. It was launched in February 2023.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2022-11-03",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUISITION",
+          "title": "Godrej Properties agrees outright purchase of ~50-acre land parcel in Manor, Palghar",
+          "description": "The press release estimates about 1.2 million sq ft of saleable area, mainly residential plotted development, with a booking value potential of about INR 500 crore. It ties the project to post-Covid demand for premium second homes.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "today announced that it has entered into an agreement for outright purchase of a land parcel in the fast-developing micro market of Manor, Palghar."
+        },
+        {
+          "date": "2023-02-01",
+          "date_precision": "MONTH",
+          "stage": "ANNOUNCED",
+          "title": "Godrej Country Estate launched (Feb 2023)",
+          "description": "The Q4 FY23 results presentation says Godrej Country Estate (MMR; footnote: Palghar, Manor) launched in Feb 2023, with 0.17 million sq ft sold for INR 59 crore booking value. Planned launch area was 1.08 million sq ft. Construction start is not reported.",
+          "sources": [
+            "S2"
+          ],
+          "quote": "Godrej Country Estate, MMR Launched in Feb 2023 Total sales stood at 0.17 million sq. ft. with a booking value of INR 59 crore"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "~50 acres",
+          "purpose": "Residential plotted development",
+          "acquirer": "Godrej Properties Ltd",
+          "status": "TRANSACTED",
+          "date": "2022-11-03",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "Spread across ~ 50 acres, the proposed project is estimated to have a developable potential of approximately 1.2 million square feet of saleable area"
+        }
+      ],
+      "regulatory": [
+        {
+          "item_type": "RERA",
+          "authority": "MahaRERA",
+          "status": "GRANTED",
+          "date": null,
+          "title": "MahaRERA registration P99000048245 shown on developer project page (registration date not stated)",
+          "source": "S3",
+          "quote": "P99000048245, https://maharera.maharashtra.gov.in"
+        }
+      ],
+      "relationships": [
+        {
+          "to": "mumbai-ahmedabad-high-speed-rail",
+          "type": "RELATED",
+          "note": "The developer's press release names the proposed bullet-train station at Boisar, near Manor, as a location advantage.",
+          "source": "S1",
+          "quote": "The proposed Mumbai-Ahmedabad bullet train will also have its station close to Manor in Boisar."
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://bseindia.com/xml-data/corpfiling/AttachHis/409130d8-eded-40c7-93fb-9a08ef226b1b.pdf",
+          "title": "Godrej Properties adds a ~50 acres' residential project in Manor-Palghar, Maharashtra (press release)",
+          "publisher": "Godrej Properties Ltd (BSE filing)",
+          "level": "PRIMARY",
+          "published_date": "2022-11-03"
+        },
+        "S2": {
+          "url": "https://bseindia.com/xml-data/corpfiling/AttachHis/58a34eb7-8be9-4497-90d1-2b52da38e8e7.pdf",
+          "title": "Godrej Properties Results Presentation Q4 FY23",
+          "publisher": "Godrej Properties Ltd (BSE filing)",
+          "level": "PRIMARY",
+          "published_date": "2023-05-03"
+        },
+        "S3": {
+          "url": "https://www.godrejproperties.com/mumbai/residential/godrej-country-estate",
+          "title": "Godrej Country Estate - project page",
+          "publisher": "Godrej Properties Ltd",
+          "level": "PRIMARY",
+          "published_date": null
+        }
+      }
+    },
+    {
+      "key": "mahindra-happinest-palghar-2",
+      "name": "Mahindra Happinest Palghar - 2",
+      "alternate_names": [
+        "Happinest Palghar 2"
+      ],
+      "category": "REAL_ESTATE",
+      "subcategory": "Value / affordable housing",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Palghar",
+      "promoter": "Mahindra Lifespace Developers Ltd",
+      "authorities": [],
+      "strategic_importance": "LOW",
+      "description": "A value-housing project by Mahindra Lifespaces near the Palghar district administrative centre. The second and last phase, launched in December 2023, has 260 1 BHK and 2 BHK flats and 47 shops on about 1.86 acres.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2023-12-07",
+          "date_precision": "DAY",
+          "stage": "ANNOUNCED",
+          "title": "Mahindra Lifespaces launches second (last) phase of Happinest Palghar - 2",
+          "description": "Carpet areas range from 390.51 to 542.06 sq ft. The developer calls it the last phase of the project. Construction status is not stated.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "announced the launch of the second phase of Mahindra Happinest Palghar - 2. Spanning approximately 1.86 acre, the project consists of 260, 1 BHK and 2 BHK apartments"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.mahindra.com/news-room/press-release/en/mahindra-lifespaces-launches-second-phase-of-happinest-palghar-2",
+          "title": "Mahindra Lifespaces launches second phase of Happinest Palghar - 2",
+          "publisher": "Mahindra Group",
+          "level": "PRIMARY",
+          "published_date": "2023-12-07"
+        }
+      }
+    },
+    {
+      "key": "fern-elysia-resort-dahanu-boisar",
+      "name": "The Fern Elysia Resort Dahanu, Boisar, Series by Marriott",
+      "alternate_names": [
+        "Fern Elysia Resort Boisar"
+      ],
+      "category": "HOSPITALITY",
+      "subcategory": "Branded resort",
+      "taluka": "",
+      "village": "",
+      "micro_market": "Boisar–Tarapur",
+      "promoter": "DAN Hospitality & Vacation Sharing Company (partner); The Fern Hotels & Resorts (brand/operator)",
+      "authorities": [],
+      "strategic_importance": "LOW",
+      "description": "A planned 76-key resort signed by The Fern Hotels & Resorts and named 'Dahanu, Boisar'. The report says it is planned for Boisar and should open in 2029. The exact site and taluka are not stated.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2026-05-13",
+          "date_precision": "DAY",
+          "stage": "ANNOUNCED",
+          "title": "The Fern Hotels signs The Fern Elysia Resort Dahanu, Boisar (76 keys, opening 2029)",
+          "description": "Reported as one of two new Maharashtra signings. The signing date itself is not given, so the date shown is the publication date. Planned facilities are an all-day dining restaurant and a bar.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "The Fern Elysia Resort Dahanu, Boisar, Series by Marriott, is planned for Boisar and is expected to open in 2029. The property will include 76 rooms and suites"
+        }
+      ],
+      "funding": [],
+      "land": [],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://www.restaurantindia.in/news/restaurant-india-news-the-fern-hotels-expands-maharashtra-presence-with-two-new-marriott-affiliated.n16083",
+          "title": "The Fern Hotels Expands Maharashtra Presence With Two New Marriott-Affiliated Properties",
+          "publisher": "Restaurant India",
+          "level": "SECONDARY",
+          "published_date": "2026-05-13"
+        }
+      }
+    },
+    {
+      "key": "vadhvan-area-land-value-benchmarks",
+      "name": "Vadhvan port area land values and compensation benchmarks",
+      "alternate_names": [
+        "Vadhvan connectivity land compensation rates"
+      ],
+      "category": "LAND",
+      "subcategory": "Land price / compensation benchmarks",
+      "taluka": "Dahanu",
+      "village": "",
+      "micro_market": "Vadhvan",
+      "promoter": "",
+      "authorities": [
+        "Palghar District Collector",
+        "Jawaharlal Nehru Port Authority"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "Official per-hectare compensation rates, as reported, for the roughly 606 ha of land being acquired in 24 Palghar and Dahanu villages for Vadhvan port road and rail links. Officials link the higher rates to revised circle rates and more land transactions in recent years.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2026-02-19",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Compensation above Rs 2 crore/ha approved for agricultural land for Vadhvan port project",
+          "description": "Owners get double the fixed market value plus 100% solatium, with 12% interest from 29 Aug 2024. Palghar taluka base rate is Rs 62.50 lakh/ha. Dahanu villages such as Varor and Bawde have base rates of Rs 1.16–1.22 crore/ha, reaching up to Rs 4.88 crore/ha.",
+          "sources": [
+            "S1"
+          ],
+          "quote": "Palghar district authorities have approved compensation exceeding ₹2 crore per hectare for agricultural land acquired for the Vadhvan Port Project in Maharashtra."
+        },
+        {
+          "date": "2026-02-25",
+          "date_precision": "DAY",
+          "stage": "NOTE",
+          "title": "Land bill for Vadhvan connectivity rises to ~Rs 2,300 crore vs Rs 800 crore estimate",
+          "description": "Officials give these reasons: revised Palghar circle rates, higher benchmark values from more land transactions, project delay, and demand driven by port expectations. The original estimate used a circle rate of about Rs 24 lakh/ha. About 60% of the land is valued at Rs 62.5 lakh/ha and 40% (six coastal villages) at Rs 2.20 crore/ha.",
+          "sources": [
+            "S2"
+          ],
+          "quote": "Higher benchmark values due to increased land transactions in recent years."
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": 606,
+          "area_text": "606 hectares across 24 villages (Palghar and Dahanu talukas)",
+          "purpose": "Road and rail connectivity for Vadhvan Port",
+          "acquirer": "Jawaharlal Nehru Port Authority",
+          "status": "UNDER_ACQUISITION",
+          "date": "2026-02-25",
+          "consideration_crore": null,
+          "source": "S2",
+          "quote": "requires 606 hectares of land to establish critical road and rail links."
+        },
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "~60% of land at Rs 62.5 lakh/ha; ~40% (six coastal villages) at Rs 2.20 crore/ha",
+          "purpose": "Compensation valuation for Vadhvan connectivity land",
+          "acquirer": "Jawaharlal Nehru Port Authority",
+          "status": "UNDER_ACQUISITION",
+          "date": "2026-02-25",
+          "consideration_crore": null,
+          "source": "S2",
+          "quote": "the remaining 40 per cent—primarily in six coastal villages near the port site—has been awarded compensation at ₹2.20 crore per hectare"
+        },
+        {
+          "village": "Varor; Bawde",
+          "survey_numbers": "",
+          "area_hectares": null,
+          "area_text": "Dahanu taluka base rates Rs 1.16–1.22 crore/ha, up to Rs 4.88 crore/ha with additions",
+          "purpose": "Compensation valuation for Vadhvan port project land",
+          "acquirer": "",
+          "status": "UNDER_ACQUISITION",
+          "date": "2026-02-19",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "Dahanu taluka sees higher clusters, such as ₹1.16-1.22 crore base rates in villages like Varor and Bawde, potentially reaching up to ₹4.88 crore per hectare."
+        }
+      ],
+      "regulatory": [],
+      "relationships": [
+        {
+          "to": "vadhvan-port",
+          "type": "DRIVEN_BY",
+          "note": "The land is being acquired for Vadhvan port road and rail connectivity. Officials say demand driven by port expectations helped push up land values.",
+          "source": "S2",
+          "quote": "Strong demand for land driven by expectations around Vadhvan’s transformation into a major port-led economic hub."
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://www.maritimegateway.com/vadhvan-port-project-advances-with-high-compensation-for-palghar-farmers/",
+          "title": "Vadhvan Port Project Advances with High Compensation for Palghar Farmers",
+          "publisher": "Maritime Gateway",
+          "level": "SECONDARY",
+          "published_date": "2026-02-19"
+        },
+        "S2": {
+          "url": "https://indiaseatradenews.com/jawaharlal-nehru-port-authoritys-land-bill-for-vadhvan-port-connectivity-jumps-to-%E2%82%B92300-crore/",
+          "title": "Jawaharlal Nehru Port Authority’s Land Bill for Vadhvan Port Connectivity Jumps to ₹2,300 Crore",
+          "publisher": "India Seatrade News",
+          "level": "SECONDARY",
+          "published_date": "2026-02-25"
+        }
+      }
+    },
+    {
+      "key": "cidco-new-palghar-township",
+      "name": "CIDCO New Palghar satellite township (337 ha)",
+      "alternate_names": [
+        "New Palghar Town",
+        "Palghar satellite township"
+      ],
+      "category": "REAL_ESTATE",
+      "subcategory": "New town / satellite township",
+      "taluka": "Palghar",
+      "village": "",
+      "micro_market": "Palghar",
+      "promoter": "City and Industrial Development Corporation (CIDCO)",
+      "authorities": [
+        "CIDCO",
+        "MMRDA"
+      ],
+      "strategic_importance": "HIGH",
+      "description": "A planned satellite township on 337 ha of land given to CIDCO in return for building the new Palghar district headquarters. In 2021 CIDCO said a draft plan was ready and it had invited expressions of interest. No later progress was found.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2021-05-24",
+          "date_precision": "DAY",
+          "stage": "PROPOSAL",
+          "title": "CIDCO plans 337-ha satellite township in Palghar; draft plan ready, EoI invited",
+          "description": "CIDCO was given 400 ha (70 ha sea-facing). It may let 4–5 master developers build the township, or build the infrastructure and auction plots itself. The articles mention Rs 1,000 crore tied to building the district HQ; this is not a township investment figure.",
+          "sources": [
+            "S1",
+            "S2"
+          ],
+          "quote": "The draft plan is ready and depending on the response Cidco may allow four to five master developers to build the township."
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "",
+          "survey_numbers": "",
+          "area_hectares": 337,
+          "area_text": "337 hectares (of 400 hectares given to CIDCO, incl. 70 ha sea-facing)",
+          "purpose": "Satellite township",
+          "acquirer": "CIDCO",
+          "status": "ALLOTTED",
+          "date": "2021-05-24",
+          "consideration_crore": null,
+          "source": "S1",
+          "quote": "The township will be developed on 337 hectares given to the City and Industrial Development Corporation (Cidco) in lieu of constructing the district headquarters"
+        }
+      ],
+      "regulatory": [],
+      "relationships": [
+        {
+          "to": "mumbai-ahmedabad-high-speed-rail",
+          "type": "RELATED",
+          "note": "CIDCO's MD said MMRDA proposed moving its back office to Palghar so employees could commute to BKC by bullet train.",
+          "source": "S1",
+          "quote": "the MMRDA proposes to shift its back office to Palghar so that its employees can live and work there and if required travel by the Bullet train to BKC."
+        }
+      ],
+      "sources": {
+        "S1": {
+          "url": "https://constrofacilitator.com/cidco-to-develop-township-on-337-hectares-of-land-in-palghar/",
+          "title": "Cidco to develop township on 337 hectares of land in Palghar",
+          "publisher": "Constro Facilitator",
+          "level": "UNVERIFIED",
+          "published_date": "2021-05-24"
+        },
+        "S2": {
+          "url": "https://www.nbmcw.com/news/cidco-plans-337-hectares-satellite-city-in-palghar.html",
+          "title": "Cidco plans 337 hectares satellite city in Palghar",
+          "publisher": "NBM&CW",
+          "level": "SECONDARY",
+          "published_date": "2021-05-31"
+        }
+      }
+    },
+    {
+      "key": "excellent-wires-vevoor-land-purchase",
+      "name": "Excellent Wires and Packaging land purchase, Vevoor (Palghar)",
+      "alternate_names": [],
+      "category": "LAND",
+      "subcategory": "Corporate land purchase (exchange disclosure)",
+      "taluka": "Palghar",
+      "village": "Vevoor",
+      "micro_market": "Palghar",
+      "promoter": "Excellent Wires and Packaging Limited",
+      "authorities": [],
+      "strategic_importance": "LOW",
+      "description": "An NSE-listed company's board approved buying a land parcel in Vevoor village, Palghar taluka, for INR 2 crore for future expansion. The land area is not disclosed.",
+      "investment": [],
+      "events": [
+        {
+          "date": "2025-02-18",
+          "date_precision": "DAY",
+          "stage": "LAND_ACQUISITION",
+          "title": "Board approves purchase of land parcel at Vevoor, Palghar for INR 2 crore",
+          "description": "The company said it was still executing the definitive agreement(s).",
+          "sources": [
+            "S1"
+          ],
+          "quote": "has approved to purchase of a land parcel Plot No.1, Survey No.33, Village Vevoor, Tal. Palghar, Dist. Palghar - 401404"
+        }
+      ],
+      "funding": [],
+      "land": [
+        {
+          "village": "Vevoor",
+          "survey_numbers": "Plot No.1, Survey No.33",
+          "area_hectares": null,
+          "area_text": "",
+          "purpose": "Future expansion plan of the company",
+          "acquirer": "Excellent Wires and Packaging Limited",
+          "status": "PROPOSED",
+          "date": "2025-02-18",
+          "consideration_crore": 2.0,
+          "source": "S1",
+          "quote": "for a total consideration of INR 2,00,00,000/- for using the same for the future expansion plan of the Company."
+        }
+      ],
+      "regulatory": [],
+      "relationships": [],
+      "sources": {
+        "S1": {
+          "url": "https://nsearchives.nseindia.com/corporate/EXCELLENTWIRES_18022025161611_fiiledDisclosure_under_Regulation_30_-_EWPL.pdf",
+          "title": "Intimation pursuant to Regulation 30 - purchase of land parcel",
+          "publisher": "Excellent Wires and Packaging Ltd (NSE filing)",
+          "level": "PRIMARY",
+          "published_date": "2025-02-18"
+        }
+      }
+    }
+  ]
+}

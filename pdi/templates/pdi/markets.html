@@ -1,0 +1,34 @@
+{% extends "pdi/base.html" %}
+{% block title %}Micro-markets · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><h1>Micro-market comparison</h1>
+    <div class="muted">{{ start|date:"M Y" }} – {{ end|date:"M Y" }} · classification follows the written rules on the <a href="{% url 'pdi:methodology' %}">methodology</a> page.</div></div>
+  <form method="get" class="actions">
+    <input type="number" name="from" value="{{ start.year }}" style="width:6rem" aria-label="From year">
+    <input type="number" name="to" value="{{ end.year }}" style="width:6rem" aria-label="To year">
+    <label style="margin:0">{% if include_pending %}<input type="checkbox" name="verified" value="1">{% else %}<input type="checkbox" name="verified" value="1" checked>{% endif %} Reviewed facts only</label>
+    <button class="btn" type="submit">Update</button>
+  </form>
+</div>
+{% if include_pending %}<div class="notice notice-warn">Includes research that hasn't been reviewed yet. Tick “Reviewed facts only” for the strictly verified view.</div>{% endif %}
+<div class="table-wrap"><table>
+  <thead><tr><th>Micro-market</th><th>Activity</th>{% for k, label in dimensions %}<th class="num">{{ label }}</th>{% endfor %}<th>Why</th></tr></thead>
+  <tbody>
+  {% for r in rows %}
+  <tr>
+    <td><a href="{% url 'pdi:market_detail' r.market %}">{{ r.market }}</a></td>
+    <td><span class="badge act-{{ r.level|lower }}">{{ r.level }}</span></td>
+    {% for d in r.dimensions %}
+      <td class="num"><span class="dim dim-{{ d.state }}" title="{{ d.label }}: {{ d.strong_count }} primary/secondary of {{ d.count }}">{% if d.count %}{{ d.count }}{% elif d.state == 'none_logged' %}none{% else %}·{% endif %}</span></td>
+    {% endfor %}
+    <td class="small">{{ r.reasons|first }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+<p class="small muted"><span class="dim dim-evidenced">n</span> evidenced by primary/secondary sources ·
+  <span class="dim dim-unverified">n</span> unverified reports only ·
+  <span class="dim dim-none_logged">none</span> searched, no material development logged ·
+  <span class="dim dim-not_researched">·</span> not yet researched</p>
+{% endblock %}

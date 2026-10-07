@@ -1,0 +1,17 @@
+{% extends "pdi/base.html" %}
+{% load pdi_tags %}
+{% block title %}{{ org.name }} · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><div class="small muted">{{ org.get_org_type_display }}</div><h1>{{ org.name }}</h1>
+    {% if org.aliases %}<div class="small muted">Also: {{ org.aliases|linebreaksbr }}</div>{% endif %}</div>
+  {% if user.is_staff %}<a class="btn" href="{% url 'admin:pdi_organization_change' org.pk %}">Edit</a>{% endif %}
+</div>
+<div class="table-wrap"><table>
+  <thead><tr><th>Project</th><th>Role</th><th>Micro-market</th><th>Stage</th><th class="num">Investment</th></tr></thead>
+  <tbody>{% for l in links %}<tr>
+    <td><a href="{{ l.project.get_absolute_url }}">{{ l.project.name }}</a></td><td>{{ l.get_role_display }}</td><td>{{ l.project.micro_market|default:"—" }}</td>
+    <td>{% stage_badge l.project.current_stage l.project.stage_is_provisional %}</td><td class="num">{{ l.project.headline_investment_crore|crore }}</td></tr>
+  {% empty %}<tr><td colspan="5" class="muted">No linked projects.</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endblock %}

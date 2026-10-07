@@ -1,0 +1,18 @@
+{% extends "pdi/base.html" %}
+{% load static %}
+{% block title %}Map · Palghar–Dahanu{% endblock %}
+{% block head %}<link rel="stylesheet" href="{% static 'pdi/vendor/leaflet.css' %}">{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><h1>Map</h1><div class="muted" id="map-count">Loading projects…</div></div>
+  <div class="actions"><a class="btn" href="{% url 'pdi:project_list' %}?{{ querystring }}">Show as table</a></div>
+</div>
+{% include "pdi/_filters.html" %}
+<div class="legend">{% for key, label in categories %}<span><span class="cat-dot" style="background:var(--c-{{ key|lower }})"></span>{{ label }}</span>{% endfor %}
+  <span class="muted">Hollow marker = approximate location (village or taluka centroid)</span></div>
+<div id="map" data-src="{% url 'pdi:projects_geojson' %}?{{ querystring }}"></div>
+{% endblock %}
+{% block scripts %}
+<script src="{% static 'pdi/vendor/leaflet.js' %}"></script>
+<script src="{% static 'pdi/map.js' %}"></script>
+{% endblock %}

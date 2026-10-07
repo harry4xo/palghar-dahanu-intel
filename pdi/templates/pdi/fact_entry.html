@@ -1,0 +1,55 @@
+{% extends "pdi/base.html" %}
+{% block title %}Record a fact · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><h1>Record a fact</h1><div class="muted">One sourced fact per entry. Use the exact words from the source as the quote.</div></div>
+</div>
+{% if item %}
+<div class="card" style="margin-bottom:1rem">
+  <div class="small muted">From inbox · {{ item.publisher }} · {{ item.published_at|date:"d M Y" }}</div>
+  <div><a href="{{ item.url }}" target="_blank" rel="noopener"><strong>{{ item.title }}</strong></a></div>
+  {% if item.snippet %}<p class="small">{{ item.snippet|truncatechars:400 }}</p>{% endif %}
+  {% if suggestions %}
+    <h3>Possible existing projects</h3>
+    <ul class="small">{% for p, conf, reason in suggestions %}<li><a href="{{ p.get_absolute_url }}" target="_blank">{{ p.code }} · {{ p.name }}</a> — <strong>{{ conf }}</strong>: {{ reason }}</li>{% endfor %}</ul>
+  {% else %}<p class="small muted">No matching project found by the matching rules — this may be a new project.</p>{% endif %}
+</div>
+{% endif %}
+<form method="post">{% csrf_token %}
+  {% if form.non_field_errors %}<div class="notice notice-warn">{{ form.non_field_errors }}</div>{% endif %}
+  <fieldset><legend>Project</legend>
+    <div class="form-grid">
+      <div class="full">{{ form.project.label_tag }}{{ form.project }}<div class="helptext">{{ form.project.help_text }}</div>{{ form.project.errors }}</div>
+      <div>{{ form.new_project_name.label_tag }}{{ form.new_project_name }}{{ form.new_project_name.errors }}</div>
+      <div>{{ form.new_project_category.label_tag }}{{ form.new_project_category }}{{ form.new_project_category.errors }}</div>
+      <div>{{ form.new_project_taluka.label_tag }}{{ form.new_project_taluka }}</div>
+      <div>{{ form.new_project_village.label_tag }}{{ form.new_project_village }}</div>
+    </div>
+  </fieldset>
+  <fieldset><legend>Source</legend>
+    <div class="form-grid">
+      <div class="full">{{ form.source_url.label_tag }}{{ form.source_url }}<div class="helptext">{{ form.source_url.help_text }}</div>{{ form.source_url.errors }}</div>
+      <div class="full">{{ form.source_title.label_tag }}{{ form.source_title }}</div>
+      <div>{{ form.source_publisher.label_tag }}{{ form.source_publisher }}</div>
+      <div>{{ form.source_level.label_tag }}{{ form.source_level }}<div class="helptext">Primary = government / regulator / company official</div></div>
+      <div>{{ form.source_date.label_tag }}{{ form.source_date }}</div>
+    </div>
+  </fieldset>
+  <fieldset><legend>What happened</legend>
+    <div class="form-grid">
+      <div>{{ form.event_date.label_tag }}{{ form.event_date }}{{ form.event_date.errors }}</div>
+      <div>{{ form.date_precision.label_tag }}{{ form.date_precision }}</div>
+      <div>{{ form.stage.label_tag }}{{ form.stage }}<div class="helptext">“Announced” is not “Approved”; an MoU is not an investment.</div></div>
+      <div class="full">{{ form.title.label_tag }}{{ form.title }}{{ form.title.errors }}</div>
+      <div class="full">{{ form.description.label_tag }}{{ form.description }}</div>
+      <div class="full">{{ form.quote.label_tag }}{{ form.quote }}<div class="helptext">{{ form.quote.help_text }}</div>{{ form.quote.errors }}</div>
+      <div>{{ form.investment_crore.label_tag }}{{ form.investment_crore }}</div>
+      <div>{{ form.investment_basis.label_tag }}{{ form.investment_basis }}{{ form.investment_basis.errors }}</div>
+      <div class="full"><label>{{ form.approve_now }} {{ form.approve_now.label }}</label></div>
+    </div>
+  </fieldset>
+  <div class="actions"><button class="btn btn-primary" type="submit">Save</button>
+    <button class="btn" type="submit" name="add_another" value="1">Save &amp; add another fact to this project</button></div>
+</form>
+<p class="small muted">Land records, regulatory items, funding and relationships can be added from the project page in <a href="{% url 'admin:index' %}">admin</a>.</p>
+{% endblock %}

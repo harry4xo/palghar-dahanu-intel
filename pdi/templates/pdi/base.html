@@ -1,0 +1,40 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Palghar–Dahanu Development Intelligence{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'pdi/app.css' %}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="{% url 'pdi:dashboard' %}">Palghar–Dahanu <span>Development Intelligence</span></a>
+    {% with u=request.resolver_match.url_name %}
+    <nav class="nav">
+      <a href="{% url 'pdi:dashboard' %}" class="{% if u == 'dashboard' %}active{% endif %}">Dashboard</a>
+      <a href="{% url 'pdi:project_list' %}" class="{% if u == 'project_list' or u == 'project_detail' %}active{% endif %}">Projects</a>
+      <a href="{% url 'pdi:map' %}" class="{% if u == 'map' %}active{% endif %}">Map</a>
+      <a href="{% url 'pdi:markets' %}" class="{% if u == 'markets' or u == 'market_detail' %}active{% endif %}">Micro-markets</a>
+      <a href="{% url 'pdi:organization_list' %}" class="{% if 'organization' in u %}active{% endif %}">Companies &amp; authorities</a>
+      <a href="{% url 'pdi:methodology' %}" class="{% if u == 'methodology' %}active{% endif %}">Methodology</a>
+      {% if user.is_staff %}
+        <a class="desk {% if u == 'review_queue' %}active{% endif %}" href="{% url 'pdi:review_queue' %}">Review{% if nav_pending %}<span class="count-pill">{{ nav_pending }}</span>{% endif %}</a>
+        <a class="{% if u == 'inbox' or u == 'inbox_process' %}active{% endif %}" href="{% url 'pdi:inbox' %}">Inbox{% if nav_inbox %}<span class="count-pill">{{ nav_inbox }}</span>{% endif %}</a>
+        <a class="{% if u == 'fact_entry' %}active{% endif %}" href="{% url 'pdi:fact_entry' %}">+ Add fact</a>
+        <a href="{% url 'admin:index' %}">Admin</a>
+      {% else %}
+        <a class="desk" href="{% url 'admin:login' %}?next={{ request.path|urlencode }}">Researcher login</a>
+      {% endif %}
+    </nav>
+    {% endwith %}
+  </div>
+</header>
+<main>
+  {% if messages %}<ul class="messages">{% for m in messages %}<li>{{ m }}</li>{% endfor %}</ul>{% endif %}
+  {% block content %}{% endblock %}
+</main>
+{% block scripts %}{% endblock %}
+</body>
+</html>

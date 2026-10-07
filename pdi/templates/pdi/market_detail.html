@@ -1,0 +1,49 @@
+{% extends "pdi/base.html" %}
+{% load pdi_tags %}
+{% block title %}{{ row.market }} · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><div class="small muted">Micro-market</div><h1>{{ row.market }} <span class="badge act-{{ row.level|lower }}">{{ row.level }} ACTIVITY</span></h1></div>
+  <div class="actions">
+    <a class="btn" href="{% url 'pdi:project_list' %}?micro_market={{ row.market|urlencode }}">Projects table</a>
+    <a class="btn" href="{% url 'pdi:map' %}?micro_market={{ row.market|urlencode }}">Map</a>
+    {% if user.is_staff %}<a class="btn" href="{% url 'pdi:research_log_new' %}?market={{ row.market|urlencode }}">Log a search</a>{% endif %}
+  </div>
+</div>
+<div class="card"><h2>Why this classification</h2><ul>{% for r in row.reasons %}<li>{{ r }}</li>{% endfor %}</ul>
+  {% if include_pending %}<p class="small muted">Includes unreviewed research. <a href="?verified=1">Show reviewed facts only</a>.</p>{% else %}<p class="small muted">Reviewed facts only. <a href="?">Include unreviewed research</a>.</p>{% endif %}
+</div>
+
+<h2>Activity by dimension</h2>
+<div class="grid grid-2">
+{% for d in row.dimensions %}
+  <section class="card">
+    <h3>{{ d.label }} <span class="dim dim-{{ d.state }}">{{ d.count }}</span></h3>
+    {% if d.items %}
+      <ul class="small">{% for i in d.items|slice:":12" %}<li>{% if i.url %}<a href="{{ i.url }}">{{ i.label }}</a>{% else %}{{ i.label }}{% endif %} {% level_badge i.level %}</li>{% endfor %}</ul>
+      {% if d.items|length > 12 %}<p class="small muted">and {{ d.items|length|add:"-12" }} more</p>{% endif %}
+    {% elif d.state == 'none_logged' %}<p class="small">No material verified development identified during the research period.</p>
+    {% else %}<p class="small muted">Not yet researched.</p>{% endif %}
+  </section>
+{% endfor %}
+</div>
+
+<h2>Projects ({{ projects|length }})</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Project</th><th>Category</th><th>Stage</th><th class="num">Investment</th><th>Evidence</th></tr></thead>
+  <tbody>{% for p in projects %}<tr>
+    <td><a href="{{ p.get_absolute_url }}">{{ p.name }}</a></td><td>{{ p.get_category_display }}</td>
+    <td>{% stage_badge p.current_stage p.stage_is_provisional %}</td><td class="num">{{ p.headline_investment_crore|crore }}</td>
+    <td>{% level_badge p.verification_level %}</td></tr>
+  {% empty %}<tr><td colspan="5" class="muted">No projects recorded here yet.</td></tr>{% endfor %}</tbody>
+</table></div>
+
+{% if logs %}
+<h2>Research log</h2>
+<div class="table-wrap"><table>
+  <thead><tr><th>Dimension</th><th>Period</th><th>Result</th><th>Searched</th><th>By</th></tr></thead>
+  <tbody>{% for l in logs %}<tr><td>{{ l.get_dimension_display }}</td><td>{{ l.period_start|date:"M Y" }} – {{ l.period_end|date:"M Y" }}</td>
+    <td>{{ l.get_result_display }}</td><td class="small">{{ l.sources_searched|linebreaksbr }}</td><td class="small">{{ l.researcher }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "pdi/base.html" %}
+{% block title %}Inbox · Palghar–Dahanu{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><h1>Monitoring inbox</h1>
+    <div class="muted">Documents found by keyword feeds (run <span class="mono">python manage.py monitor_news</span>). Highest keyword score first.</div></div>
+  <div class="actions">{% for k, label in statuses %}<a class="btn {% if k == status %}btn-primary{% endif %}" href="?status={{ k }}">{{ label }}</a>{% endfor %}</div>
+</div>
+<div class="table-wrap"><table>
+  <thead><tr><th class="num">Score</th><th>Document</th><th>Matched</th><th>Published</th><th></th></tr></thead>
+  <tbody>
+  {% for i in items %}
+  <tr>
+    <td class="num">{{ i.score }}</td>
+    <td><a href="{{ i.url }}" target="_blank" rel="noopener">{{ i.title }}</a><div class="small muted">{{ i.publisher }}{% if i.query %} · {{ i.query.name }}{% endif %}</div>
+      {% if i.project %}<div class="small">→ <a href="{{ i.project.get_absolute_url }}">{{ i.project.name }}</a></div>{% endif %}</td>
+    <td class="small"><strong>{{ i.matched_places }}</strong><div class="muted">{{ i.matched_topics|truncatechars:80 }}</div></td>
+    <td class="small">{{ i.published_at|date:"d M Y"|default:"—" }}</td>
+    <td>{% if i.status == 'NEW' %}<div class="actions">
+      <a class="btn btn-primary" href="{% url 'pdi:inbox_process' i.pk %}">Record fact</a>
+      <form method="post" action="{% url 'pdi:inbox_ignore' i.pk %}">{% csrf_token %}<button class="btn">Ignore</button></form></div>{% endif %}</td>
+  </tr>
+  {% empty %}<tr><td colspan="5" class="muted">Nothing here. Run the monitor to fetch new documents.</td></tr>{% endfor %}
+  </tbody>
+</table></div>
+{% endblock %}

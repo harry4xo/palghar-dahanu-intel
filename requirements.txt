@@ -1,0 +1,10 @@
+Django>=5.2,<7
+dj-database-url>=2.2
+requests>=2.32
+feedparser>=6.0
+beautifulsoup4>=4.12
+lxml>=5.0
+python-dateutil>=2.9
+playwright>=1.45
+# Postgres in production (DATABASE_URL=postgres://...):
+# psycopg[binary]>=3.2
